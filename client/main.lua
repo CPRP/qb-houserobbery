@@ -82,9 +82,9 @@ local function leaveRobberyHouse(house)
 end
 
 local function PoliceCall()
-    local chance = 75
+    local chance = 50
     if GetClockHours() >= 1 and GetClockHours() <= 6 then
-        chance = 25
+        chance = 20
     end
     if math.random(1, 100) <= chance then
         exports['ps-dispatch']:HouseRobbery()
