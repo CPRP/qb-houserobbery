@@ -87,7 +87,7 @@ local function PoliceCall()
         chance = 25
     end
     if math.random(1, 100) <= chance then
-        TriggerServerEvent('police:server:policeAlert', 'Attempted House Robbery')
+        exports['ps-dispatch']:HouseRobbery()
     end
 end
 
@@ -155,9 +155,9 @@ local function searchCabin(cabin)
     FreezeEntityPosition(ped, true)
     IsLockpicking = true
     Skillbar.Start({
-        duration = math.random(7500, 15000),
-        pos = math.random(10, 30),
-        width = math.random(10, 20),
+        duration = math.random(1000, 2500),
+        pos = math.random(5, 45),
+        width = math.random(10, 30),
     }, function()
         if SucceededAttempts + 1 >= NeededAttempts then
             openingDoor = false
@@ -172,9 +172,9 @@ local function searchCabin(cabin)
             end)
         else
             Skillbar.Repeat({
-                duration = math.random(700, 1250),
-                pos = math.random(10, 40),
-                width = math.random(10, 13),
+                duration = math.random(1000, 2500),
+                pos = math.random(5, 45),
+                width = math.random(10, 30),
             })
             SucceededAttempts = SucceededAttempts + 1
         end
