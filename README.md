@@ -1,6 +1,5 @@
 # qb-houserobbery
-House Robberies For QB-Core - Improved with more searchable locations and added support for PS-Dispatch 
-New house robbery shell
+House Robberies For QB-Core - Improved with more searchable locations, new interior shell and support for ps-dispatch
 
 ## Dependencies
 
@@ -9,7 +8,39 @@ New house robbery shell
 
 - ps-dispatch: https://github.com/Project-Sloth/ps-dispatch
 
-- qb-interior: https://github.com/Lusty94/qb-interior
+## Installation
+
+Download and install all dependencies.
+
+replace qb-houserobbery in your resources folder with this version.
+
+Naviagte to qb-interior/client/main.lua
+
+search for:      exports('CreateHouseRobbery', function(spawn)
+
+and replace the entire export with this snippet below
+
+```
+exports('CreateHouseRobbery', function(spawn)
+	local objects = {}
+    local POIOffsets = {}
+	POIOffsets.exit = json.decode('{"x": 4.90, "y": 4.35, "z": 1.16, "h": 176.61}')
+	DoScreenFadeOut(500)
+    while not IsScreenFadedOut() do
+        Wait(10)
+    end
+	RequestModel(`modernhotel_shell`)
+	while not HasModelLoaded(`modernhotel_shell`) do
+	    Wait(1000)
+	end
+	local house = CreateObject(`modernhotel_shell`, spawn.x, spawn.y, spawn.z, false, false, false)
+    FreezeEntityPosition(house, true)
+    objects[#objects+1] = house
+	TeleportToInterior(spawn.x + POIOffsets.exit.x, spawn.y + POIOffsets.exit.y, spawn.z + POIOffsets.exit.z, POIOffsets.exit.h)
+    return { objects, POIOffsets }
+end)
+
+```
 
 # License
 
