@@ -2,18 +2,18 @@ Config = {}
 
 Config.MinZOffset = 45
 
-Config.MinimumHouseRobberyPolice = 1
+Config.MinimumHouseRobberyPolice = 2
 
 Config.MinimumTime = 5
 Config.MaximumTime = 22
 
 Config.Rewards = {
     [1] = {
-        ["cupboards"] = {"plastic", "diamond_ring", "goldchain", "weed_skunk", "thermite", "cryptostick", "weapon_golfclub"},
-        ["wardrobes"] = {"tosti", "sandwich", "goldchain"},
-        ["bedsidecabinet"] = {"plastic", "rolex", "diamond_ring", "goldchain", "weed_skunk", "thermite", "cryptostick", "weapon_pistol50"},
-        ["chairs"] = {"plastic", "rolex", "diamond_ring", "goldchain", "thermite", "cryptostick", "tablet", "pistol_ammo"},
-        ["bed"] = {"phone", "rolex", "pistol_ammo", "smg_smmo", "diamond_ring", "goldchain"}
+        ["cupboards"] = {"diamond_ring", "goldchain", "weed_skunk", "drill", "bandage", "beer", "fitbit"},
+        ["wardrobes"] = {"10kgoldchain", "rolex", "goldchain", "goldbar", "diamond", "rifle_ammo"},
+        ["bedsidecabinet"] = {"rolex", "diamond_ring", "goldchain", "weed_skunk", "lighter", "phone"},
+        ["chairs"] = {"weed_ak47", "rolex", "diamond_ring", "goldchain", "tablet", "pistol_ammo", "radio"},
+        ["bed"] = {"rolex", "pistol_ammo", "smg_smmo", "diamond_ring", "goldchain", "weed_amnesia", "ifaks", "laptop"}
     }
 }
 
