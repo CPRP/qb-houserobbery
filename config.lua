@@ -9,10 +9,11 @@ Config.MaximumTime = 22
 
 Config.Rewards = {
     [1] = {
-        ["cabin"] = {"plastic", "diamond_ring", "goldchain", "weed_skunk", "thermite", "cryptostick", "weapon_golfclub"},
-        ["kitchen"] = {"tosti", "sandwich", "goldchain"},
-        ["chest"] = {"plastic", "rolex", "diamond_ring", "goldchain", "weed_skunk", "thermite", "cryptostick", "weapon_combatpistol"},
-        ["livingroom"] = {"plastic", "rolex", "diamond_ring", "goldchain", "thermite", "cryptostick", "tablet", "pistol_ammo"}
+        ["cupboards"] = {"plastic", "diamond_ring", "goldchain", "weed_skunk", "thermite", "cryptostick", "weapon_golfclub"},
+        ["wardrobes"] = {"tosti", "sandwich", "goldchain"},
+        ["bedsidecabinet"] = {"plastic", "rolex", "diamond_ring", "goldchain", "weed_skunk", "thermite", "cryptostick", "weapon_pistol50"},
+        ["chairs"] = {"plastic", "rolex", "diamond_ring", "goldchain", "thermite", "cryptostick", "tablet", "pistol_ammo"},
+        ["bed"] = {"phone", "rolex", "pistol_ammo", "smg_smmo", "diamond_ring", "goldchain"}
     }
 }
 
@@ -28,99 +29,78 @@ Config.Houses = {
         ["tier"] = 1,
         ["furniture"] = {
             [1] = {
-                ["type"] = "cabin",
-                ["coords"] = {["x"] = 4.15, ["y"] = 7.82, ["z"] = 1.0},
+                ["type"] = "cupboards",
+                ["coords"] = {["x"] = 5.72, ["y"] = 0.06, ["z"] = 1.16},
+                ["searched"] = false,
+                ["isBusy"] = false,
+                ["text"] = "Search Cupboards"
+            },
+            [2] = {
+                ["type"] = "cupboards",
+                ["coords"] = {["x"] = -4.27, ["y"] = 3.58, ["z"] = 1.16},
+                ["searched"] = false,
+                ["isBusy"] = false,
+                ["text"] = "Search Cupboards"
+            },
+            [3] = {
+                ["type"] = "wardrobes",
+                ["coords"] = {["x"] = 4.24, ["y"] = -3.62, ["z"] = 1.16},
+                ["searched"] = false,
+                ["isBusy"] = false,
+                ["text"] = "Search Wardrobe"
+            },
+            [4] = {
+                ["type"] = "wardrobes",
+                ["coords"] = {["x"] = 1.41, ["y"] = -3.67, ["z"] = 1.16},
+                ["searched"] = false,
+                ["isBusy"] = false,
+                ["text"] = "Search Wardrobe"
+            },
+            [5] = {
+                ["type"] = "wardrobes",
+                ["coords"] = {["x"] = -1.88, ["y"] = -3.71, ["z"] = 1.16},
+                ["searched"] = false,
+                ["isBusy"] = false,
+                ["text"] = "Search Wardrobe"
+            },
+            [6] = {
+                ["type"] = "wardrobes",
+                ["coords"] = {["x"] = -4.38, ["y"] = -3.62, ["z"] = 1.16},
+                ["searched"] = false,
+                ["isBusy"] = false,
+                ["text"] = "Search Wardrobe"
+            },
+            [7] = {
+                ["type"] = "bedsidecabinet",
+                ["coords"] = {["x"] = -5.53, ["y"] = -1.48, ["z"] = 1.16},
                 ["searched"] = false,
                 ["isBusy"] = false,
                 ["text"] = "Search Bedside Cabinet"
             },
-            [2] = {
-                ["type"] = "cabin",
-                ["coords"] = {["x"] = 5.95, ["y"] = 9.34, ["z"] = 1.0},
-                ["searched"] = false,
-                ["isBusy"] = false,
-                ["text"] = "Search Through The Wardrobe"
-            },
-            [3] = {
-                ["type"] = "kitchen",
-                ["coords"] = {["x"] = -1.03, ["y"] = 0.78, ["z"] = 1.0},
-                ["searched"] = false,
-                ["isBusy"] = false,
-                ["text"] = "Search Through Kitchen Drawers"
-            },
-            [4] = {
-                ["type"] = "chest",
-                ["coords"] = {["x"] = 6.904, ["y"] = 3.987, ["z"] = 1.0},
-                ["searched"] = false,
-                ["isBusy"] = false,
-                ["text"] = "Search Through Chest"
-            },
-            [5] = {
-                ["type"] = "cabin",
-                ["coords"] = {["x"] = 0.933, ["y"] = 1.254, ["z"] = 1.0},
-                ["searched"] = false,
-                ["isBusy"] = false,
-                ["text"] = "Search Through Drawers"
-            },
-            [6] = {
-                ["type"] = "cabin",
-                ["coords"] = {["x"] = 6.19, ["y"] = 3.35, ["z"] = 1.0},
-                ["searched"] = false,
-                ["isBusy"] = false,
-                ["text"] = "Search Through Nighstand Cabinet"
-            },
-            [7] = {
-                ["type"] = "kitchen",
-                ["coords"] = {["x"] = -2.20, ["y"] = -0.30, ["z"] = 1.0},
-                ["searched"] = false,
-                ["isBusy"] = false,
-                ["text"] = "Search Through Kitchen Drawers"
-            },
             [8] = {
-                ["type"] = "kitchen",
-                ["coords"] = {["x"] = -4.35, ["y"] = -0.64, ["z"] = 1.0},
+                ["type"] = "bedsidecabinet",
+                ["coords"] = {["x"] = -5.39, ["y"] = 1.66, ["z"] = 1.16},
                 ["searched"] = false,
                 ["isBusy"] = false,
-                ["text"] = "Search Through Shelves"
+                ["text"] = "Search Bedside Cabinet"
             },
             [9] = {
-                ["type"] = "livingroom",
-                ["coords"] = {["x"] = -6.90, ["y"] = 4.42, ["z"] = 1.0},
+                ["type"] = "chairs",
+                ["coords"] = {["x"] = -1.38, ["y"] = 3.03, ["z"] = 1.16},
                 ["searched"] = false,
                 ["isBusy"] = false,
-                ["text"] = "Search Through Shelves"
+                ["text"] = "Search Lounge chairs"
             },
             [10] = {
-                ["type"] = "livingroom",
-                ["coords"] = {["x"] = -6.98, ["y"] = 7.91, ["z"] = 1.0},
+                ["type"] = "chairs",
+                ["coords"] = {["x"] = 1.46, ["y"] = 3.06, ["z"] = 1.16},
                 ["searched"] = false,
                 ["isBusy"] = false,
-                ["text"] = "Search Through Shelves"
+                ["text"] = "Search Lounge chairs"
             },
             [11] = {
-                ["type"] = "cabin",
-                ["coords"] = {["x"] = 4.19, ["y"] = -5.14, ["z"] = 1.0},
-                ["searched"] = false,
-                ["isBusy"] = false,
-                ["text"] = "Search Through Side Table"
-            },
-            [12] = {
-                ["type"] = "livingroom",
-                ["coords"] = {["x"] = 0.25, ["y"] = 6.12, ["z"] = 1.0},
-                ["searched"] = false,
-                ["isBusy"] = false,
-                ["text"] = "Search Through Shelves"
-            },
-            [13] = {
-                ["type"] = "cabin",
-                ["coords"] = {["x"] = -4.44, ["y"] = 6.68, ["z"] = 1.0},
-                ["searched"] = false,
-                ["isBusy"] = false,
-                ["text"] = "Search Through Coffee Table"
-            },
-            [14] = {
-                ["type"] = "chest",
-                ["coords"] = {["x"] = 4.79, ["y"] = 5.41, ["z"] = 1.0},
+                ["type"] = "bed",
+                ["coords"] = {["x"] = -2.97, ["y"] = 0.14, ["z"] = 1.16},
                 ["searched"] = false,
                 ["isBusy"] = false,
                 ["text"] = "Search Under The Bed"
@@ -138,99 +118,78 @@ Config.Houses = {
         ["tier"] = 1,
         ["furniture"] = {
             [1] = {
-                ["type"] = "cabin",
-                ["coords"] = {["x"] = 4.15, ["y"] = 7.82, ["z"] = 1.0},
+                ["type"] = "cupboards",
+                ["coords"] = {["x"] = 5.72, ["y"] = 0.06, ["z"] = 1.16},
+                ["searched"] = false,
+                ["isBusy"] = false,
+                ["text"] = "Search Cupboards"
+            },
+            [2] = {
+                ["type"] = "cupboards",
+                ["coords"] = {["x"] = -4.27, ["y"] = 3.58, ["z"] = 1.16},
+                ["searched"] = false,
+                ["isBusy"] = false,
+                ["text"] = "Search Cupboards"
+            },
+            [3] = {
+                ["type"] = "wardrobes",
+                ["coords"] = {["x"] = 4.24, ["y"] = -3.62, ["z"] = 1.16},
+                ["searched"] = false,
+                ["isBusy"] = false,
+                ["text"] = "Search Wardrobe"
+            },
+            [4] = {
+                ["type"] = "wardrobes",
+                ["coords"] = {["x"] = 1.41, ["y"] = -3.67, ["z"] = 1.16},
+                ["searched"] = false,
+                ["isBusy"] = false,
+                ["text"] = "Search Wardrobe"
+            },
+            [5] = {
+                ["type"] = "wardrobes",
+                ["coords"] = {["x"] = -1.88, ["y"] = -3.71, ["z"] = 1.16},
+                ["searched"] = false,
+                ["isBusy"] = false,
+                ["text"] = "Search Wardrobe"
+            },
+            [6] = {
+                ["type"] = "wardrobes",
+                ["coords"] = {["x"] = -4.38, ["y"] = -3.62, ["z"] = 1.16},
+                ["searched"] = false,
+                ["isBusy"] = false,
+                ["text"] = "Search Wardrobe"
+            },
+            [7] = {
+                ["type"] = "bedsidecabinet",
+                ["coords"] = {["x"] = -5.53, ["y"] = -1.48, ["z"] = 1.16},
                 ["searched"] = false,
                 ["isBusy"] = false,
                 ["text"] = "Search Bedside Cabinet"
             },
-            [2] = {
-                ["type"] = "cabin",
-                ["coords"] = {["x"] = 5.95, ["y"] = 9.34, ["z"] = 1.0},
-                ["searched"] = false,
-                ["isBusy"] = false,
-                ["text"] = "Search Through The Wardrobe"
-            },
-            [3] = {
-                ["type"] = "kitchen",
-                ["coords"] = {["x"] = -1.03, ["y"] = 0.78, ["z"] = 1.0},
-                ["searched"] = false,
-                ["isBusy"] = false,
-                ["text"] = "Search Through Kitchen Drawers"
-            },
-            [4] = {
-                ["type"] = "chest",
-                ["coords"] = {["x"] = 6.904, ["y"] = 3.987, ["z"] = 1.0},
-                ["searched"] = false,
-                ["isBusy"] = false,
-                ["text"] = "Search Through Chest"
-            },
-            [5] = {
-                ["type"] = "cabin",
-                ["coords"] = {["x"] = 0.933, ["y"] = 1.254, ["z"] = 1.0},
-                ["searched"] = false,
-                ["isBusy"] = false,
-                ["text"] = "Search Through Drawers"
-            },
-            [6] = {
-                ["type"] = "cabin",
-                ["coords"] = {["x"] = 6.19, ["y"] = 3.35, ["z"] = 1.0},
-                ["searched"] = false,
-                ["isBusy"] = false,
-                ["text"] = "Search Through Nighstand Cabinet"
-            },
-            [7] = {
-                ["type"] = "kitchen",
-                ["coords"] = {["x"] = -2.20, ["y"] = -0.30, ["z"] = 1.0},
-                ["searched"] = false,
-                ["isBusy"] = false,
-                ["text"] = "Search Through Kitchen Drawers"
-            },
             [8] = {
-                ["type"] = "kitchen",
-                ["coords"] = {["x"] = -4.35, ["y"] = -0.64, ["z"] = 1.0},
+                ["type"] = "bedsidecabinet",
+                ["coords"] = {["x"] = -5.39, ["y"] = 1.66, ["z"] = 1.16},
                 ["searched"] = false,
                 ["isBusy"] = false,
-                ["text"] = "Search Through Shelves"
+                ["text"] = "Search Bedside Cabinet"
             },
             [9] = {
-                ["type"] = "livingroom",
-                ["coords"] = {["x"] = -6.90, ["y"] = 4.42, ["z"] = 1.0},
+                ["type"] = "chairs",
+                ["coords"] = {["x"] = -1.38, ["y"] = 3.03, ["z"] = 1.16},
                 ["searched"] = false,
                 ["isBusy"] = false,
-                ["text"] = "Search Through Shelves"
+                ["text"] = "Search Lounge chairs"
             },
             [10] = {
-                ["type"] = "livingroom",
-                ["coords"] = {["x"] = -6.98, ["y"] = 7.91, ["z"] = 1.0},
+                ["type"] = "chairs",
+                ["coords"] = {["x"] = 1.46, ["y"] = 3.06, ["z"] = 1.16},
                 ["searched"] = false,
                 ["isBusy"] = false,
-                ["text"] = "Search Through Shelves"
+                ["text"] = "Search Lounge chairs"
             },
             [11] = {
-                ["type"] = "cabin",
-                ["coords"] = {["x"] = 4.19, ["y"] = -5.14, ["z"] = 1.0},
-                ["searched"] = false,
-                ["isBusy"] = false,
-                ["text"] = "Search Through Side Table"
-            },
-            [12] = {
-                ["type"] = "livingroom",
-                ["coords"] = {["x"] = 0.25, ["y"] = 6.12, ["z"] = 1.0},
-                ["searched"] = false,
-                ["isBusy"] = false,
-                ["text"] = "Search Through Shelves"
-            },
-            [13] = {
-                ["type"] = "cabin",
-                ["coords"] = {["x"] = -4.44, ["y"] = 6.68, ["z"] = 1.0},
-                ["searched"] = false,
-                ["isBusy"] = false,
-                ["text"] = "Search Through Coffee Table"
-            },
-            [14] = {
-                ["type"] = "chest",
-                ["coords"] = {["x"] = 4.79, ["y"] = 5.41, ["z"] = 1.0},
+                ["type"] = "bed",
+                ["coords"] = {["x"] = -2.97, ["y"] = 0.14, ["z"] = 1.16},
                 ["searched"] = false,
                 ["isBusy"] = false,
                 ["text"] = "Search Under The Bed"
@@ -248,99 +207,78 @@ Config.Houses = {
         ["tier"] = 1,
         ["furniture"] = {
             [1] = {
-                ["type"] = "cabin",
-                ["coords"] = {["x"] = 4.15, ["y"] = 7.82, ["z"] = 1.0},
+                ["type"] = "cupboards",
+                ["coords"] = {["x"] = 5.72, ["y"] = 0.06, ["z"] = 1.16},
+                ["searched"] = false,
+                ["isBusy"] = false,
+                ["text"] = "Search Cupboards"
+            },
+            [2] = {
+                ["type"] = "cupboards",
+                ["coords"] = {["x"] = -4.27, ["y"] = 3.58, ["z"] = 1.16},
+                ["searched"] = false,
+                ["isBusy"] = false,
+                ["text"] = "Search Cupboards"
+            },
+            [3] = {
+                ["type"] = "wardrobes",
+                ["coords"] = {["x"] = 4.24, ["y"] = -3.62, ["z"] = 1.16},
+                ["searched"] = false,
+                ["isBusy"] = false,
+                ["text"] = "Search Wardrobe"
+            },
+            [4] = {
+                ["type"] = "wardrobes",
+                ["coords"] = {["x"] = 1.41, ["y"] = -3.67, ["z"] = 1.16},
+                ["searched"] = false,
+                ["isBusy"] = false,
+                ["text"] = "Search Wardrobe"
+            },
+            [5] = {
+                ["type"] = "wardrobes",
+                ["coords"] = {["x"] = -1.88, ["y"] = -3.71, ["z"] = 1.16},
+                ["searched"] = false,
+                ["isBusy"] = false,
+                ["text"] = "Search Wardrobe"
+            },
+            [6] = {
+                ["type"] = "wardrobes",
+                ["coords"] = {["x"] = -4.38, ["y"] = -3.62, ["z"] = 1.16},
+                ["searched"] = false,
+                ["isBusy"] = false,
+                ["text"] = "Search Wardrobe"
+            },
+            [7] = {
+                ["type"] = "bedsidecabinet",
+                ["coords"] = {["x"] = -5.53, ["y"] = -1.48, ["z"] = 1.16},
                 ["searched"] = false,
                 ["isBusy"] = false,
                 ["text"] = "Search Bedside Cabinet"
             },
-            [2] = {
-                ["type"] = "cabin",
-                ["coords"] = {["x"] = 5.95, ["y"] = 9.34, ["z"] = 1.0},
-                ["searched"] = false,
-                ["isBusy"] = false,
-                ["text"] = "Search Through The Wardrobe"
-            },
-            [3] = {
-                ["type"] = "kitchen",
-                ["coords"] = {["x"] = -1.03, ["y"] = 0.78, ["z"] = 1.0},
-                ["searched"] = false,
-                ["isBusy"] = false,
-                ["text"] = "Search Through Kitchen Drawers"
-            },
-            [4] = {
-                ["type"] = "chest",
-                ["coords"] = {["x"] = 6.904, ["y"] = 3.987, ["z"] = 1.0},
-                ["searched"] = false,
-                ["isBusy"] = false,
-                ["text"] = "Search Through Chest"
-            },
-            [5] = {
-                ["type"] = "cabin",
-                ["coords"] = {["x"] = 0.933, ["y"] = 1.254, ["z"] = 1.0},
-                ["searched"] = false,
-                ["isBusy"] = false,
-                ["text"] = "Search Through Drawers"
-            },
-            [6] = {
-                ["type"] = "cabin",
-                ["coords"] = {["x"] = 6.19, ["y"] = 3.35, ["z"] = 1.0},
-                ["searched"] = false,
-                ["isBusy"] = false,
-                ["text"] = "Search Through Nighstand Cabinet"
-            },
-            [7] = {
-                ["type"] = "kitchen",
-                ["coords"] = {["x"] = -2.20, ["y"] = -0.30, ["z"] = 1.0},
-                ["searched"] = false,
-                ["isBusy"] = false,
-                ["text"] = "Search Through Kitchen Drawers"
-            },
             [8] = {
-                ["type"] = "kitchen",
-                ["coords"] = {["x"] = -4.35, ["y"] = -0.64, ["z"] = 1.0},
+                ["type"] = "bedsidecabinet",
+                ["coords"] = {["x"] = -5.39, ["y"] = 1.66, ["z"] = 1.16},
                 ["searched"] = false,
                 ["isBusy"] = false,
-                ["text"] = "Search Through Shelves"
+                ["text"] = "Search Bedside Cabinet"
             },
             [9] = {
-                ["type"] = "livingroom",
-                ["coords"] = {["x"] = -6.90, ["y"] = 4.42, ["z"] = 1.0},
+                ["type"] = "chairs",
+                ["coords"] = {["x"] = -1.38, ["y"] = 3.03, ["z"] = 1.16},
                 ["searched"] = false,
                 ["isBusy"] = false,
-                ["text"] = "Search Through Shelves"
+                ["text"] = "Search Lounge chairs"
             },
             [10] = {
-                ["type"] = "livingroom",
-                ["coords"] = {["x"] = -6.98, ["y"] = 7.91, ["z"] = 1.0},
+                ["type"] = "chairs",
+                ["coords"] = {["x"] = 1.46, ["y"] = 3.06, ["z"] = 1.16},
                 ["searched"] = false,
                 ["isBusy"] = false,
-                ["text"] = "Search Through Shelves"
+                ["text"] = "Search Lounge chairs"
             },
             [11] = {
-                ["type"] = "cabin",
-                ["coords"] = {["x"] = 4.19, ["y"] = -5.14, ["z"] = 1.0},
-                ["searched"] = false,
-                ["isBusy"] = false,
-                ["text"] = "Search Through Side Table"
-            },
-            [12] = {
-                ["type"] = "livingroom",
-                ["coords"] = {["x"] = 0.25, ["y"] = 6.12, ["z"] = 1.0},
-                ["searched"] = false,
-                ["isBusy"] = false,
-                ["text"] = "Search Through Shelves"
-            },
-            [13] = {
-                ["type"] = "cabin",
-                ["coords"] = {["x"] = -4.44, ["y"] = 6.68, ["z"] = 1.0},
-                ["searched"] = false,
-                ["isBusy"] = false,
-                ["text"] = "Search Through Coffee Table"
-            },
-            [14] = {
-                ["type"] = "chest",
-                ["coords"] = {["x"] = 4.79, ["y"] = 5.41, ["z"] = 1.0},
+                ["type"] = "bed",
+                ["coords"] = {["x"] = -2.97, ["y"] = 0.14, ["z"] = 1.16},
                 ["searched"] = false,
                 ["isBusy"] = false,
                 ["text"] = "Search Under The Bed"
@@ -358,99 +296,78 @@ Config.Houses = {
         ["tier"] = 1,
         ["furniture"] = {
             [1] = {
-                ["type"] = "cabin",
-                ["coords"] = {["x"] = 4.15, ["y"] = 7.82, ["z"] = 1.0},
+                ["type"] = "cupboards",
+                ["coords"] = {["x"] = 5.72, ["y"] = 0.06, ["z"] = 1.16},
+                ["searched"] = false,
+                ["isBusy"] = false,
+                ["text"] = "Search Cupboards"
+            },
+            [2] = {
+                ["type"] = "cupboards",
+                ["coords"] = {["x"] = -4.27, ["y"] = 3.58, ["z"] = 1.16},
+                ["searched"] = false,
+                ["isBusy"] = false,
+                ["text"] = "Search Cupboards"
+            },
+            [3] = {
+                ["type"] = "wardrobes",
+                ["coords"] = {["x"] = 4.24, ["y"] = -3.62, ["z"] = 1.16},
+                ["searched"] = false,
+                ["isBusy"] = false,
+                ["text"] = "Search Wardrobe"
+            },
+            [4] = {
+                ["type"] = "wardrobes",
+                ["coords"] = {["x"] = 1.41, ["y"] = -3.67, ["z"] = 1.16},
+                ["searched"] = false,
+                ["isBusy"] = false,
+                ["text"] = "Search Wardrobe"
+            },
+            [5] = {
+                ["type"] = "wardrobes",
+                ["coords"] = {["x"] = -1.88, ["y"] = -3.71, ["z"] = 1.16},
+                ["searched"] = false,
+                ["isBusy"] = false,
+                ["text"] = "Search Wardrobe"
+            },
+            [6] = {
+                ["type"] = "wardrobes",
+                ["coords"] = {["x"] = -4.38, ["y"] = -3.62, ["z"] = 1.16},
+                ["searched"] = false,
+                ["isBusy"] = false,
+                ["text"] = "Search Wardrobe"
+            },
+            [7] = {
+                ["type"] = "bedsidecabinet",
+                ["coords"] = {["x"] = -5.53, ["y"] = -1.48, ["z"] = 1.16},
                 ["searched"] = false,
                 ["isBusy"] = false,
                 ["text"] = "Search Bedside Cabinet"
             },
-            [2] = {
-                ["type"] = "cabin",
-                ["coords"] = {["x"] = 5.95, ["y"] = 9.34, ["z"] = 1.0},
-                ["searched"] = false,
-                ["isBusy"] = false,
-                ["text"] = "Search Through The Wardrobe"
-            },
-            [3] = {
-                ["type"] = "kitchen",
-                ["coords"] = {["x"] = -1.03, ["y"] = 0.78, ["z"] = 1.0},
-                ["searched"] = false,
-                ["isBusy"] = false,
-                ["text"] = "Search Through Kitchen Drawers"
-            },
-            [4] = {
-                ["type"] = "chest",
-                ["coords"] = {["x"] = 6.904, ["y"] = 3.987, ["z"] = 1.0},
-                ["searched"] = false,
-                ["isBusy"] = false,
-                ["text"] = "Search Through Chest"
-            },
-            [5] = {
-                ["type"] = "cabin",
-                ["coords"] = {["x"] = 0.933, ["y"] = 1.254, ["z"] = 1.0},
-                ["searched"] = false,
-                ["isBusy"] = false,
-                ["text"] = "Search Through Drawers"
-            },
-            [6] = {
-                ["type"] = "cabin",
-                ["coords"] = {["x"] = 6.19, ["y"] = 3.35, ["z"] = 1.0},
-                ["searched"] = false,
-                ["isBusy"] = false,
-                ["text"] = "Search Through Nighstand Cabinet"
-            },
-            [7] = {
-                ["type"] = "kitchen",
-                ["coords"] = {["x"] = -2.20, ["y"] = -0.30, ["z"] = 1.0},
-                ["searched"] = false,
-                ["isBusy"] = false,
-                ["text"] = "Search Through Kitchen Drawers"
-            },
             [8] = {
-                ["type"] = "kitchen",
-                ["coords"] = {["x"] = -4.35, ["y"] = -0.64, ["z"] = 1.0},
+                ["type"] = "bedsidecabinet",
+                ["coords"] = {["x"] = -5.39, ["y"] = 1.66, ["z"] = 1.16},
                 ["searched"] = false,
                 ["isBusy"] = false,
-                ["text"] = "Search Through Shelves"
+                ["text"] = "Search Bedside Cabinet"
             },
             [9] = {
-                ["type"] = "livingroom",
-                ["coords"] = {["x"] = -6.90, ["y"] = 4.42, ["z"] = 1.0},
+                ["type"] = "chairs",
+                ["coords"] = {["x"] = -1.38, ["y"] = 3.03, ["z"] = 1.16},
                 ["searched"] = false,
                 ["isBusy"] = false,
-                ["text"] = "Search Through Shelves"
+                ["text"] = "Search Lounge chairs"
             },
             [10] = {
-                ["type"] = "livingroom",
-                ["coords"] = {["x"] = -6.98, ["y"] = 7.91, ["z"] = 1.0},
+                ["type"] = "chairs",
+                ["coords"] = {["x"] = 1.46, ["y"] = 3.06, ["z"] = 1.16},
                 ["searched"] = false,
                 ["isBusy"] = false,
-                ["text"] = "Search Through Shelves"
+                ["text"] = "Search Lounge chairs"
             },
             [11] = {
-                ["type"] = "cabin",
-                ["coords"] = {["x"] = 4.19, ["y"] = -5.14, ["z"] = 1.0},
-                ["searched"] = false,
-                ["isBusy"] = false,
-                ["text"] = "Search Through Side Table"
-            },
-            [12] = {
-                ["type"] = "livingroom",
-                ["coords"] = {["x"] = 0.25, ["y"] = 6.12, ["z"] = 1.0},
-                ["searched"] = false,
-                ["isBusy"] = false,
-                ["text"] = "Search Through Shelves"
-            },
-            [13] = {
-                ["type"] = "cabin",
-                ["coords"] = {["x"] = -4.44, ["y"] = 6.68, ["z"] = 1.0},
-                ["searched"] = false,
-                ["isBusy"] = false,
-                ["text"] = "Search Through Coffee Table"
-            },
-            [14] = {
-                ["type"] = "chest",
-                ["coords"] = {["x"] = 4.79, ["y"] = 5.41, ["z"] = 1.0},
+                ["type"] = "bed",
+                ["coords"] = {["x"] = -2.97, ["y"] = 0.14, ["z"] = 1.16},
                 ["searched"] = false,
                 ["isBusy"] = false,
                 ["text"] = "Search Under The Bed"
@@ -468,99 +385,78 @@ Config.Houses = {
         ["tier"] = 1,
         ["furniture"] = {
             [1] = {
-                ["type"] = "cabin",
-                ["coords"] = {["x"] = 4.15, ["y"] = 7.82, ["z"] = 1.0},
+                ["type"] = "cupboards",
+                ["coords"] = {["x"] = 5.72, ["y"] = 0.06, ["z"] = 1.16},
+                ["searched"] = false,
+                ["isBusy"] = false,
+                ["text"] = "Search Cupboards"
+            },
+            [2] = {
+                ["type"] = "cupboards",
+                ["coords"] = {["x"] = -4.27, ["y"] = 3.58, ["z"] = 1.16},
+                ["searched"] = false,
+                ["isBusy"] = false,
+                ["text"] = "Search Cupboards"
+            },
+            [3] = {
+                ["type"] = "wardrobes",
+                ["coords"] = {["x"] = 4.24, ["y"] = -3.62, ["z"] = 1.16},
+                ["searched"] = false,
+                ["isBusy"] = false,
+                ["text"] = "Search Wardrobe"
+            },
+            [4] = {
+                ["type"] = "wardrobes",
+                ["coords"] = {["x"] = 1.41, ["y"] = -3.67, ["z"] = 1.16},
+                ["searched"] = false,
+                ["isBusy"] = false,
+                ["text"] = "Search Wardrobe"
+            },
+            [5] = {
+                ["type"] = "wardrobes",
+                ["coords"] = {["x"] = -1.88, ["y"] = -3.71, ["z"] = 1.16},
+                ["searched"] = false,
+                ["isBusy"] = false,
+                ["text"] = "Search Wardrobe"
+            },
+            [6] = {
+                ["type"] = "wardrobes",
+                ["coords"] = {["x"] = -4.38, ["y"] = -3.62, ["z"] = 1.16},
+                ["searched"] = false,
+                ["isBusy"] = false,
+                ["text"] = "Search Wardrobe"
+            },
+            [7] = {
+                ["type"] = "bedsidecabinet",
+                ["coords"] = {["x"] = -5.53, ["y"] = -1.48, ["z"] = 1.16},
                 ["searched"] = false,
                 ["isBusy"] = false,
                 ["text"] = "Search Bedside Cabinet"
             },
-            [2] = {
-                ["type"] = "cabin",
-                ["coords"] = {["x"] = 5.95, ["y"] = 9.34, ["z"] = 1.0},
-                ["searched"] = false,
-                ["isBusy"] = false,
-                ["text"] = "Search Through The Wardrobe"
-            },
-            [3] = {
-                ["type"] = "kitchen",
-                ["coords"] = {["x"] = -1.03, ["y"] = 0.78, ["z"] = 1.0},
-                ["searched"] = false,
-                ["isBusy"] = false,
-                ["text"] = "Search Through Kitchen Drawers"
-            },
-            [4] = {
-                ["type"] = "chest",
-                ["coords"] = {["x"] = 6.904, ["y"] = 3.987, ["z"] = 1.0},
-                ["searched"] = false,
-                ["isBusy"] = false,
-                ["text"] = "Search Through Chest"
-            },
-            [5] = {
-                ["type"] = "cabin",
-                ["coords"] = {["x"] = 0.933, ["y"] = 1.254, ["z"] = 1.0},
-                ["searched"] = false,
-                ["isBusy"] = false,
-                ["text"] = "Search Through Drawers"
-            },
-            [6] = {
-                ["type"] = "cabin",
-                ["coords"] = {["x"] = 6.19, ["y"] = 3.35, ["z"] = 1.0},
-                ["searched"] = false,
-                ["isBusy"] = false,
-                ["text"] = "Search Through Nighstand Cabinet"
-            },
-            [7] = {
-                ["type"] = "kitchen",
-                ["coords"] = {["x"] = -2.20, ["y"] = -0.30, ["z"] = 1.0},
-                ["searched"] = false,
-                ["isBusy"] = false,
-                ["text"] = "Search Through Kitchen Drawers"
-            },
             [8] = {
-                ["type"] = "kitchen",
-                ["coords"] = {["x"] = -4.35, ["y"] = -0.64, ["z"] = 1.0},
+                ["type"] = "bedsidecabinet",
+                ["coords"] = {["x"] = -5.39, ["y"] = 1.66, ["z"] = 1.16},
                 ["searched"] = false,
                 ["isBusy"] = false,
-                ["text"] = "Search Through Shelves"
+                ["text"] = "Search Bedside Cabinet"
             },
             [9] = {
-                ["type"] = "livingroom",
-                ["coords"] = {["x"] = -6.90, ["y"] = 4.42, ["z"] = 1.0},
+                ["type"] = "chairs",
+                ["coords"] = {["x"] = -1.38, ["y"] = 3.03, ["z"] = 1.16},
                 ["searched"] = false,
                 ["isBusy"] = false,
-                ["text"] = "Search Through Shelves"
+                ["text"] = "Search Lounge chairs"
             },
             [10] = {
-                ["type"] = "livingroom",
-                ["coords"] = {["x"] = -6.98, ["y"] = 7.91, ["z"] = 1.0},
+                ["type"] = "chairs",
+                ["coords"] = {["x"] = 1.46, ["y"] = 3.06, ["z"] = 1.16},
                 ["searched"] = false,
                 ["isBusy"] = false,
-                ["text"] = "Search Through Shelves"
+                ["text"] = "Search Lounge chairs"
             },
             [11] = {
-                ["type"] = "cabin",
-                ["coords"] = {["x"] = 4.19, ["y"] = -5.14, ["z"] = 1.0},
-                ["searched"] = false,
-                ["isBusy"] = false,
-                ["text"] = "Search Through Side Table"
-            },
-            [12] = {
-                ["type"] = "livingroom",
-                ["coords"] = {["x"] = 0.25, ["y"] = 6.12, ["z"] = 1.0},
-                ["searched"] = false,
-                ["isBusy"] = false,
-                ["text"] = "Search Through Shelves"
-            },
-            [13] = {
-                ["type"] = "cabin",
-                ["coords"] = {["x"] = -4.44, ["y"] = 6.68, ["z"] = 1.0},
-                ["searched"] = false,
-                ["isBusy"] = false,
-                ["text"] = "Search Through Coffee Table"
-            },
-            [14] = {
-                ["type"] = "chest",
-                ["coords"] = {["x"] = 4.79, ["y"] = 5.41, ["z"] = 1.0},
+                ["type"] = "bed",
+                ["coords"] = {["x"] = -2.97, ["y"] = 0.14, ["z"] = 1.16},
                 ["searched"] = false,
                 ["isBusy"] = false,
                 ["text"] = "Search Under The Bed"
@@ -578,99 +474,78 @@ Config.Houses = {
         ["tier"] = 1,
         ["furniture"] = {
             [1] = {
-                ["type"] = "cabin",
-                ["coords"] = {["x"] = 4.15, ["y"] = 7.82, ["z"] = 1.0},
+                ["type"] = "cupboards",
+                ["coords"] = {["x"] = 5.72, ["y"] = 0.06, ["z"] = 1.16},
+                ["searched"] = false,
+                ["isBusy"] = false,
+                ["text"] = "Search Cupboards"
+            },
+            [2] = {
+                ["type"] = "cupboards",
+                ["coords"] = {["x"] = -4.27, ["y"] = 3.58, ["z"] = 1.16},
+                ["searched"] = false,
+                ["isBusy"] = false,
+                ["text"] = "Search Cupboards"
+            },
+            [3] = {
+                ["type"] = "wardrobes",
+                ["coords"] = {["x"] = 4.24, ["y"] = -3.62, ["z"] = 1.16},
+                ["searched"] = false,
+                ["isBusy"] = false,
+                ["text"] = "Search Wardrobe"
+            },
+            [4] = {
+                ["type"] = "wardrobes",
+                ["coords"] = {["x"] = 1.41, ["y"] = -3.67, ["z"] = 1.16},
+                ["searched"] = false,
+                ["isBusy"] = false,
+                ["text"] = "Search Wardrobe"
+            },
+            [5] = {
+                ["type"] = "wardrobes",
+                ["coords"] = {["x"] = -1.88, ["y"] = -3.71, ["z"] = 1.16},
+                ["searched"] = false,
+                ["isBusy"] = false,
+                ["text"] = "Search Wardrobe"
+            },
+            [6] = {
+                ["type"] = "wardrobes",
+                ["coords"] = {["x"] = -4.38, ["y"] = -3.62, ["z"] = 1.16},
+                ["searched"] = false,
+                ["isBusy"] = false,
+                ["text"] = "Search Wardrobe"
+            },
+            [7] = {
+                ["type"] = "bedsidecabinet",
+                ["coords"] = {["x"] = -5.53, ["y"] = -1.48, ["z"] = 1.16},
                 ["searched"] = false,
                 ["isBusy"] = false,
                 ["text"] = "Search Bedside Cabinet"
             },
-            [2] = {
-                ["type"] = "cabin",
-                ["coords"] = {["x"] = 5.95, ["y"] = 9.34, ["z"] = 1.0},
-                ["searched"] = false,
-                ["isBusy"] = false,
-                ["text"] = "Search Through The Wardrobe"
-            },
-            [3] = {
-                ["type"] = "kitchen",
-                ["coords"] = {["x"] = -1.03, ["y"] = 0.78, ["z"] = 1.0},
-                ["searched"] = false,
-                ["isBusy"] = false,
-                ["text"] = "Search Through Kitchen Drawers"
-            },
-            [4] = {
-                ["type"] = "chest",
-                ["coords"] = {["x"] = 6.904, ["y"] = 3.987, ["z"] = 1.0},
-                ["searched"] = false,
-                ["isBusy"] = false,
-                ["text"] = "Search Through Chest"
-            },
-            [5] = {
-                ["type"] = "cabin",
-                ["coords"] = {["x"] = 0.933, ["y"] = 1.254, ["z"] = 1.0},
-                ["searched"] = false,
-                ["isBusy"] = false,
-                ["text"] = "Search Through Drawers"
-            },
-            [6] = {
-                ["type"] = "cabin",
-                ["coords"] = {["x"] = 6.19, ["y"] = 3.35, ["z"] = 1.0},
-                ["searched"] = false,
-                ["isBusy"] = false,
-                ["text"] = "Search Through Nighstand Cabinet"
-            },
-            [7] = {
-                ["type"] = "kitchen",
-                ["coords"] = {["x"] = -2.20, ["y"] = -0.30, ["z"] = 1.0},
-                ["searched"] = false,
-                ["isBusy"] = false,
-                ["text"] = "Search Through Kitchen Drawers"
-            },
             [8] = {
-                ["type"] = "kitchen",
-                ["coords"] = {["x"] = -4.35, ["y"] = -0.64, ["z"] = 1.0},
+                ["type"] = "bedsidecabinet",
+                ["coords"] = {["x"] = -5.39, ["y"] = 1.66, ["z"] = 1.16},
                 ["searched"] = false,
                 ["isBusy"] = false,
-                ["text"] = "Search Through Shelves"
+                ["text"] = "Search Bedside Cabinet"
             },
             [9] = {
-                ["type"] = "livingroom",
-                ["coords"] = {["x"] = -6.90, ["y"] = 4.42, ["z"] = 1.0},
+                ["type"] = "chairs",
+                ["coords"] = {["x"] = -1.38, ["y"] = 3.03, ["z"] = 1.16},
                 ["searched"] = false,
                 ["isBusy"] = false,
-                ["text"] = "Search Through Shelves"
+                ["text"] = "Search Lounge chairs"
             },
             [10] = {
-                ["type"] = "livingroom",
-                ["coords"] = {["x"] = -6.98, ["y"] = 7.91, ["z"] = 1.0},
+                ["type"] = "chairs",
+                ["coords"] = {["x"] = 1.46, ["y"] = 3.06, ["z"] = 1.16},
                 ["searched"] = false,
                 ["isBusy"] = false,
-                ["text"] = "Search Through Shelves"
+                ["text"] = "Search Lounge chairs"
             },
             [11] = {
-                ["type"] = "cabin",
-                ["coords"] = {["x"] = 4.19, ["y"] = -5.14, ["z"] = 1.0},
-                ["searched"] = false,
-                ["isBusy"] = false,
-                ["text"] = "Search Through Side Table"
-            },
-            [12] = {
-                ["type"] = "livingroom",
-                ["coords"] = {["x"] = 0.25, ["y"] = 6.12, ["z"] = 1.0},
-                ["searched"] = false,
-                ["isBusy"] = false,
-                ["text"] = "Search Through Shelves"
-            },
-            [13] = {
-                ["type"] = "cabin",
-                ["coords"] = {["x"] = -4.44, ["y"] = 6.68, ["z"] = 1.0},
-                ["searched"] = false,
-                ["isBusy"] = false,
-                ["text"] = "Search Through Coffee Table"
-            },
-            [14] = {
-                ["type"] = "chest",
-                ["coords"] = {["x"] = 4.79, ["y"] = 5.41, ["z"] = 1.0},
+                ["type"] = "bed",
+                ["coords"] = {["x"] = -2.97, ["y"] = 0.14, ["z"] = 1.16},
                 ["searched"] = false,
                 ["isBusy"] = false,
                 ["text"] = "Search Under The Bed"
@@ -688,99 +563,78 @@ Config.Houses = {
         ["tier"] = 1,
         ["furniture"] = {
             [1] = {
-                ["type"] = "cabin",
-                ["coords"] = {["x"] = 4.15, ["y"] = 7.82, ["z"] = 1.0},
+                ["type"] = "cupboards",
+                ["coords"] = {["x"] = 5.72, ["y"] = 0.06, ["z"] = 1.16},
+                ["searched"] = false,
+                ["isBusy"] = false,
+                ["text"] = "Search Cupboards"
+            },
+            [2] = {
+                ["type"] = "cupboards",
+                ["coords"] = {["x"] = -4.27, ["y"] = 3.58, ["z"] = 1.16},
+                ["searched"] = false,
+                ["isBusy"] = false,
+                ["text"] = "Search Cupboards"
+            },
+            [3] = {
+                ["type"] = "wardrobes",
+                ["coords"] = {["x"] = 4.24, ["y"] = -3.62, ["z"] = 1.16},
+                ["searched"] = false,
+                ["isBusy"] = false,
+                ["text"] = "Search Wardrobe"
+            },
+            [4] = {
+                ["type"] = "wardrobes",
+                ["coords"] = {["x"] = 1.41, ["y"] = -3.67, ["z"] = 1.16},
+                ["searched"] = false,
+                ["isBusy"] = false,
+                ["text"] = "Search Wardrobe"
+            },
+            [5] = {
+                ["type"] = "wardrobes",
+                ["coords"] = {["x"] = -1.88, ["y"] = -3.71, ["z"] = 1.16},
+                ["searched"] = false,
+                ["isBusy"] = false,
+                ["text"] = "Search Wardrobe"
+            },
+            [6] = {
+                ["type"] = "wardrobes",
+                ["coords"] = {["x"] = -4.38, ["y"] = -3.62, ["z"] = 1.16},
+                ["searched"] = false,
+                ["isBusy"] = false,
+                ["text"] = "Search Wardrobe"
+            },
+            [7] = {
+                ["type"] = "bedsidecabinet",
+                ["coords"] = {["x"] = -5.53, ["y"] = -1.48, ["z"] = 1.16},
                 ["searched"] = false,
                 ["isBusy"] = false,
                 ["text"] = "Search Bedside Cabinet"
             },
-            [2] = {
-                ["type"] = "cabin",
-                ["coords"] = {["x"] = 5.95, ["y"] = 9.34, ["z"] = 1.0},
-                ["searched"] = false,
-                ["isBusy"] = false,
-                ["text"] = "Search Through The Wardrobe"
-            },
-            [3] = {
-                ["type"] = "kitchen",
-                ["coords"] = {["x"] = -1.03, ["y"] = 0.78, ["z"] = 1.0},
-                ["searched"] = false,
-                ["isBusy"] = false,
-                ["text"] = "Search Through Kitchen Drawers"
-            },
-            [4] = {
-                ["type"] = "chest",
-                ["coords"] = {["x"] = 6.904, ["y"] = 3.987, ["z"] = 1.0},
-                ["searched"] = false,
-                ["isBusy"] = false,
-                ["text"] = "Search Through Chest"
-            },
-            [5] = {
-                ["type"] = "cabin",
-                ["coords"] = {["x"] = 0.933, ["y"] = 1.254, ["z"] = 1.0},
-                ["searched"] = false,
-                ["isBusy"] = false,
-                ["text"] = "Search Through Drawers"
-            },
-            [6] = {
-                ["type"] = "cabin",
-                ["coords"] = {["x"] = 6.19, ["y"] = 3.35, ["z"] = 1.0},
-                ["searched"] = false,
-                ["isBusy"] = false,
-                ["text"] = "Search Through Nighstand Cabinet"
-            },
-            [7] = {
-                ["type"] = "kitchen",
-                ["coords"] = {["x"] = -2.20, ["y"] = -0.30, ["z"] = 1.0},
-                ["searched"] = false,
-                ["isBusy"] = false,
-                ["text"] = "Search Through Kitchen Drawers"
-            },
             [8] = {
-                ["type"] = "kitchen",
-                ["coords"] = {["x"] = -4.35, ["y"] = -0.64, ["z"] = 1.0},
+                ["type"] = "bedsidecabinet",
+                ["coords"] = {["x"] = -5.39, ["y"] = 1.66, ["z"] = 1.16},
                 ["searched"] = false,
                 ["isBusy"] = false,
-                ["text"] = "Search Through Shelves"
+                ["text"] = "Search Bedside Cabinet"
             },
             [9] = {
-                ["type"] = "livingroom",
-                ["coords"] = {["x"] = -6.90, ["y"] = 4.42, ["z"] = 1.0},
+                ["type"] = "chairs",
+                ["coords"] = {["x"] = -1.38, ["y"] = 3.03, ["z"] = 1.16},
                 ["searched"] = false,
                 ["isBusy"] = false,
-                ["text"] = "Search Through Shelves"
+                ["text"] = "Search Lounge chairs"
             },
             [10] = {
-                ["type"] = "livingroom",
-                ["coords"] = {["x"] = -6.98, ["y"] = 7.91, ["z"] = 1.0},
+                ["type"] = "chairs",
+                ["coords"] = {["x"] = 1.46, ["y"] = 3.06, ["z"] = 1.16},
                 ["searched"] = false,
                 ["isBusy"] = false,
-                ["text"] = "Search Through Shelves"
+                ["text"] = "Search Lounge chairs"
             },
             [11] = {
-                ["type"] = "cabin",
-                ["coords"] = {["x"] = 4.19, ["y"] = -5.14, ["z"] = 1.0},
-                ["searched"] = false,
-                ["isBusy"] = false,
-                ["text"] = "Search Through Side Table"
-            },
-            [12] = {
-                ["type"] = "livingroom",
-                ["coords"] = {["x"] = 0.25, ["y"] = 6.12, ["z"] = 1.0},
-                ["searched"] = false,
-                ["isBusy"] = false,
-                ["text"] = "Search Through Shelves"
-            },
-            [13] = {
-                ["type"] = "cabin",
-                ["coords"] = {["x"] = -4.44, ["y"] = 6.68, ["z"] = 1.0},
-                ["searched"] = false,
-                ["isBusy"] = false,
-                ["text"] = "Search Through Coffee Table"
-            },
-            [14] = {
-                ["type"] = "chest",
-                ["coords"] = {["x"] = 4.79, ["y"] = 5.41, ["z"] = 1.0},
+                ["type"] = "bed",
+                ["coords"] = {["x"] = -2.97, ["y"] = 0.14, ["z"] = 1.16},
                 ["searched"] = false,
                 ["isBusy"] = false,
                 ["text"] = "Search Under The Bed"
@@ -798,99 +652,78 @@ Config.Houses = {
         ["tier"] = 1,
         ["furniture"] = {
             [1] = {
-                ["type"] = "cabin",
-                ["coords"] = {["x"] = 4.15, ["y"] = 7.82, ["z"] = 1.0},
+                ["type"] = "cupboards",
+                ["coords"] = {["x"] = 5.72, ["y"] = 0.06, ["z"] = 1.16},
+                ["searched"] = false,
+                ["isBusy"] = false,
+                ["text"] = "Search Cupboards"
+            },
+            [2] = {
+                ["type"] = "cupboards",
+                ["coords"] = {["x"] = -4.27, ["y"] = 3.58, ["z"] = 1.16},
+                ["searched"] = false,
+                ["isBusy"] = false,
+                ["text"] = "Search Cupboards"
+            },
+            [3] = {
+                ["type"] = "wardrobes",
+                ["coords"] = {["x"] = 4.24, ["y"] = -3.62, ["z"] = 1.16},
+                ["searched"] = false,
+                ["isBusy"] = false,
+                ["text"] = "Search Wardrobe"
+            },
+            [4] = {
+                ["type"] = "wardrobes",
+                ["coords"] = {["x"] = 1.41, ["y"] = -3.67, ["z"] = 1.16},
+                ["searched"] = false,
+                ["isBusy"] = false,
+                ["text"] = "Search Wardrobe"
+            },
+            [5] = {
+                ["type"] = "wardrobes",
+                ["coords"] = {["x"] = -1.88, ["y"] = -3.71, ["z"] = 1.16},
+                ["searched"] = false,
+                ["isBusy"] = false,
+                ["text"] = "Search Wardrobe"
+            },
+            [6] = {
+                ["type"] = "wardrobes",
+                ["coords"] = {["x"] = -4.38, ["y"] = -3.62, ["z"] = 1.16},
+                ["searched"] = false,
+                ["isBusy"] = false,
+                ["text"] = "Search Wardrobe"
+            },
+            [7] = {
+                ["type"] = "bedsidecabinet",
+                ["coords"] = {["x"] = -5.53, ["y"] = -1.48, ["z"] = 1.16},
                 ["searched"] = false,
                 ["isBusy"] = false,
                 ["text"] = "Search Bedside Cabinet"
             },
-            [2] = {
-                ["type"] = "cabin",
-                ["coords"] = {["x"] = 5.95, ["y"] = 9.34, ["z"] = 1.0},
-                ["searched"] = false,
-                ["isBusy"] = false,
-                ["text"] = "Search Through The Wardrobe"
-            },
-            [3] = {
-                ["type"] = "kitchen",
-                ["coords"] = {["x"] = -1.03, ["y"] = 0.78, ["z"] = 1.0},
-                ["searched"] = false,
-                ["isBusy"] = false,
-                ["text"] = "Search Through Kitchen Drawers"
-            },
-            [4] = {
-                ["type"] = "chest",
-                ["coords"] = {["x"] = 6.904, ["y"] = 3.987, ["z"] = 1.0},
-                ["searched"] = false,
-                ["isBusy"] = false,
-                ["text"] = "Search Through Chest"
-            },
-            [5] = {
-                ["type"] = "cabin",
-                ["coords"] = {["x"] = 0.933, ["y"] = 1.254, ["z"] = 1.0},
-                ["searched"] = false,
-                ["isBusy"] = false,
-                ["text"] = "Search Through Drawers"
-            },
-            [6] = {
-                ["type"] = "cabin",
-                ["coords"] = {["x"] = 6.19, ["y"] = 3.35, ["z"] = 1.0},
-                ["searched"] = false,
-                ["isBusy"] = false,
-                ["text"] = "Search Through Nighstand Cabinet"
-            },
-            [7] = {
-                ["type"] = "kitchen",
-                ["coords"] = {["x"] = -2.20, ["y"] = -0.30, ["z"] = 1.0},
-                ["searched"] = false,
-                ["isBusy"] = false,
-                ["text"] = "Search Through Kitchen Drawers"
-            },
             [8] = {
-                ["type"] = "kitchen",
-                ["coords"] = {["x"] = -4.35, ["y"] = -0.64, ["z"] = 1.0},
+                ["type"] = "bedsidecabinet",
+                ["coords"] = {["x"] = -5.39, ["y"] = 1.66, ["z"] = 1.16},
                 ["searched"] = false,
                 ["isBusy"] = false,
-                ["text"] = "Search Through Shelves"
+                ["text"] = "Search Bedside Cabinet"
             },
             [9] = {
-                ["type"] = "livingroom",
-                ["coords"] = {["x"] = -6.90, ["y"] = 4.42, ["z"] = 1.0},
+                ["type"] = "chairs",
+                ["coords"] = {["x"] = -1.38, ["y"] = 3.03, ["z"] = 1.16},
                 ["searched"] = false,
                 ["isBusy"] = false,
-                ["text"] = "Search Through Shelves"
+                ["text"] = "Search Lounge chairs"
             },
             [10] = {
-                ["type"] = "livingroom",
-                ["coords"] = {["x"] = -6.98, ["y"] = 7.91, ["z"] = 1.0},
+                ["type"] = "chairs",
+                ["coords"] = {["x"] = 1.46, ["y"] = 3.06, ["z"] = 1.16},
                 ["searched"] = false,
                 ["isBusy"] = false,
-                ["text"] = "Search Through Shelves"
+                ["text"] = "Search Lounge chairs"
             },
             [11] = {
-                ["type"] = "cabin",
-                ["coords"] = {["x"] = 4.19, ["y"] = -5.14, ["z"] = 1.0},
-                ["searched"] = false,
-                ["isBusy"] = false,
-                ["text"] = "Search Through Side Table"
-            },
-            [12] = {
-                ["type"] = "livingroom",
-                ["coords"] = {["x"] = 0.25, ["y"] = 6.12, ["z"] = 1.0},
-                ["searched"] = false,
-                ["isBusy"] = false,
-                ["text"] = "Search Through Shelves"
-            },
-            [13] = {
-                ["type"] = "cabin",
-                ["coords"] = {["x"] = -4.44, ["y"] = 6.68, ["z"] = 1.0},
-                ["searched"] = false,
-                ["isBusy"] = false,
-                ["text"] = "Search Through Coffee Table"
-            },
-            [14] = {
-                ["type"] = "chest",
-                ["coords"] = {["x"] = 4.79, ["y"] = 5.41, ["z"] = 1.0},
+                ["type"] = "bed",
+                ["coords"] = {["x"] = -2.97, ["y"] = 0.14, ["z"] = 1.16},
                 ["searched"] = false,
                 ["isBusy"] = false,
                 ["text"] = "Search Under The Bed"
@@ -908,99 +741,78 @@ Config.Houses = {
         ["tier"] = 1,
         ["furniture"] = {
             [1] = {
-                ["type"] = "cabin",
-                ["coords"] = {["x"] = 4.15, ["y"] = 7.82, ["z"] = 1.0},
+                ["type"] = "cupboards",
+                ["coords"] = {["x"] = 5.72, ["y"] = 0.06, ["z"] = 1.16},
+                ["searched"] = false,
+                ["isBusy"] = false,
+                ["text"] = "Search Cupboards"
+            },
+            [2] = {
+                ["type"] = "cupboards",
+                ["coords"] = {["x"] = -4.27, ["y"] = 3.58, ["z"] = 1.16},
+                ["searched"] = false,
+                ["isBusy"] = false,
+                ["text"] = "Search Cupboards"
+            },
+            [3] = {
+                ["type"] = "wardrobes",
+                ["coords"] = {["x"] = 4.24, ["y"] = -3.62, ["z"] = 1.16},
+                ["searched"] = false,
+                ["isBusy"] = false,
+                ["text"] = "Search Wardrobe"
+            },
+            [4] = {
+                ["type"] = "wardrobes",
+                ["coords"] = {["x"] = 1.41, ["y"] = -3.67, ["z"] = 1.16},
+                ["searched"] = false,
+                ["isBusy"] = false,
+                ["text"] = "Search Wardrobe"
+            },
+            [5] = {
+                ["type"] = "wardrobes",
+                ["coords"] = {["x"] = -1.88, ["y"] = -3.71, ["z"] = 1.16},
+                ["searched"] = false,
+                ["isBusy"] = false,
+                ["text"] = "Search Wardrobe"
+            },
+            [6] = {
+                ["type"] = "wardrobes",
+                ["coords"] = {["x"] = -4.38, ["y"] = -3.62, ["z"] = 1.16},
+                ["searched"] = false,
+                ["isBusy"] = false,
+                ["text"] = "Search Wardrobe"
+            },
+            [7] = {
+                ["type"] = "bedsidecabinet",
+                ["coords"] = {["x"] = -5.53, ["y"] = -1.48, ["z"] = 1.16},
                 ["searched"] = false,
                 ["isBusy"] = false,
                 ["text"] = "Search Bedside Cabinet"
             },
-            [2] = {
-                ["type"] = "cabin",
-                ["coords"] = {["x"] = 5.95, ["y"] = 9.34, ["z"] = 1.0},
-                ["searched"] = false,
-                ["isBusy"] = false,
-                ["text"] = "Search Through The Wardrobe"
-            },
-            [3] = {
-                ["type"] = "kitchen",
-                ["coords"] = {["x"] = -1.03, ["y"] = 0.78, ["z"] = 1.0},
-                ["searched"] = false,
-                ["isBusy"] = false,
-                ["text"] = "Search Through Kitchen Drawers"
-            },
-            [4] = {
-                ["type"] = "chest",
-                ["coords"] = {["x"] = 6.904, ["y"] = 3.987, ["z"] = 1.0},
-                ["searched"] = false,
-                ["isBusy"] = false,
-                ["text"] = "Search Through Chest"
-            },
-            [5] = {
-                ["type"] = "cabin",
-                ["coords"] = {["x"] = 0.933, ["y"] = 1.254, ["z"] = 1.0},
-                ["searched"] = false,
-                ["isBusy"] = false,
-                ["text"] = "Search Through Drawers"
-            },
-            [6] = {
-                ["type"] = "cabin",
-                ["coords"] = {["x"] = 6.19, ["y"] = 3.35, ["z"] = 1.0},
-                ["searched"] = false,
-                ["isBusy"] = false,
-                ["text"] = "Search Through Nighstand Cabinet"
-            },
-            [7] = {
-                ["type"] = "kitchen",
-                ["coords"] = {["x"] = -2.20, ["y"] = -0.30, ["z"] = 1.0},
-                ["searched"] = false,
-                ["isBusy"] = false,
-                ["text"] = "Search Through Kitchen Drawers"
-            },
             [8] = {
-                ["type"] = "kitchen",
-                ["coords"] = {["x"] = -4.35, ["y"] = -0.64, ["z"] = 1.0},
+                ["type"] = "bedsidecabinet",
+                ["coords"] = {["x"] = -5.39, ["y"] = 1.66, ["z"] = 1.16},
                 ["searched"] = false,
                 ["isBusy"] = false,
-                ["text"] = "Search Through Shelves"
+                ["text"] = "Search Bedside Cabinet"
             },
             [9] = {
-                ["type"] = "livingroom",
-                ["coords"] = {["x"] = -6.90, ["y"] = 4.42, ["z"] = 1.0},
+                ["type"] = "chairs",
+                ["coords"] = {["x"] = -1.38, ["y"] = 3.03, ["z"] = 1.16},
                 ["searched"] = false,
                 ["isBusy"] = false,
-                ["text"] = "Search Through Shelves"
+                ["text"] = "Search Lounge chairs"
             },
             [10] = {
-                ["type"] = "livingroom",
-                ["coords"] = {["x"] = -6.98, ["y"] = 7.91, ["z"] = 1.0},
+                ["type"] = "chairs",
+                ["coords"] = {["x"] = 1.46, ["y"] = 3.06, ["z"] = 1.16},
                 ["searched"] = false,
                 ["isBusy"] = false,
-                ["text"] = "Search Through Shelves"
+                ["text"] = "Search Lounge chairs"
             },
             [11] = {
-                ["type"] = "cabin",
-                ["coords"] = {["x"] = 4.19, ["y"] = -5.14, ["z"] = 1.0},
-                ["searched"] = false,
-                ["isBusy"] = false,
-                ["text"] = "Search Through Side Table"
-            },
-            [12] = {
-                ["type"] = "livingroom",
-                ["coords"] = {["x"] = 0.25, ["y"] = 6.12, ["z"] = 1.0},
-                ["searched"] = false,
-                ["isBusy"] = false,
-                ["text"] = "Search Through Shelves"
-            },
-            [13] = {
-                ["type"] = "cabin",
-                ["coords"] = {["x"] = -4.44, ["y"] = 6.68, ["z"] = 1.0},
-                ["searched"] = false,
-                ["isBusy"] = false,
-                ["text"] = "Search Through Coffee Table"
-            },
-            [14] = {
-                ["type"] = "chest",
-                ["coords"] = {["x"] = 4.79, ["y"] = 5.41, ["z"] = 1.0},
+                ["type"] = "bed",
+                ["coords"] = {["x"] = -2.97, ["y"] = 0.14, ["z"] = 1.16},
                 ["searched"] = false,
                 ["isBusy"] = false,
                 ["text"] = "Search Under The Bed"
@@ -1018,99 +830,78 @@ Config.Houses = {
         ["tier"] = 1,
         ["furniture"] = {
             [1] = {
-                ["type"] = "cabin",
-                ["coords"] = {["x"] = 4.15, ["y"] = 7.82, ["z"] = 1.0},
+                ["type"] = "cupboards",
+                ["coords"] = {["x"] = 5.72, ["y"] = 0.06, ["z"] = 1.16},
+                ["searched"] = false,
+                ["isBusy"] = false,
+                ["text"] = "Search Cupboards"
+            },
+            [2] = {
+                ["type"] = "cupboards",
+                ["coords"] = {["x"] = -4.27, ["y"] = 3.58, ["z"] = 1.16},
+                ["searched"] = false,
+                ["isBusy"] = false,
+                ["text"] = "Search Cupboards"
+            },
+            [3] = {
+                ["type"] = "wardrobes",
+                ["coords"] = {["x"] = 4.24, ["y"] = -3.62, ["z"] = 1.16},
+                ["searched"] = false,
+                ["isBusy"] = false,
+                ["text"] = "Search Wardrobe"
+            },
+            [4] = {
+                ["type"] = "wardrobes",
+                ["coords"] = {["x"] = 1.41, ["y"] = -3.67, ["z"] = 1.16},
+                ["searched"] = false,
+                ["isBusy"] = false,
+                ["text"] = "Search Wardrobe"
+            },
+            [5] = {
+                ["type"] = "wardrobes",
+                ["coords"] = {["x"] = -1.88, ["y"] = -3.71, ["z"] = 1.16},
+                ["searched"] = false,
+                ["isBusy"] = false,
+                ["text"] = "Search Wardrobe"
+            },
+            [6] = {
+                ["type"] = "wardrobes",
+                ["coords"] = {["x"] = -4.38, ["y"] = -3.62, ["z"] = 1.16},
+                ["searched"] = false,
+                ["isBusy"] = false,
+                ["text"] = "Search Wardrobe"
+            },
+            [7] = {
+                ["type"] = "bedsidecabinet",
+                ["coords"] = {["x"] = -5.53, ["y"] = -1.48, ["z"] = 1.16},
                 ["searched"] = false,
                 ["isBusy"] = false,
                 ["text"] = "Search Bedside Cabinet"
             },
-            [2] = {
-                ["type"] = "cabin",
-                ["coords"] = {["x"] = 5.95, ["y"] = 9.34, ["z"] = 1.0},
-                ["searched"] = false,
-                ["isBusy"] = false,
-                ["text"] = "Search Through The Wardrobe"
-            },
-            [3] = {
-                ["type"] = "kitchen",
-                ["coords"] = {["x"] = -1.03, ["y"] = 0.78, ["z"] = 1.0},
-                ["searched"] = false,
-                ["isBusy"] = false,
-                ["text"] = "Search Through Kitchen Drawers"
-            },
-            [4] = {
-                ["type"] = "chest",
-                ["coords"] = {["x"] = 6.904, ["y"] = 3.987, ["z"] = 1.0},
-                ["searched"] = false,
-                ["isBusy"] = false,
-                ["text"] = "Search Through Chest"
-            },
-            [5] = {
-                ["type"] = "cabin",
-                ["coords"] = {["x"] = 0.933, ["y"] = 1.254, ["z"] = 1.0},
-                ["searched"] = false,
-                ["isBusy"] = false,
-                ["text"] = "Search Through Drawers"
-            },
-            [6] = {
-                ["type"] = "cabin",
-                ["coords"] = {["x"] = 6.19, ["y"] = 3.35, ["z"] = 1.0},
-                ["searched"] = false,
-                ["isBusy"] = false,
-                ["text"] = "Search Through Nighstand Cabinet"
-            },
-            [7] = {
-                ["type"] = "kitchen",
-                ["coords"] = {["x"] = -2.20, ["y"] = -0.30, ["z"] = 1.0},
-                ["searched"] = false,
-                ["isBusy"] = false,
-                ["text"] = "Search Through Kitchen Drawers"
-            },
             [8] = {
-                ["type"] = "kitchen",
-                ["coords"] = {["x"] = -4.35, ["y"] = -0.64, ["z"] = 1.0},
+                ["type"] = "bedsidecabinet",
+                ["coords"] = {["x"] = -5.39, ["y"] = 1.66, ["z"] = 1.16},
                 ["searched"] = false,
                 ["isBusy"] = false,
-                ["text"] = "Search Through Shelves"
+                ["text"] = "Search Bedside Cabinet"
             },
             [9] = {
-                ["type"] = "livingroom",
-                ["coords"] = {["x"] = -6.90, ["y"] = 4.42, ["z"] = 1.0},
+                ["type"] = "chairs",
+                ["coords"] = {["x"] = -1.38, ["y"] = 3.03, ["z"] = 1.16},
                 ["searched"] = false,
                 ["isBusy"] = false,
-                ["text"] = "Search Through Shelves"
+                ["text"] = "Search Lounge chairs"
             },
             [10] = {
-                ["type"] = "livingroom",
-                ["coords"] = {["x"] = -6.98, ["y"] = 7.91, ["z"] = 1.0},
+                ["type"] = "chairs",
+                ["coords"] = {["x"] = 1.46, ["y"] = 3.06, ["z"] = 1.16},
                 ["searched"] = false,
                 ["isBusy"] = false,
-                ["text"] = "Search Through Shelves"
+                ["text"] = "Search Lounge chairs"
             },
             [11] = {
-                ["type"] = "cabin",
-                ["coords"] = {["x"] = 4.19, ["y"] = -5.14, ["z"] = 1.0},
-                ["searched"] = false,
-                ["isBusy"] = false,
-                ["text"] = "Search Through Side Table"
-            },
-            [12] = {
-                ["type"] = "livingroom",
-                ["coords"] = {["x"] = 0.25, ["y"] = 6.12, ["z"] = 1.0},
-                ["searched"] = false,
-                ["isBusy"] = false,
-                ["text"] = "Search Through Shelves"
-            },
-            [13] = {
-                ["type"] = "cabin",
-                ["coords"] = {["x"] = -4.44, ["y"] = 6.68, ["z"] = 1.0},
-                ["searched"] = false,
-                ["isBusy"] = false,
-                ["text"] = "Search Through Coffee Table"
-            },
-            [14] = {
-                ["type"] = "chest",
-                ["coords"] = {["x"] = 4.79, ["y"] = 5.41, ["z"] = 1.0},
+                ["type"] = "bed",
+                ["coords"] = {["x"] = -2.97, ["y"] = 0.14, ["z"] = 1.16},
                 ["searched"] = false,
                 ["isBusy"] = false,
                 ["text"] = "Search Under The Bed"
@@ -1128,99 +919,78 @@ Config.Houses = {
         ["tier"] = 1,
         ["furniture"] = {
             [1] = {
-                ["type"] = "cabin",
-                ["coords"] = {["x"] = 4.15, ["y"] = 7.82, ["z"] = 1.0},
+                ["type"] = "cupboards",
+                ["coords"] = {["x"] = 5.72, ["y"] = 0.06, ["z"] = 1.16},
+                ["searched"] = false,
+                ["isBusy"] = false,
+                ["text"] = "Search Cupboards"
+            },
+            [2] = {
+                ["type"] = "cupboards",
+                ["coords"] = {["x"] = -4.27, ["y"] = 3.58, ["z"] = 1.16},
+                ["searched"] = false,
+                ["isBusy"] = false,
+                ["text"] = "Search Cupboards"
+            },
+            [3] = {
+                ["type"] = "wardrobes",
+                ["coords"] = {["x"] = 4.24, ["y"] = -3.62, ["z"] = 1.16},
+                ["searched"] = false,
+                ["isBusy"] = false,
+                ["text"] = "Search Wardrobe"
+            },
+            [4] = {
+                ["type"] = "wardrobes",
+                ["coords"] = {["x"] = 1.41, ["y"] = -3.67, ["z"] = 1.16},
+                ["searched"] = false,
+                ["isBusy"] = false,
+                ["text"] = "Search Wardrobe"
+            },
+            [5] = {
+                ["type"] = "wardrobes",
+                ["coords"] = {["x"] = -1.88, ["y"] = -3.71, ["z"] = 1.16},
+                ["searched"] = false,
+                ["isBusy"] = false,
+                ["text"] = "Search Wardrobe"
+            },
+            [6] = {
+                ["type"] = "wardrobes",
+                ["coords"] = {["x"] = -4.38, ["y"] = -3.62, ["z"] = 1.16},
+                ["searched"] = false,
+                ["isBusy"] = false,
+                ["text"] = "Search Wardrobe"
+            },
+            [7] = {
+                ["type"] = "bedsidecabinet",
+                ["coords"] = {["x"] = -5.53, ["y"] = -1.48, ["z"] = 1.16},
                 ["searched"] = false,
                 ["isBusy"] = false,
                 ["text"] = "Search Bedside Cabinet"
             },
-            [2] = {
-                ["type"] = "cabin",
-                ["coords"] = {["x"] = 5.95, ["y"] = 9.34, ["z"] = 1.0},
-                ["searched"] = false,
-                ["isBusy"] = false,
-                ["text"] = "Search Through The Wardrobe"
-            },
-            [3] = {
-                ["type"] = "kitchen",
-                ["coords"] = {["x"] = -1.03, ["y"] = 0.78, ["z"] = 1.0},
-                ["searched"] = false,
-                ["isBusy"] = false,
-                ["text"] = "Search Through Kitchen Drawers"
-            },
-            [4] = {
-                ["type"] = "chest",
-                ["coords"] = {["x"] = 6.904, ["y"] = 3.987, ["z"] = 1.0},
-                ["searched"] = false,
-                ["isBusy"] = false,
-                ["text"] = "Search Through Chest"
-            },
-            [5] = {
-                ["type"] = "cabin",
-                ["coords"] = {["x"] = 0.933, ["y"] = 1.254, ["z"] = 1.0},
-                ["searched"] = false,
-                ["isBusy"] = false,
-                ["text"] = "Search Through Drawers"
-            },
-            [6] = {
-                ["type"] = "cabin",
-                ["coords"] = {["x"] = 6.19, ["y"] = 3.35, ["z"] = 1.0},
-                ["searched"] = false,
-                ["isBusy"] = false,
-                ["text"] = "Search Through Nighstand Cabinet"
-            },
-            [7] = {
-                ["type"] = "kitchen",
-                ["coords"] = {["x"] = -2.20, ["y"] = -0.30, ["z"] = 1.0},
-                ["searched"] = false,
-                ["isBusy"] = false,
-                ["text"] = "Search Through Kitchen Drawers"
-            },
             [8] = {
-                ["type"] = "kitchen",
-                ["coords"] = {["x"] = -4.35, ["y"] = -0.64, ["z"] = 1.0},
+                ["type"] = "bedsidecabinet",
+                ["coords"] = {["x"] = -5.39, ["y"] = 1.66, ["z"] = 1.16},
                 ["searched"] = false,
                 ["isBusy"] = false,
-                ["text"] = "Search Through Shelves"
+                ["text"] = "Search Bedside Cabinet"
             },
             [9] = {
-                ["type"] = "livingroom",
-                ["coords"] = {["x"] = -6.90, ["y"] = 4.42, ["z"] = 1.0},
+                ["type"] = "chairs",
+                ["coords"] = {["x"] = -1.38, ["y"] = 3.03, ["z"] = 1.16},
                 ["searched"] = false,
                 ["isBusy"] = false,
-                ["text"] = "Search Through Shelves"
+                ["text"] = "Search Lounge chairs"
             },
             [10] = {
-                ["type"] = "livingroom",
-                ["coords"] = {["x"] = -6.98, ["y"] = 7.91, ["z"] = 1.0},
+                ["type"] = "chairs",
+                ["coords"] = {["x"] = 1.46, ["y"] = 3.06, ["z"] = 1.16},
                 ["searched"] = false,
                 ["isBusy"] = false,
-                ["text"] = "Search Through Shelves"
+                ["text"] = "Search Lounge chairs"
             },
             [11] = {
-                ["type"] = "cabin",
-                ["coords"] = {["x"] = 4.19, ["y"] = -5.14, ["z"] = 1.0},
-                ["searched"] = false,
-                ["isBusy"] = false,
-                ["text"] = "Search Through Side Table"
-            },
-            [12] = {
-                ["type"] = "livingroom",
-                ["coords"] = {["x"] = 0.25, ["y"] = 6.12, ["z"] = 1.0},
-                ["searched"] = false,
-                ["isBusy"] = false,
-                ["text"] = "Search Through Shelves"
-            },
-            [13] = {
-                ["type"] = "cabin",
-                ["coords"] = {["x"] = -4.44, ["y"] = 6.68, ["z"] = 1.0},
-                ["searched"] = false,
-                ["isBusy"] = false,
-                ["text"] = "Search Through Coffee Table"
-            },
-            [14] = {
-                ["type"] = "chest",
-                ["coords"] = {["x"] = 4.79, ["y"] = 5.41, ["z"] = 1.0},
+                ["type"] = "bed",
+                ["coords"] = {["x"] = -2.97, ["y"] = 0.14, ["z"] = 1.16},
                 ["searched"] = false,
                 ["isBusy"] = false,
                 ["text"] = "Search Under The Bed"
@@ -1238,99 +1008,78 @@ Config.Houses = {
         ["tier"] = 1,
         ["furniture"] = {
             [1] = {
-                ["type"] = "cabin",
-                ["coords"] = {["x"] = 4.15, ["y"] = 7.82, ["z"] = 1.0},
+                ["type"] = "cupboards",
+                ["coords"] = {["x"] = 5.72, ["y"] = 0.06, ["z"] = 1.16},
+                ["searched"] = false,
+                ["isBusy"] = false,
+                ["text"] = "Search Cupboards"
+            },
+            [2] = {
+                ["type"] = "cupboards",
+                ["coords"] = {["x"] = -4.27, ["y"] = 3.58, ["z"] = 1.16},
+                ["searched"] = false,
+                ["isBusy"] = false,
+                ["text"] = "Search Cupboards"
+            },
+            [3] = {
+                ["type"] = "wardrobes",
+                ["coords"] = {["x"] = 4.24, ["y"] = -3.62, ["z"] = 1.16},
+                ["searched"] = false,
+                ["isBusy"] = false,
+                ["text"] = "Search Wardrobe"
+            },
+            [4] = {
+                ["type"] = "wardrobes",
+                ["coords"] = {["x"] = 1.41, ["y"] = -3.67, ["z"] = 1.16},
+                ["searched"] = false,
+                ["isBusy"] = false,
+                ["text"] = "Search Wardrobe"
+            },
+            [5] = {
+                ["type"] = "wardrobes",
+                ["coords"] = {["x"] = -1.88, ["y"] = -3.71, ["z"] = 1.16},
+                ["searched"] = false,
+                ["isBusy"] = false,
+                ["text"] = "Search Wardrobe"
+            },
+            [6] = {
+                ["type"] = "wardrobes",
+                ["coords"] = {["x"] = -4.38, ["y"] = -3.62, ["z"] = 1.16},
+                ["searched"] = false,
+                ["isBusy"] = false,
+                ["text"] = "Search Wardrobe"
+            },
+            [7] = {
+                ["type"] = "bedsidecabinet",
+                ["coords"] = {["x"] = -5.53, ["y"] = -1.48, ["z"] = 1.16},
                 ["searched"] = false,
                 ["isBusy"] = false,
                 ["text"] = "Search Bedside Cabinet"
             },
-            [2] = {
-                ["type"] = "cabin",
-                ["coords"] = {["x"] = 5.95, ["y"] = 9.34, ["z"] = 1.0},
-                ["searched"] = false,
-                ["isBusy"] = false,
-                ["text"] = "Search Through The Wardrobe"
-            },
-            [3] = {
-                ["type"] = "kitchen",
-                ["coords"] = {["x"] = -1.03, ["y"] = 0.78, ["z"] = 1.0},
-                ["searched"] = false,
-                ["isBusy"] = false,
-                ["text"] = "Search Through Kitchen Drawers"
-            },
-            [4] = {
-                ["type"] = "chest",
-                ["coords"] = {["x"] = 6.904, ["y"] = 3.987, ["z"] = 1.0},
-                ["searched"] = false,
-                ["isBusy"] = false,
-                ["text"] = "Search Through Chest"
-            },
-            [5] = {
-                ["type"] = "cabin",
-                ["coords"] = {["x"] = 0.933, ["y"] = 1.254, ["z"] = 1.0},
-                ["searched"] = false,
-                ["isBusy"] = false,
-                ["text"] = "Search Through Drawers"
-            },
-            [6] = {
-                ["type"] = "cabin",
-                ["coords"] = {["x"] = 6.19, ["y"] = 3.35, ["z"] = 1.0},
-                ["searched"] = false,
-                ["isBusy"] = false,
-                ["text"] = "Search Through Nighstand Cabinet"
-            },
-            [7] = {
-                ["type"] = "kitchen",
-                ["coords"] = {["x"] = -2.20, ["y"] = -0.30, ["z"] = 1.0},
-                ["searched"] = false,
-                ["isBusy"] = false,
-                ["text"] = "Search Through Kitchen Drawers"
-            },
             [8] = {
-                ["type"] = "kitchen",
-                ["coords"] = {["x"] = -4.35, ["y"] = -0.64, ["z"] = 1.0},
+                ["type"] = "bedsidecabinet",
+                ["coords"] = {["x"] = -5.39, ["y"] = 1.66, ["z"] = 1.16},
                 ["searched"] = false,
                 ["isBusy"] = false,
-                ["text"] = "Search Through Shelves"
+                ["text"] = "Search Bedside Cabinet"
             },
             [9] = {
-                ["type"] = "livingroom",
-                ["coords"] = {["x"] = -6.90, ["y"] = 4.42, ["z"] = 1.0},
+                ["type"] = "chairs",
+                ["coords"] = {["x"] = -1.38, ["y"] = 3.03, ["z"] = 1.16},
                 ["searched"] = false,
                 ["isBusy"] = false,
-                ["text"] = "Search Through Shelves"
+                ["text"] = "Search Lounge chairs"
             },
             [10] = {
-                ["type"] = "livingroom",
-                ["coords"] = {["x"] = -6.98, ["y"] = 7.91, ["z"] = 1.0},
+                ["type"] = "chairs",
+                ["coords"] = {["x"] = 1.46, ["y"] = 3.06, ["z"] = 1.16},
                 ["searched"] = false,
                 ["isBusy"] = false,
-                ["text"] = "Search Through Shelves"
+                ["text"] = "Search Lounge chairs"
             },
             [11] = {
-                ["type"] = "cabin",
-                ["coords"] = {["x"] = 4.19, ["y"] = -5.14, ["z"] = 1.0},
-                ["searched"] = false,
-                ["isBusy"] = false,
-                ["text"] = "Search Through Side Table"
-            },
-            [12] = {
-                ["type"] = "livingroom",
-                ["coords"] = {["x"] = 0.25, ["y"] = 6.12, ["z"] = 1.0},
-                ["searched"] = false,
-                ["isBusy"] = false,
-                ["text"] = "Search Through Shelves"
-            },
-            [13] = {
-                ["type"] = "cabin",
-                ["coords"] = {["x"] = -4.44, ["y"] = 6.68, ["z"] = 1.0},
-                ["searched"] = false,
-                ["isBusy"] = false,
-                ["text"] = "Search Through Coffee Table"
-            },
-            [14] = {
-                ["type"] = "chest",
-                ["coords"] = {["x"] = 4.79, ["y"] = 5.41, ["z"] = 1.0},
+                ["type"] = "bed",
+                ["coords"] = {["x"] = -2.97, ["y"] = 0.14, ["z"] = 1.16},
                 ["searched"] = false,
                 ["isBusy"] = false,
                 ["text"] = "Search Under The Bed"
@@ -1348,99 +1097,78 @@ Config.Houses = {
         ["tier"] = 1,
         ["furniture"] = {
             [1] = {
-                ["type"] = "cabin",
-                ["coords"] = {["x"] = 4.15, ["y"] = 7.82, ["z"] = 1.0},
+                ["type"] = "cupboards",
+                ["coords"] = {["x"] = 5.72, ["y"] = 0.06, ["z"] = 1.16},
+                ["searched"] = false,
+                ["isBusy"] = false,
+                ["text"] = "Search Cupboards"
+            },
+            [2] = {
+                ["type"] = "cupboards",
+                ["coords"] = {["x"] = -4.27, ["y"] = 3.58, ["z"] = 1.16},
+                ["searched"] = false,
+                ["isBusy"] = false,
+                ["text"] = "Search Cupboards"
+            },
+            [3] = {
+                ["type"] = "wardrobes",
+                ["coords"] = {["x"] = 4.24, ["y"] = -3.62, ["z"] = 1.16},
+                ["searched"] = false,
+                ["isBusy"] = false,
+                ["text"] = "Search Wardrobe"
+            },
+            [4] = {
+                ["type"] = "wardrobes",
+                ["coords"] = {["x"] = 1.41, ["y"] = -3.67, ["z"] = 1.16},
+                ["searched"] = false,
+                ["isBusy"] = false,
+                ["text"] = "Search Wardrobe"
+            },
+            [5] = {
+                ["type"] = "wardrobes",
+                ["coords"] = {["x"] = -1.88, ["y"] = -3.71, ["z"] = 1.16},
+                ["searched"] = false,
+                ["isBusy"] = false,
+                ["text"] = "Search Wardrobe"
+            },
+            [6] = {
+                ["type"] = "wardrobes",
+                ["coords"] = {["x"] = -4.38, ["y"] = -3.62, ["z"] = 1.16},
+                ["searched"] = false,
+                ["isBusy"] = false,
+                ["text"] = "Search Wardrobe"
+            },
+            [7] = {
+                ["type"] = "bedsidecabinet",
+                ["coords"] = {["x"] = -5.53, ["y"] = -1.48, ["z"] = 1.16},
                 ["searched"] = false,
                 ["isBusy"] = false,
                 ["text"] = "Search Bedside Cabinet"
             },
-            [2] = {
-                ["type"] = "cabin",
-                ["coords"] = {["x"] = 5.95, ["y"] = 9.34, ["z"] = 1.0},
-                ["searched"] = false,
-                ["isBusy"] = false,
-                ["text"] = "Search Through The Wardrobe"
-            },
-            [3] = {
-                ["type"] = "kitchen",
-                ["coords"] = {["x"] = -1.03, ["y"] = 0.78, ["z"] = 1.0},
-                ["searched"] = false,
-                ["isBusy"] = false,
-                ["text"] = "Search Through Kitchen Drawers"
-            },
-            [4] = {
-                ["type"] = "chest",
-                ["coords"] = {["x"] = 6.904, ["y"] = 3.987, ["z"] = 1.0},
-                ["searched"] = false,
-                ["isBusy"] = false,
-                ["text"] = "Search Through Chest"
-            },
-            [5] = {
-                ["type"] = "cabin",
-                ["coords"] = {["x"] = 0.933, ["y"] = 1.254, ["z"] = 1.0},
-                ["searched"] = false,
-                ["isBusy"] = false,
-                ["text"] = "Search Through Drawers"
-            },
-            [6] = {
-                ["type"] = "cabin",
-                ["coords"] = {["x"] = 6.19, ["y"] = 3.35, ["z"] = 1.0},
-                ["searched"] = false,
-                ["isBusy"] = false,
-                ["text"] = "Search Through Nighstand Cabinet"
-            },
-            [7] = {
-                ["type"] = "kitchen",
-                ["coords"] = {["x"] = -2.20, ["y"] = -0.30, ["z"] = 1.0},
-                ["searched"] = false,
-                ["isBusy"] = false,
-                ["text"] = "Search Through Kitchen Drawers"
-            },
             [8] = {
-                ["type"] = "kitchen",
-                ["coords"] = {["x"] = -4.35, ["y"] = -0.64, ["z"] = 1.0},
+                ["type"] = "bedsidecabinet",
+                ["coords"] = {["x"] = -5.39, ["y"] = 1.66, ["z"] = 1.16},
                 ["searched"] = false,
                 ["isBusy"] = false,
-                ["text"] = "Search Through Shelves"
+                ["text"] = "Search Bedside Cabinet"
             },
             [9] = {
-                ["type"] = "livingroom",
-                ["coords"] = {["x"] = -6.90, ["y"] = 4.42, ["z"] = 1.0},
+                ["type"] = "chairs",
+                ["coords"] = {["x"] = -1.38, ["y"] = 3.03, ["z"] = 1.16},
                 ["searched"] = false,
                 ["isBusy"] = false,
-                ["text"] = "Search Through Shelves"
+                ["text"] = "Search Lounge chairs"
             },
             [10] = {
-                ["type"] = "livingroom",
-                ["coords"] = {["x"] = -6.98, ["y"] = 7.91, ["z"] = 1.0},
+                ["type"] = "chairs",
+                ["coords"] = {["x"] = 1.46, ["y"] = 3.06, ["z"] = 1.16},
                 ["searched"] = false,
                 ["isBusy"] = false,
-                ["text"] = "Search Through Shelves"
+                ["text"] = "Search Lounge chairs"
             },
             [11] = {
-                ["type"] = "cabin",
-                ["coords"] = {["x"] = 4.19, ["y"] = -5.14, ["z"] = 1.0},
-                ["searched"] = false,
-                ["isBusy"] = false,
-                ["text"] = "Search Through Side Table"
-            },
-            [12] = {
-                ["type"] = "livingroom",
-                ["coords"] = {["x"] = 0.25, ["y"] = 6.12, ["z"] = 1.0},
-                ["searched"] = false,
-                ["isBusy"] = false,
-                ["text"] = "Search Through Shelves"
-            },
-            [13] = {
-                ["type"] = "cabin",
-                ["coords"] = {["x"] = -4.44, ["y"] = 6.68, ["z"] = 1.0},
-                ["searched"] = false,
-                ["isBusy"] = false,
-                ["text"] = "Search Through Coffee Table"
-            },
-            [14] = {
-                ["type"] = "chest",
-                ["coords"] = {["x"] = 4.79, ["y"] = 5.41, ["z"] = 1.0},
+                ["type"] = "bed",
+                ["coords"] = {["x"] = -2.97, ["y"] = 0.14, ["z"] = 1.16},
                 ["searched"] = false,
                 ["isBusy"] = false,
                 ["text"] = "Search Under The Bed"
@@ -1458,99 +1186,78 @@ Config.Houses = {
         ["tier"] = 1,
         ["furniture"] = {
             [1] = {
-                ["type"] = "cabin",
-                ["coords"] = {["x"] = 4.15, ["y"] = 7.82, ["z"] = 1.0},
+                ["type"] = "cupboards",
+                ["coords"] = {["x"] = 5.72, ["y"] = 0.06, ["z"] = 1.16},
+                ["searched"] = false,
+                ["isBusy"] = false,
+                ["text"] = "Search Cupboards"
+            },
+            [2] = {
+                ["type"] = "cupboards",
+                ["coords"] = {["x"] = -4.27, ["y"] = 3.58, ["z"] = 1.16},
+                ["searched"] = false,
+                ["isBusy"] = false,
+                ["text"] = "Search Cupboards"
+            },
+            [3] = {
+                ["type"] = "wardrobes",
+                ["coords"] = {["x"] = 4.24, ["y"] = -3.62, ["z"] = 1.16},
+                ["searched"] = false,
+                ["isBusy"] = false,
+                ["text"] = "Search Wardrobe"
+            },
+            [4] = {
+                ["type"] = "wardrobes",
+                ["coords"] = {["x"] = 1.41, ["y"] = -3.67, ["z"] = 1.16},
+                ["searched"] = false,
+                ["isBusy"] = false,
+                ["text"] = "Search Wardrobe"
+            },
+            [5] = {
+                ["type"] = "wardrobes",
+                ["coords"] = {["x"] = -1.88, ["y"] = -3.71, ["z"] = 1.16},
+                ["searched"] = false,
+                ["isBusy"] = false,
+                ["text"] = "Search Wardrobe"
+            },
+            [6] = {
+                ["type"] = "wardrobes",
+                ["coords"] = {["x"] = -4.38, ["y"] = -3.62, ["z"] = 1.16},
+                ["searched"] = false,
+                ["isBusy"] = false,
+                ["text"] = "Search Wardrobe"
+            },
+            [7] = {
+                ["type"] = "bedsidecabinet",
+                ["coords"] = {["x"] = -5.53, ["y"] = -1.48, ["z"] = 1.16},
                 ["searched"] = false,
                 ["isBusy"] = false,
                 ["text"] = "Search Bedside Cabinet"
             },
-            [2] = {
-                ["type"] = "cabin",
-                ["coords"] = {["x"] = 5.95, ["y"] = 9.34, ["z"] = 1.0},
-                ["searched"] = false,
-                ["isBusy"] = false,
-                ["text"] = "Search Through The Wardrobe"
-            },
-            [3] = {
-                ["type"] = "kitchen",
-                ["coords"] = {["x"] = -1.03, ["y"] = 0.78, ["z"] = 1.0},
-                ["searched"] = false,
-                ["isBusy"] = false,
-                ["text"] = "Search Through Kitchen Drawers"
-            },
-            [4] = {
-                ["type"] = "chest",
-                ["coords"] = {["x"] = 6.904, ["y"] = 3.987, ["z"] = 1.0},
-                ["searched"] = false,
-                ["isBusy"] = false,
-                ["text"] = "Search Through Chest"
-            },
-            [5] = {
-                ["type"] = "cabin",
-                ["coords"] = {["x"] = 0.933, ["y"] = 1.254, ["z"] = 1.0},
-                ["searched"] = false,
-                ["isBusy"] = false,
-                ["text"] = "Search Through Drawers"
-            },
-            [6] = {
-                ["type"] = "cabin",
-                ["coords"] = {["x"] = 6.19, ["y"] = 3.35, ["z"] = 1.0},
-                ["searched"] = false,
-                ["isBusy"] = false,
-                ["text"] = "Search Through Nighstand Cabinet"
-            },
-            [7] = {
-                ["type"] = "kitchen",
-                ["coords"] = {["x"] = -2.20, ["y"] = -0.30, ["z"] = 1.0},
-                ["searched"] = false,
-                ["isBusy"] = false,
-                ["text"] = "Search Through Kitchen Drawers"
-            },
             [8] = {
-                ["type"] = "kitchen",
-                ["coords"] = {["x"] = -4.35, ["y"] = -0.64, ["z"] = 1.0},
+                ["type"] = "bedsidecabinet",
+                ["coords"] = {["x"] = -5.39, ["y"] = 1.66, ["z"] = 1.16},
                 ["searched"] = false,
                 ["isBusy"] = false,
-                ["text"] = "Search Through Shelves"
+                ["text"] = "Search Bedside Cabinet"
             },
             [9] = {
-                ["type"] = "livingroom",
-                ["coords"] = {["x"] = -6.90, ["y"] = 4.42, ["z"] = 1.0},
+                ["type"] = "chairs",
+                ["coords"] = {["x"] = -1.38, ["y"] = 3.03, ["z"] = 1.16},
                 ["searched"] = false,
                 ["isBusy"] = false,
-                ["text"] = "Search Through Shelves"
+                ["text"] = "Search Lounge chairs"
             },
             [10] = {
-                ["type"] = "livingroom",
-                ["coords"] = {["x"] = -6.98, ["y"] = 7.91, ["z"] = 1.0},
+                ["type"] = "chairs",
+                ["coords"] = {["x"] = 1.46, ["y"] = 3.06, ["z"] = 1.16},
                 ["searched"] = false,
                 ["isBusy"] = false,
-                ["text"] = "Search Through Shelves"
+                ["text"] = "Search Lounge chairs"
             },
             [11] = {
-                ["type"] = "cabin",
-                ["coords"] = {["x"] = 4.19, ["y"] = -5.14, ["z"] = 1.0},
-                ["searched"] = false,
-                ["isBusy"] = false,
-                ["text"] = "Search Through Side Table"
-            },
-            [12] = {
-                ["type"] = "livingroom",
-                ["coords"] = {["x"] = 0.25, ["y"] = 6.12, ["z"] = 1.0},
-                ["searched"] = false,
-                ["isBusy"] = false,
-                ["text"] = "Search Through Shelves"
-            },
-            [13] = {
-                ["type"] = "cabin",
-                ["coords"] = {["x"] = -4.44, ["y"] = 6.68, ["z"] = 1.0},
-                ["searched"] = false,
-                ["isBusy"] = false,
-                ["text"] = "Search Through Coffee Table"
-            },
-            [14] = {
-                ["type"] = "chest",
-                ["coords"] = {["x"] = 4.79, ["y"] = 5.41, ["z"] = 1.0},
+                ["type"] = "bed",
+                ["coords"] = {["x"] = -2.97, ["y"] = 0.14, ["z"] = 1.16},
                 ["searched"] = false,
                 ["isBusy"] = false,
                 ["text"] = "Search Under The Bed"
@@ -1568,99 +1275,78 @@ Config.Houses = {
         ["tier"] = 1,
         ["furniture"] = {
             [1] = {
-                ["type"] = "cabin",
-                ["coords"] = {["x"] = 4.15, ["y"] = 7.82, ["z"] = 1.0},
+                ["type"] = "cupboards",
+                ["coords"] = {["x"] = 5.72, ["y"] = 0.06, ["z"] = 1.16},
+                ["searched"] = false,
+                ["isBusy"] = false,
+                ["text"] = "Search Cupboards"
+            },
+            [2] = {
+                ["type"] = "cupboards",
+                ["coords"] = {["x"] = -4.27, ["y"] = 3.58, ["z"] = 1.16},
+                ["searched"] = false,
+                ["isBusy"] = false,
+                ["text"] = "Search Cupboards"
+            },
+            [3] = {
+                ["type"] = "wardrobes",
+                ["coords"] = {["x"] = 4.24, ["y"] = -3.62, ["z"] = 1.16},
+                ["searched"] = false,
+                ["isBusy"] = false,
+                ["text"] = "Search Wardrobe"
+            },
+            [4] = {
+                ["type"] = "wardrobes",
+                ["coords"] = {["x"] = 1.41, ["y"] = -3.67, ["z"] = 1.16},
+                ["searched"] = false,
+                ["isBusy"] = false,
+                ["text"] = "Search Wardrobe"
+            },
+            [5] = {
+                ["type"] = "wardrobes",
+                ["coords"] = {["x"] = -1.88, ["y"] = -3.71, ["z"] = 1.16},
+                ["searched"] = false,
+                ["isBusy"] = false,
+                ["text"] = "Search Wardrobe"
+            },
+            [6] = {
+                ["type"] = "wardrobes",
+                ["coords"] = {["x"] = -4.38, ["y"] = -3.62, ["z"] = 1.16},
+                ["searched"] = false,
+                ["isBusy"] = false,
+                ["text"] = "Search Wardrobe"
+            },
+            [7] = {
+                ["type"] = "bedsidecabinet",
+                ["coords"] = {["x"] = -5.53, ["y"] = -1.48, ["z"] = 1.16},
                 ["searched"] = false,
                 ["isBusy"] = false,
                 ["text"] = "Search Bedside Cabinet"
             },
-            [2] = {
-                ["type"] = "cabin",
-                ["coords"] = {["x"] = 5.95, ["y"] = 9.34, ["z"] = 1.0},
-                ["searched"] = false,
-                ["isBusy"] = false,
-                ["text"] = "Search Through The Wardrobe"
-            },
-            [3] = {
-                ["type"] = "kitchen",
-                ["coords"] = {["x"] = -1.03, ["y"] = 0.78, ["z"] = 1.0},
-                ["searched"] = false,
-                ["isBusy"] = false,
-                ["text"] = "Search Through Kitchen Drawers"
-            },
-            [4] = {
-                ["type"] = "chest",
-                ["coords"] = {["x"] = 6.904, ["y"] = 3.987, ["z"] = 1.0},
-                ["searched"] = false,
-                ["isBusy"] = false,
-                ["text"] = "Search Through Chest"
-            },
-            [5] = {
-                ["type"] = "cabin",
-                ["coords"] = {["x"] = 0.933, ["y"] = 1.254, ["z"] = 1.0},
-                ["searched"] = false,
-                ["isBusy"] = false,
-                ["text"] = "Search Through Drawers"
-            },
-            [6] = {
-                ["type"] = "cabin",
-                ["coords"] = {["x"] = 6.19, ["y"] = 3.35, ["z"] = 1.0},
-                ["searched"] = false,
-                ["isBusy"] = false,
-                ["text"] = "Search Through Nighstand Cabinet"
-            },
-            [7] = {
-                ["type"] = "kitchen",
-                ["coords"] = {["x"] = -2.20, ["y"] = -0.30, ["z"] = 1.0},
-                ["searched"] = false,
-                ["isBusy"] = false,
-                ["text"] = "Search Through Kitchen Drawers"
-            },
             [8] = {
-                ["type"] = "kitchen",
-                ["coords"] = {["x"] = -4.35, ["y"] = -0.64, ["z"] = 1.0},
+                ["type"] = "bedsidecabinet",
+                ["coords"] = {["x"] = -5.39, ["y"] = 1.66, ["z"] = 1.16},
                 ["searched"] = false,
                 ["isBusy"] = false,
-                ["text"] = "Search Through Shelves"
+                ["text"] = "Search Bedside Cabinet"
             },
             [9] = {
-                ["type"] = "livingroom",
-                ["coords"] = {["x"] = -6.90, ["y"] = 4.42, ["z"] = 1.0},
+                ["type"] = "chairs",
+                ["coords"] = {["x"] = -1.38, ["y"] = 3.03, ["z"] = 1.16},
                 ["searched"] = false,
                 ["isBusy"] = false,
-                ["text"] = "Search Through Shelves"
+                ["text"] = "Search Lounge chairs"
             },
             [10] = {
-                ["type"] = "livingroom",
-                ["coords"] = {["x"] = -6.98, ["y"] = 7.91, ["z"] = 1.0},
+                ["type"] = "chairs",
+                ["coords"] = {["x"] = 1.46, ["y"] = 3.06, ["z"] = 1.16},
                 ["searched"] = false,
                 ["isBusy"] = false,
-                ["text"] = "Search Through Shelves"
+                ["text"] = "Search Lounge chairs"
             },
             [11] = {
-                ["type"] = "cabin",
-                ["coords"] = {["x"] = 4.19, ["y"] = -5.14, ["z"] = 1.0},
-                ["searched"] = false,
-                ["isBusy"] = false,
-                ["text"] = "Search Through Side Table"
-            },
-            [12] = {
-                ["type"] = "livingroom",
-                ["coords"] = {["x"] = 0.25, ["y"] = 6.12, ["z"] = 1.0},
-                ["searched"] = false,
-                ["isBusy"] = false,
-                ["text"] = "Search Through Shelves"
-            },
-            [13] = {
-                ["type"] = "cabin",
-                ["coords"] = {["x"] = -4.44, ["y"] = 6.68, ["z"] = 1.0},
-                ["searched"] = false,
-                ["isBusy"] = false,
-                ["text"] = "Search Through Coffee Table"
-            },
-            [14] = {
-                ["type"] = "chest",
-                ["coords"] = {["x"] = 4.79, ["y"] = 5.41, ["z"] = 1.0},
+                ["type"] = "bed",
+                ["coords"] = {["x"] = -2.97, ["y"] = 0.14, ["z"] = 1.16},
                 ["searched"] = false,
                 ["isBusy"] = false,
                 ["text"] = "Search Under The Bed"
@@ -1678,99 +1364,78 @@ Config.Houses = {
         ["tier"] = 1,
         ["furniture"] = {
             [1] = {
-                ["type"] = "cabin",
-                ["coords"] = {["x"] = 4.15, ["y"] = 7.82, ["z"] = 1.0},
+                ["type"] = "cupboards",
+                ["coords"] = {["x"] = 5.72, ["y"] = 0.06, ["z"] = 1.16},
+                ["searched"] = false,
+                ["isBusy"] = false,
+                ["text"] = "Search Cupboards"
+            },
+            [2] = {
+                ["type"] = "cupboards",
+                ["coords"] = {["x"] = -4.27, ["y"] = 3.58, ["z"] = 1.16},
+                ["searched"] = false,
+                ["isBusy"] = false,
+                ["text"] = "Search Cupboards"
+            },
+            [3] = {
+                ["type"] = "wardrobes",
+                ["coords"] = {["x"] = 4.24, ["y"] = -3.62, ["z"] = 1.16},
+                ["searched"] = false,
+                ["isBusy"] = false,
+                ["text"] = "Search Wardrobe"
+            },
+            [4] = {
+                ["type"] = "wardrobes",
+                ["coords"] = {["x"] = 1.41, ["y"] = -3.67, ["z"] = 1.16},
+                ["searched"] = false,
+                ["isBusy"] = false,
+                ["text"] = "Search Wardrobe"
+            },
+            [5] = {
+                ["type"] = "wardrobes",
+                ["coords"] = {["x"] = -1.88, ["y"] = -3.71, ["z"] = 1.16},
+                ["searched"] = false,
+                ["isBusy"] = false,
+                ["text"] = "Search Wardrobe"
+            },
+            [6] = {
+                ["type"] = "wardrobes",
+                ["coords"] = {["x"] = -4.38, ["y"] = -3.62, ["z"] = 1.16},
+                ["searched"] = false,
+                ["isBusy"] = false,
+                ["text"] = "Search Wardrobe"
+            },
+            [7] = {
+                ["type"] = "bedsidecabinet",
+                ["coords"] = {["x"] = -5.53, ["y"] = -1.48, ["z"] = 1.16},
                 ["searched"] = false,
                 ["isBusy"] = false,
                 ["text"] = "Search Bedside Cabinet"
             },
-            [2] = {
-                ["type"] = "cabin",
-                ["coords"] = {["x"] = 5.95, ["y"] = 9.34, ["z"] = 1.0},
-                ["searched"] = false,
-                ["isBusy"] = false,
-                ["text"] = "Search Through The Wardrobe"
-            },
-            [3] = {
-                ["type"] = "kitchen",
-                ["coords"] = {["x"] = -1.03, ["y"] = 0.78, ["z"] = 1.0},
-                ["searched"] = false,
-                ["isBusy"] = false,
-                ["text"] = "Search Through Kitchen Drawers"
-            },
-            [4] = {
-                ["type"] = "chest",
-                ["coords"] = {["x"] = 6.904, ["y"] = 3.987, ["z"] = 1.0},
-                ["searched"] = false,
-                ["isBusy"] = false,
-                ["text"] = "Search Through Chest"
-            },
-            [5] = {
-                ["type"] = "cabin",
-                ["coords"] = {["x"] = 0.933, ["y"] = 1.254, ["z"] = 1.0},
-                ["searched"] = false,
-                ["isBusy"] = false,
-                ["text"] = "Search Through Drawers"
-            },
-            [6] = {
-                ["type"] = "cabin",
-                ["coords"] = {["x"] = 6.19, ["y"] = 3.35, ["z"] = 1.0},
-                ["searched"] = false,
-                ["isBusy"] = false,
-                ["text"] = "Search Through Nighstand Cabinet"
-            },
-            [7] = {
-                ["type"] = "kitchen",
-                ["coords"] = {["x"] = -2.20, ["y"] = -0.30, ["z"] = 1.0},
-                ["searched"] = false,
-                ["isBusy"] = false,
-                ["text"] = "Search Through Kitchen Drawers"
-            },
             [8] = {
-                ["type"] = "kitchen",
-                ["coords"] = {["x"] = -4.35, ["y"] = -0.64, ["z"] = 1.0},
+                ["type"] = "bedsidecabinet",
+                ["coords"] = {["x"] = -5.39, ["y"] = 1.66, ["z"] = 1.16},
                 ["searched"] = false,
                 ["isBusy"] = false,
-                ["text"] = "Search Through Shelves"
+                ["text"] = "Search Bedside Cabinet"
             },
             [9] = {
-                ["type"] = "livingroom",
-                ["coords"] = {["x"] = -6.90, ["y"] = 4.42, ["z"] = 1.0},
+                ["type"] = "chairs",
+                ["coords"] = {["x"] = -1.38, ["y"] = 3.03, ["z"] = 1.16},
                 ["searched"] = false,
                 ["isBusy"] = false,
-                ["text"] = "Search Through Shelves"
+                ["text"] = "Search Lounge chairs"
             },
             [10] = {
-                ["type"] = "livingroom",
-                ["coords"] = {["x"] = -6.98, ["y"] = 7.91, ["z"] = 1.0},
+                ["type"] = "chairs",
+                ["coords"] = {["x"] = 1.46, ["y"] = 3.06, ["z"] = 1.16},
                 ["searched"] = false,
                 ["isBusy"] = false,
-                ["text"] = "Search Through Shelves"
+                ["text"] = "Search Lounge chairs"
             },
             [11] = {
-                ["type"] = "cabin",
-                ["coords"] = {["x"] = 4.19, ["y"] = -5.14, ["z"] = 1.0},
-                ["searched"] = false,
-                ["isBusy"] = false,
-                ["text"] = "Search Through Side Table"
-            },
-            [12] = {
-                ["type"] = "livingroom",
-                ["coords"] = {["x"] = 0.25, ["y"] = 6.12, ["z"] = 1.0},
-                ["searched"] = false,
-                ["isBusy"] = false,
-                ["text"] = "Search Through Shelves"
-            },
-            [13] = {
-                ["type"] = "cabin",
-                ["coords"] = {["x"] = -4.44, ["y"] = 6.68, ["z"] = 1.0},
-                ["searched"] = false,
-                ["isBusy"] = false,
-                ["text"] = "Search Through Coffee Table"
-            },
-            [14] = {
-                ["type"] = "chest",
-                ["coords"] = {["x"] = 4.79, ["y"] = 5.41, ["z"] = 1.0},
+                ["type"] = "bed",
+                ["coords"] = {["x"] = -2.97, ["y"] = 0.14, ["z"] = 1.16},
                 ["searched"] = false,
                 ["isBusy"] = false,
                 ["text"] = "Search Under The Bed"
@@ -1788,99 +1453,78 @@ Config.Houses = {
         ["tier"] = 1,
         ["furniture"] = {
             [1] = {
-                ["type"] = "cabin",
-                ["coords"] = {["x"] = 4.15, ["y"] = 7.82, ["z"] = 1.0},
+                ["type"] = "cupboards",
+                ["coords"] = {["x"] = 5.72, ["y"] = 0.06, ["z"] = 1.16},
+                ["searched"] = false,
+                ["isBusy"] = false,
+                ["text"] = "Search Cupboards"
+            },
+            [2] = {
+                ["type"] = "cupboards",
+                ["coords"] = {["x"] = -4.27, ["y"] = 3.58, ["z"] = 1.16},
+                ["searched"] = false,
+                ["isBusy"] = false,
+                ["text"] = "Search Cupboards"
+            },
+            [3] = {
+                ["type"] = "wardrobes",
+                ["coords"] = {["x"] = 4.24, ["y"] = -3.62, ["z"] = 1.16},
+                ["searched"] = false,
+                ["isBusy"] = false,
+                ["text"] = "Search Wardrobe"
+            },
+            [4] = {
+                ["type"] = "wardrobes",
+                ["coords"] = {["x"] = 1.41, ["y"] = -3.67, ["z"] = 1.16},
+                ["searched"] = false,
+                ["isBusy"] = false,
+                ["text"] = "Search Wardrobe"
+            },
+            [5] = {
+                ["type"] = "wardrobes",
+                ["coords"] = {["x"] = -1.88, ["y"] = -3.71, ["z"] = 1.16},
+                ["searched"] = false,
+                ["isBusy"] = false,
+                ["text"] = "Search Wardrobe"
+            },
+            [6] = {
+                ["type"] = "wardrobes",
+                ["coords"] = {["x"] = -4.38, ["y"] = -3.62, ["z"] = 1.16},
+                ["searched"] = false,
+                ["isBusy"] = false,
+                ["text"] = "Search Wardrobe"
+            },
+            [7] = {
+                ["type"] = "bedsidecabinet",
+                ["coords"] = {["x"] = -5.53, ["y"] = -1.48, ["z"] = 1.16},
                 ["searched"] = false,
                 ["isBusy"] = false,
                 ["text"] = "Search Bedside Cabinet"
             },
-            [2] = {
-                ["type"] = "cabin",
-                ["coords"] = {["x"] = 5.95, ["y"] = 9.34, ["z"] = 1.0},
-                ["searched"] = false,
-                ["isBusy"] = false,
-                ["text"] = "Search Through The Wardrobe"
-            },
-            [3] = {
-                ["type"] = "kitchen",
-                ["coords"] = {["x"] = -1.03, ["y"] = 0.78, ["z"] = 1.0},
-                ["searched"] = false,
-                ["isBusy"] = false,
-                ["text"] = "Search Through Kitchen Drawers"
-            },
-            [4] = {
-                ["type"] = "chest",
-                ["coords"] = {["x"] = 6.904, ["y"] = 3.987, ["z"] = 1.0},
-                ["searched"] = false,
-                ["isBusy"] = false,
-                ["text"] = "Search Through Chest"
-            },
-            [5] = {
-                ["type"] = "cabin",
-                ["coords"] = {["x"] = 0.933, ["y"] = 1.254, ["z"] = 1.0},
-                ["searched"] = false,
-                ["isBusy"] = false,
-                ["text"] = "Search Through Drawers"
-            },
-            [6] = {
-                ["type"] = "cabin",
-                ["coords"] = {["x"] = 6.19, ["y"] = 3.35, ["z"] = 1.0},
-                ["searched"] = false,
-                ["isBusy"] = false,
-                ["text"] = "Search Through Nighstand Cabinet"
-            },
-            [7] = {
-                ["type"] = "kitchen",
-                ["coords"] = {["x"] = -2.20, ["y"] = -0.30, ["z"] = 1.0},
-                ["searched"] = false,
-                ["isBusy"] = false,
-                ["text"] = "Search Through Kitchen Drawers"
-            },
             [8] = {
-                ["type"] = "kitchen",
-                ["coords"] = {["x"] = -4.35, ["y"] = -0.64, ["z"] = 1.0},
+                ["type"] = "bedsidecabinet",
+                ["coords"] = {["x"] = -5.39, ["y"] = 1.66, ["z"] = 1.16},
                 ["searched"] = false,
                 ["isBusy"] = false,
-                ["text"] = "Search Through Shelves"
+                ["text"] = "Search Bedside Cabinet"
             },
             [9] = {
-                ["type"] = "livingroom",
-                ["coords"] = {["x"] = -6.90, ["y"] = 4.42, ["z"] = 1.0},
+                ["type"] = "chairs",
+                ["coords"] = {["x"] = -1.38, ["y"] = 3.03, ["z"] = 1.16},
                 ["searched"] = false,
                 ["isBusy"] = false,
-                ["text"] = "Search Through Shelves"
+                ["text"] = "Search Lounge chairs"
             },
             [10] = {
-                ["type"] = "livingroom",
-                ["coords"] = {["x"] = -6.98, ["y"] = 7.91, ["z"] = 1.0},
+                ["type"] = "chairs",
+                ["coords"] = {["x"] = 1.46, ["y"] = 3.06, ["z"] = 1.16},
                 ["searched"] = false,
                 ["isBusy"] = false,
-                ["text"] = "Search Through Shelves"
+                ["text"] = "Search Lounge chairs"
             },
             [11] = {
-                ["type"] = "cabin",
-                ["coords"] = {["x"] = 4.19, ["y"] = -5.14, ["z"] = 1.0},
-                ["searched"] = false,
-                ["isBusy"] = false,
-                ["text"] = "Search Through Side Table"
-            },
-            [12] = {
-                ["type"] = "livingroom",
-                ["coords"] = {["x"] = 0.25, ["y"] = 6.12, ["z"] = 1.0},
-                ["searched"] = false,
-                ["isBusy"] = false,
-                ["text"] = "Search Through Shelves"
-            },
-            [13] = {
-                ["type"] = "cabin",
-                ["coords"] = {["x"] = -4.44, ["y"] = 6.68, ["z"] = 1.0},
-                ["searched"] = false,
-                ["isBusy"] = false,
-                ["text"] = "Search Through Coffee Table"
-            },
-            [14] = {
-                ["type"] = "chest",
-                ["coords"] = {["x"] = 4.79, ["y"] = 5.41, ["z"] = 1.0},
+                ["type"] = "bed",
+                ["coords"] = {["x"] = -2.97, ["y"] = 0.14, ["z"] = 1.16},
                 ["searched"] = false,
                 ["isBusy"] = false,
                 ["text"] = "Search Under The Bed"
@@ -1898,99 +1542,78 @@ Config.Houses = {
         ["tier"] = 1,
         ["furniture"] = {
             [1] = {
-                ["type"] = "cabin",
-                ["coords"] = {["x"] = 4.15, ["y"] = 7.82, ["z"] = 1.0},
+                ["type"] = "cupboards",
+                ["coords"] = {["x"] = 5.72, ["y"] = 0.06, ["z"] = 1.16},
+                ["searched"] = false,
+                ["isBusy"] = false,
+                ["text"] = "Search Cupboards"
+            },
+            [2] = {
+                ["type"] = "cupboards",
+                ["coords"] = {["x"] = -4.27, ["y"] = 3.58, ["z"] = 1.16},
+                ["searched"] = false,
+                ["isBusy"] = false,
+                ["text"] = "Search Cupboards"
+            },
+            [3] = {
+                ["type"] = "wardrobes",
+                ["coords"] = {["x"] = 4.24, ["y"] = -3.62, ["z"] = 1.16},
+                ["searched"] = false,
+                ["isBusy"] = false,
+                ["text"] = "Search Wardrobe"
+            },
+            [4] = {
+                ["type"] = "wardrobes",
+                ["coords"] = {["x"] = 1.41, ["y"] = -3.67, ["z"] = 1.16},
+                ["searched"] = false,
+                ["isBusy"] = false,
+                ["text"] = "Search Wardrobe"
+            },
+            [5] = {
+                ["type"] = "wardrobes",
+                ["coords"] = {["x"] = -1.88, ["y"] = -3.71, ["z"] = 1.16},
+                ["searched"] = false,
+                ["isBusy"] = false,
+                ["text"] = "Search Wardrobe"
+            },
+            [6] = {
+                ["type"] = "wardrobes",
+                ["coords"] = {["x"] = -4.38, ["y"] = -3.62, ["z"] = 1.16},
+                ["searched"] = false,
+                ["isBusy"] = false,
+                ["text"] = "Search Wardrobe"
+            },
+            [7] = {
+                ["type"] = "bedsidecabinet",
+                ["coords"] = {["x"] = -5.53, ["y"] = -1.48, ["z"] = 1.16},
                 ["searched"] = false,
                 ["isBusy"] = false,
                 ["text"] = "Search Bedside Cabinet"
             },
-            [2] = {
-                ["type"] = "cabin",
-                ["coords"] = {["x"] = 5.95, ["y"] = 9.34, ["z"] = 1.0},
-                ["searched"] = false,
-                ["isBusy"] = false,
-                ["text"] = "Search Through The Wardrobe"
-            },
-            [3] = {
-                ["type"] = "kitchen",
-                ["coords"] = {["x"] = -1.03, ["y"] = 0.78, ["z"] = 1.0},
-                ["searched"] = false,
-                ["isBusy"] = false,
-                ["text"] = "Search Through Kitchen Drawers"
-            },
-            [4] = {
-                ["type"] = "chest",
-                ["coords"] = {["x"] = 6.904, ["y"] = 3.987, ["z"] = 1.0},
-                ["searched"] = false,
-                ["isBusy"] = false,
-                ["text"] = "Search Through Chest"
-            },
-            [5] = {
-                ["type"] = "cabin",
-                ["coords"] = {["x"] = 0.933, ["y"] = 1.254, ["z"] = 1.0},
-                ["searched"] = false,
-                ["isBusy"] = false,
-                ["text"] = "Search Through Drawers"
-            },
-            [6] = {
-                ["type"] = "cabin",
-                ["coords"] = {["x"] = 6.19, ["y"] = 3.35, ["z"] = 1.0},
-                ["searched"] = false,
-                ["isBusy"] = false,
-                ["text"] = "Search Through Nighstand Cabinet"
-            },
-            [7] = {
-                ["type"] = "kitchen",
-                ["coords"] = {["x"] = -2.20, ["y"] = -0.30, ["z"] = 1.0},
-                ["searched"] = false,
-                ["isBusy"] = false,
-                ["text"] = "Search Through Kitchen Drawers"
-            },
             [8] = {
-                ["type"] = "kitchen",
-                ["coords"] = {["x"] = -4.35, ["y"] = -0.64, ["z"] = 1.0},
+                ["type"] = "bedsidecabinet",
+                ["coords"] = {["x"] = -5.39, ["y"] = 1.66, ["z"] = 1.16},
                 ["searched"] = false,
                 ["isBusy"] = false,
-                ["text"] = "Search Through Shelves"
+                ["text"] = "Search Bedside Cabinet"
             },
             [9] = {
-                ["type"] = "livingroom",
-                ["coords"] = {["x"] = -6.90, ["y"] = 4.42, ["z"] = 1.0},
+                ["type"] = "chairs",
+                ["coords"] = {["x"] = -1.38, ["y"] = 3.03, ["z"] = 1.16},
                 ["searched"] = false,
                 ["isBusy"] = false,
-                ["text"] = "Search Through Shelves"
+                ["text"] = "Search Lounge chairs"
             },
             [10] = {
-                ["type"] = "livingroom",
-                ["coords"] = {["x"] = -6.98, ["y"] = 7.91, ["z"] = 1.0},
+                ["type"] = "chairs",
+                ["coords"] = {["x"] = 1.46, ["y"] = 3.06, ["z"] = 1.16},
                 ["searched"] = false,
                 ["isBusy"] = false,
-                ["text"] = "Search Through Shelves"
+                ["text"] = "Search Lounge chairs"
             },
             [11] = {
-                ["type"] = "cabin",
-                ["coords"] = {["x"] = 4.19, ["y"] = -5.14, ["z"] = 1.0},
-                ["searched"] = false,
-                ["isBusy"] = false,
-                ["text"] = "Search Through Side Table"
-            },
-            [12] = {
-                ["type"] = "livingroom",
-                ["coords"] = {["x"] = 0.25, ["y"] = 6.12, ["z"] = 1.0},
-                ["searched"] = false,
-                ["isBusy"] = false,
-                ["text"] = "Search Through Shelves"
-            },
-            [13] = {
-                ["type"] = "cabin",
-                ["coords"] = {["x"] = -4.44, ["y"] = 6.68, ["z"] = 1.0},
-                ["searched"] = false,
-                ["isBusy"] = false,
-                ["text"] = "Search Through Coffee Table"
-            },
-            [14] = {
-                ["type"] = "chest",
-                ["coords"] = {["x"] = 4.79, ["y"] = 5.41, ["z"] = 1.0},
+                ["type"] = "bed",
+                ["coords"] = {["x"] = -2.97, ["y"] = 0.14, ["z"] = 1.16},
                 ["searched"] = false,
                 ["isBusy"] = false,
                 ["text"] = "Search Under The Bed"
@@ -2008,99 +1631,78 @@ Config.Houses = {
         ["tier"] = 1,
         ["furniture"] = {
             [1] = {
-                ["type"] = "cabin",
-                ["coords"] = {["x"] = 4.15, ["y"] = 7.82, ["z"] = 1.0},
+                ["type"] = "cupboards",
+                ["coords"] = {["x"] = 5.72, ["y"] = 0.06, ["z"] = 1.16},
+                ["searched"] = false,
+                ["isBusy"] = false,
+                ["text"] = "Search Cupboards"
+            },
+            [2] = {
+                ["type"] = "cupboards",
+                ["coords"] = {["x"] = -4.27, ["y"] = 3.58, ["z"] = 1.16},
+                ["searched"] = false,
+                ["isBusy"] = false,
+                ["text"] = "Search Cupboards"
+            },
+            [3] = {
+                ["type"] = "wardrobes",
+                ["coords"] = {["x"] = 4.24, ["y"] = -3.62, ["z"] = 1.16},
+                ["searched"] = false,
+                ["isBusy"] = false,
+                ["text"] = "Search Wardrobe"
+            },
+            [4] = {
+                ["type"] = "wardrobes",
+                ["coords"] = {["x"] = 1.41, ["y"] = -3.67, ["z"] = 1.16},
+                ["searched"] = false,
+                ["isBusy"] = false,
+                ["text"] = "Search Wardrobe"
+            },
+            [5] = {
+                ["type"] = "wardrobes",
+                ["coords"] = {["x"] = -1.88, ["y"] = -3.71, ["z"] = 1.16},
+                ["searched"] = false,
+                ["isBusy"] = false,
+                ["text"] = "Search Wardrobe"
+            },
+            [6] = {
+                ["type"] = "wardrobes",
+                ["coords"] = {["x"] = -4.38, ["y"] = -3.62, ["z"] = 1.16},
+                ["searched"] = false,
+                ["isBusy"] = false,
+                ["text"] = "Search Wardrobe"
+            },
+            [7] = {
+                ["type"] = "bedsidecabinet",
+                ["coords"] = {["x"] = -5.53, ["y"] = -1.48, ["z"] = 1.16},
                 ["searched"] = false,
                 ["isBusy"] = false,
                 ["text"] = "Search Bedside Cabinet"
             },
-            [2] = {
-                ["type"] = "cabin",
-                ["coords"] = {["x"] = 5.95, ["y"] = 9.34, ["z"] = 1.0},
-                ["searched"] = false,
-                ["isBusy"] = false,
-                ["text"] = "Search Through The Wardrobe"
-            },
-            [3] = {
-                ["type"] = "kitchen",
-                ["coords"] = {["x"] = -1.03, ["y"] = 0.78, ["z"] = 1.0},
-                ["searched"] = false,
-                ["isBusy"] = false,
-                ["text"] = "Search Through Kitchen Drawers"
-            },
-            [4] = {
-                ["type"] = "chest",
-                ["coords"] = {["x"] = 6.904, ["y"] = 3.987, ["z"] = 1.0},
-                ["searched"] = false,
-                ["isBusy"] = false,
-                ["text"] = "Search Through Chest"
-            },
-            [5] = {
-                ["type"] = "cabin",
-                ["coords"] = {["x"] = 0.933, ["y"] = 1.254, ["z"] = 1.0},
-                ["searched"] = false,
-                ["isBusy"] = false,
-                ["text"] = "Search Through Drawers"
-            },
-            [6] = {
-                ["type"] = "cabin",
-                ["coords"] = {["x"] = 6.19, ["y"] = 3.35, ["z"] = 1.0},
-                ["searched"] = false,
-                ["isBusy"] = false,
-                ["text"] = "Search Through Nighstand Cabinet"
-            },
-            [7] = {
-                ["type"] = "kitchen",
-                ["coords"] = {["x"] = -2.20, ["y"] = -0.30, ["z"] = 1.0},
-                ["searched"] = false,
-                ["isBusy"] = false,
-                ["text"] = "Search Through Kitchen Drawers"
-            },
             [8] = {
-                ["type"] = "kitchen",
-                ["coords"] = {["x"] = -4.35, ["y"] = -0.64, ["z"] = 1.0},
+                ["type"] = "bedsidecabinet",
+                ["coords"] = {["x"] = -5.39, ["y"] = 1.66, ["z"] = 1.16},
                 ["searched"] = false,
                 ["isBusy"] = false,
-                ["text"] = "Search Through Shelves"
+                ["text"] = "Search Bedside Cabinet"
             },
             [9] = {
-                ["type"] = "livingroom",
-                ["coords"] = {["x"] = -6.90, ["y"] = 4.42, ["z"] = 1.0},
+                ["type"] = "chairs",
+                ["coords"] = {["x"] = -1.38, ["y"] = 3.03, ["z"] = 1.16},
                 ["searched"] = false,
                 ["isBusy"] = false,
-                ["text"] = "Search Through Shelves"
+                ["text"] = "Search Lounge chairs"
             },
             [10] = {
-                ["type"] = "livingroom",
-                ["coords"] = {["x"] = -6.98, ["y"] = 7.91, ["z"] = 1.0},
+                ["type"] = "chairs",
+                ["coords"] = {["x"] = 1.46, ["y"] = 3.06, ["z"] = 1.16},
                 ["searched"] = false,
                 ["isBusy"] = false,
-                ["text"] = "Search Through Shelves"
+                ["text"] = "Search Lounge chairs"
             },
             [11] = {
-                ["type"] = "cabin",
-                ["coords"] = {["x"] = 4.19, ["y"] = -5.14, ["z"] = 1.0},
-                ["searched"] = false,
-                ["isBusy"] = false,
-                ["text"] = "Search Through Side Table"
-            },
-            [12] = {
-                ["type"] = "livingroom",
-                ["coords"] = {["x"] = 0.25, ["y"] = 6.12, ["z"] = 1.0},
-                ["searched"] = false,
-                ["isBusy"] = false,
-                ["text"] = "Search Through Shelves"
-            },
-            [13] = {
-                ["type"] = "cabin",
-                ["coords"] = {["x"] = -4.44, ["y"] = 6.68, ["z"] = 1.0},
-                ["searched"] = false,
-                ["isBusy"] = false,
-                ["text"] = "Search Through Coffee Table"
-            },
-            [14] = {
-                ["type"] = "chest",
-                ["coords"] = {["x"] = 4.79, ["y"] = 5.41, ["z"] = 1.0},
+                ["type"] = "bed",
+                ["coords"] = {["x"] = -2.97, ["y"] = 0.14, ["z"] = 1.16},
                 ["searched"] = false,
                 ["isBusy"] = false,
                 ["text"] = "Search Under The Bed"
@@ -2118,99 +1720,78 @@ Config.Houses = {
         ["tier"] = 1,
         ["furniture"] = {
             [1] = {
-                ["type"] = "cabin",
-                ["coords"] = {["x"] = 4.15, ["y"] = 7.82, ["z"] = 1.0},
+                ["type"] = "cupboards",
+                ["coords"] = {["x"] = 5.72, ["y"] = 0.06, ["z"] = 1.16},
+                ["searched"] = false,
+                ["isBusy"] = false,
+                ["text"] = "Search Cupboards"
+            },
+            [2] = {
+                ["type"] = "cupboards",
+                ["coords"] = {["x"] = -4.27, ["y"] = 3.58, ["z"] = 1.16},
+                ["searched"] = false,
+                ["isBusy"] = false,
+                ["text"] = "Search Cupboards"
+            },
+            [3] = {
+                ["type"] = "wardrobes",
+                ["coords"] = {["x"] = 4.24, ["y"] = -3.62, ["z"] = 1.16},
+                ["searched"] = false,
+                ["isBusy"] = false,
+                ["text"] = "Search Wardrobe"
+            },
+            [4] = {
+                ["type"] = "wardrobes",
+                ["coords"] = {["x"] = 1.41, ["y"] = -3.67, ["z"] = 1.16},
+                ["searched"] = false,
+                ["isBusy"] = false,
+                ["text"] = "Search Wardrobe"
+            },
+            [5] = {
+                ["type"] = "wardrobes",
+                ["coords"] = {["x"] = -1.88, ["y"] = -3.71, ["z"] = 1.16},
+                ["searched"] = false,
+                ["isBusy"] = false,
+                ["text"] = "Search Wardrobe"
+            },
+            [6] = {
+                ["type"] = "wardrobes",
+                ["coords"] = {["x"] = -4.38, ["y"] = -3.62, ["z"] = 1.16},
+                ["searched"] = false,
+                ["isBusy"] = false,
+                ["text"] = "Search Wardrobe"
+            },
+            [7] = {
+                ["type"] = "bedsidecabinet",
+                ["coords"] = {["x"] = -5.53, ["y"] = -1.48, ["z"] = 1.16},
                 ["searched"] = false,
                 ["isBusy"] = false,
                 ["text"] = "Search Bedside Cabinet"
             },
-            [2] = {
-                ["type"] = "cabin",
-                ["coords"] = {["x"] = 5.95, ["y"] = 9.34, ["z"] = 1.0},
-                ["searched"] = false,
-                ["isBusy"] = false,
-                ["text"] = "Search Through The Wardrobe"
-            },
-            [3] = {
-                ["type"] = "kitchen",
-                ["coords"] = {["x"] = -1.03, ["y"] = 0.78, ["z"] = 1.0},
-                ["searched"] = false,
-                ["isBusy"] = false,
-                ["text"] = "Search Through Kitchen Drawers"
-            },
-            [4] = {
-                ["type"] = "chest",
-                ["coords"] = {["x"] = 6.904, ["y"] = 3.987, ["z"] = 1.0},
-                ["searched"] = false,
-                ["isBusy"] = false,
-                ["text"] = "Search Through Chest"
-            },
-            [5] = {
-                ["type"] = "cabin",
-                ["coords"] = {["x"] = 0.933, ["y"] = 1.254, ["z"] = 1.0},
-                ["searched"] = false,
-                ["isBusy"] = false,
-                ["text"] = "Search Through Drawers"
-            },
-            [6] = {
-                ["type"] = "cabin",
-                ["coords"] = {["x"] = 6.19, ["y"] = 3.35, ["z"] = 1.0},
-                ["searched"] = false,
-                ["isBusy"] = false,
-                ["text"] = "Search Through Nighstand Cabinet"
-            },
-            [7] = {
-                ["type"] = "kitchen",
-                ["coords"] = {["x"] = -2.20, ["y"] = -0.30, ["z"] = 1.0},
-                ["searched"] = false,
-                ["isBusy"] = false,
-                ["text"] = "Search Through Kitchen Drawers"
-            },
             [8] = {
-                ["type"] = "kitchen",
-                ["coords"] = {["x"] = -4.35, ["y"] = -0.64, ["z"] = 1.0},
+                ["type"] = "bedsidecabinet",
+                ["coords"] = {["x"] = -5.39, ["y"] = 1.66, ["z"] = 1.16},
                 ["searched"] = false,
                 ["isBusy"] = false,
-                ["text"] = "Search Through Shelves"
+                ["text"] = "Search Bedside Cabinet"
             },
             [9] = {
-                ["type"] = "livingroom",
-                ["coords"] = {["x"] = -6.90, ["y"] = 4.42, ["z"] = 1.0},
+                ["type"] = "chairs",
+                ["coords"] = {["x"] = -1.38, ["y"] = 3.03, ["z"] = 1.16},
                 ["searched"] = false,
                 ["isBusy"] = false,
-                ["text"] = "Search Through Shelves"
+                ["text"] = "Search Lounge chairs"
             },
             [10] = {
-                ["type"] = "livingroom",
-                ["coords"] = {["x"] = -6.98, ["y"] = 7.91, ["z"] = 1.0},
+                ["type"] = "chairs",
+                ["coords"] = {["x"] = 1.46, ["y"] = 3.06, ["z"] = 1.16},
                 ["searched"] = false,
                 ["isBusy"] = false,
-                ["text"] = "Search Through Shelves"
+                ["text"] = "Search Lounge chairs"
             },
             [11] = {
-                ["type"] = "cabin",
-                ["coords"] = {["x"] = 4.19, ["y"] = -5.14, ["z"] = 1.0},
-                ["searched"] = false,
-                ["isBusy"] = false,
-                ["text"] = "Search Through Side Table"
-            },
-            [12] = {
-                ["type"] = "livingroom",
-                ["coords"] = {["x"] = 0.25, ["y"] = 6.12, ["z"] = 1.0},
-                ["searched"] = false,
-                ["isBusy"] = false,
-                ["text"] = "Search Through Shelves"
-            },
-            [13] = {
-                ["type"] = "cabin",
-                ["coords"] = {["x"] = -4.44, ["y"] = 6.68, ["z"] = 1.0},
-                ["searched"] = false,
-                ["isBusy"] = false,
-                ["text"] = "Search Through Coffee Table"
-            },
-            [14] = {
-                ["type"] = "chest",
-                ["coords"] = {["x"] = 4.79, ["y"] = 5.41, ["z"] = 1.0},
+                ["type"] = "bed",
+                ["coords"] = {["x"] = -2.97, ["y"] = 0.14, ["z"] = 1.16},
                 ["searched"] = false,
                 ["isBusy"] = false,
                 ["text"] = "Search Under The Bed"
@@ -2228,99 +1809,78 @@ Config.Houses = {
         ["tier"] = 1,
         ["furniture"] = {
             [1] = {
-                ["type"] = "cabin",
-                ["coords"] = {["x"] = 4.15, ["y"] = 7.82, ["z"] = 1.0},
+                ["type"] = "cupboards",
+                ["coords"] = {["x"] = 5.72, ["y"] = 0.06, ["z"] = 1.16},
+                ["searched"] = false,
+                ["isBusy"] = false,
+                ["text"] = "Search Cupboards"
+            },
+            [2] = {
+                ["type"] = "cupboards",
+                ["coords"] = {["x"] = -4.27, ["y"] = 3.58, ["z"] = 1.16},
+                ["searched"] = false,
+                ["isBusy"] = false,
+                ["text"] = "Search Cupboards"
+            },
+            [3] = {
+                ["type"] = "wardrobes",
+                ["coords"] = {["x"] = 4.24, ["y"] = -3.62, ["z"] = 1.16},
+                ["searched"] = false,
+                ["isBusy"] = false,
+                ["text"] = "Search Wardrobe"
+            },
+            [4] = {
+                ["type"] = "wardrobes",
+                ["coords"] = {["x"] = 1.41, ["y"] = -3.67, ["z"] = 1.16},
+                ["searched"] = false,
+                ["isBusy"] = false,
+                ["text"] = "Search Wardrobe"
+            },
+            [5] = {
+                ["type"] = "wardrobes",
+                ["coords"] = {["x"] = -1.88, ["y"] = -3.71, ["z"] = 1.16},
+                ["searched"] = false,
+                ["isBusy"] = false,
+                ["text"] = "Search Wardrobe"
+            },
+            [6] = {
+                ["type"] = "wardrobes",
+                ["coords"] = {["x"] = -4.38, ["y"] = -3.62, ["z"] = 1.16},
+                ["searched"] = false,
+                ["isBusy"] = false,
+                ["text"] = "Search Wardrobe"
+            },
+            [7] = {
+                ["type"] = "bedsidecabinet",
+                ["coords"] = {["x"] = -5.53, ["y"] = -1.48, ["z"] = 1.16},
                 ["searched"] = false,
                 ["isBusy"] = false,
                 ["text"] = "Search Bedside Cabinet"
             },
-            [2] = {
-                ["type"] = "cabin",
-                ["coords"] = {["x"] = 5.95, ["y"] = 9.34, ["z"] = 1.0},
-                ["searched"] = false,
-                ["isBusy"] = false,
-                ["text"] = "Search Through The Wardrobe"
-            },
-            [3] = {
-                ["type"] = "kitchen",
-                ["coords"] = {["x"] = -1.03, ["y"] = 0.78, ["z"] = 1.0},
-                ["searched"] = false,
-                ["isBusy"] = false,
-                ["text"] = "Search Through Kitchen Drawers"
-            },
-            [4] = {
-                ["type"] = "chest",
-                ["coords"] = {["x"] = 6.904, ["y"] = 3.987, ["z"] = 1.0},
-                ["searched"] = false,
-                ["isBusy"] = false,
-                ["text"] = "Search Through Chest"
-            },
-            [5] = {
-                ["type"] = "cabin",
-                ["coords"] = {["x"] = 0.933, ["y"] = 1.254, ["z"] = 1.0},
-                ["searched"] = false,
-                ["isBusy"] = false,
-                ["text"] = "Search Through Drawers"
-            },
-            [6] = {
-                ["type"] = "cabin",
-                ["coords"] = {["x"] = 6.19, ["y"] = 3.35, ["z"] = 1.0},
-                ["searched"] = false,
-                ["isBusy"] = false,
-                ["text"] = "Search Through Nighstand Cabinet"
-            },
-            [7] = {
-                ["type"] = "kitchen",
-                ["coords"] = {["x"] = -2.20, ["y"] = -0.30, ["z"] = 1.0},
-                ["searched"] = false,
-                ["isBusy"] = false,
-                ["text"] = "Search Through Kitchen Drawers"
-            },
             [8] = {
-                ["type"] = "kitchen",
-                ["coords"] = {["x"] = -4.35, ["y"] = -0.64, ["z"] = 1.0},
+                ["type"] = "bedsidecabinet",
+                ["coords"] = {["x"] = -5.39, ["y"] = 1.66, ["z"] = 1.16},
                 ["searched"] = false,
                 ["isBusy"] = false,
-                ["text"] = "Search Through Shelves"
+                ["text"] = "Search Bedside Cabinet"
             },
             [9] = {
-                ["type"] = "livingroom",
-                ["coords"] = {["x"] = -6.90, ["y"] = 4.42, ["z"] = 1.0},
+                ["type"] = "chairs",
+                ["coords"] = {["x"] = -1.38, ["y"] = 3.03, ["z"] = 1.16},
                 ["searched"] = false,
                 ["isBusy"] = false,
-                ["text"] = "Search Through Shelves"
+                ["text"] = "Search Lounge chairs"
             },
             [10] = {
-                ["type"] = "livingroom",
-                ["coords"] = {["x"] = -6.98, ["y"] = 7.91, ["z"] = 1.0},
+                ["type"] = "chairs",
+                ["coords"] = {["x"] = 1.46, ["y"] = 3.06, ["z"] = 1.16},
                 ["searched"] = false,
                 ["isBusy"] = false,
-                ["text"] = "Search Through Shelves"
+                ["text"] = "Search Lounge chairs"
             },
             [11] = {
-                ["type"] = "cabin",
-                ["coords"] = {["x"] = 4.19, ["y"] = -5.14, ["z"] = 1.0},
-                ["searched"] = false,
-                ["isBusy"] = false,
-                ["text"] = "Search Through Side Table"
-            },
-            [12] = {
-                ["type"] = "livingroom",
-                ["coords"] = {["x"] = 0.25, ["y"] = 6.12, ["z"] = 1.0},
-                ["searched"] = false,
-                ["isBusy"] = false,
-                ["text"] = "Search Through Shelves"
-            },
-            [13] = {
-                ["type"] = "cabin",
-                ["coords"] = {["x"] = -4.44, ["y"] = 6.68, ["z"] = 1.0},
-                ["searched"] = false,
-                ["isBusy"] = false,
-                ["text"] = "Search Through Coffee Table"
-            },
-            [14] = {
-                ["type"] = "chest",
-                ["coords"] = {["x"] = 4.79, ["y"] = 5.41, ["z"] = 1.0},
+                ["type"] = "bed",
+                ["coords"] = {["x"] = -2.97, ["y"] = 0.14, ["z"] = 1.16},
                 ["searched"] = false,
                 ["isBusy"] = false,
                 ["text"] = "Search Under The Bed"
@@ -2338,99 +1898,78 @@ Config.Houses = {
         ["tier"] = 1,
         ["furniture"] = {
             [1] = {
-                ["type"] = "cabin",
-                ["coords"] = {["x"] = 4.15, ["y"] = 7.82, ["z"] = 1.0},
+                ["type"] = "cupboards",
+                ["coords"] = {["x"] = 5.72, ["y"] = 0.06, ["z"] = 1.16},
+                ["searched"] = false,
+                ["isBusy"] = false,
+                ["text"] = "Search Cupboards"
+            },
+            [2] = {
+                ["type"] = "cupboards",
+                ["coords"] = {["x"] = -4.27, ["y"] = 3.58, ["z"] = 1.16},
+                ["searched"] = false,
+                ["isBusy"] = false,
+                ["text"] = "Search Cupboards"
+            },
+            [3] = {
+                ["type"] = "wardrobes",
+                ["coords"] = {["x"] = 4.24, ["y"] = -3.62, ["z"] = 1.16},
+                ["searched"] = false,
+                ["isBusy"] = false,
+                ["text"] = "Search Wardrobe"
+            },
+            [4] = {
+                ["type"] = "wardrobes",
+                ["coords"] = {["x"] = 1.41, ["y"] = -3.67, ["z"] = 1.16},
+                ["searched"] = false,
+                ["isBusy"] = false,
+                ["text"] = "Search Wardrobe"
+            },
+            [5] = {
+                ["type"] = "wardrobes",
+                ["coords"] = {["x"] = -1.88, ["y"] = -3.71, ["z"] = 1.16},
+                ["searched"] = false,
+                ["isBusy"] = false,
+                ["text"] = "Search Wardrobe"
+            },
+            [6] = {
+                ["type"] = "wardrobes",
+                ["coords"] = {["x"] = -4.38, ["y"] = -3.62, ["z"] = 1.16},
+                ["searched"] = false,
+                ["isBusy"] = false,
+                ["text"] = "Search Wardrobe"
+            },
+            [7] = {
+                ["type"] = "bedsidecabinet",
+                ["coords"] = {["x"] = -5.53, ["y"] = -1.48, ["z"] = 1.16},
                 ["searched"] = false,
                 ["isBusy"] = false,
                 ["text"] = "Search Bedside Cabinet"
             },
-            [2] = {
-                ["type"] = "cabin",
-                ["coords"] = {["x"] = 5.95, ["y"] = 9.34, ["z"] = 1.0},
-                ["searched"] = false,
-                ["isBusy"] = false,
-                ["text"] = "Search Through The Wardrobe"
-            },
-            [3] = {
-                ["type"] = "kitchen",
-                ["coords"] = {["x"] = -1.03, ["y"] = 0.78, ["z"] = 1.0},
-                ["searched"] = false,
-                ["isBusy"] = false,
-                ["text"] = "Search Through Kitchen Drawers"
-            },
-            [4] = {
-                ["type"] = "chest",
-                ["coords"] = {["x"] = 6.904, ["y"] = 3.987, ["z"] = 1.0},
-                ["searched"] = false,
-                ["isBusy"] = false,
-                ["text"] = "Search Through Chest"
-            },
-            [5] = {
-                ["type"] = "cabin",
-                ["coords"] = {["x"] = 0.933, ["y"] = 1.254, ["z"] = 1.0},
-                ["searched"] = false,
-                ["isBusy"] = false,
-                ["text"] = "Search Through Drawers"
-            },
-            [6] = {
-                ["type"] = "cabin",
-                ["coords"] = {["x"] = 6.19, ["y"] = 3.35, ["z"] = 1.0},
-                ["searched"] = false,
-                ["isBusy"] = false,
-                ["text"] = "Search Through Nighstand Cabinet"
-            },
-            [7] = {
-                ["type"] = "kitchen",
-                ["coords"] = {["x"] = -2.20, ["y"] = -0.30, ["z"] = 1.0},
-                ["searched"] = false,
-                ["isBusy"] = false,
-                ["text"] = "Search Through Kitchen Drawers"
-            },
             [8] = {
-                ["type"] = "kitchen",
-                ["coords"] = {["x"] = -4.35, ["y"] = -0.64, ["z"] = 1.0},
+                ["type"] = "bedsidecabinet",
+                ["coords"] = {["x"] = -5.39, ["y"] = 1.66, ["z"] = 1.16},
                 ["searched"] = false,
                 ["isBusy"] = false,
-                ["text"] = "Search Through Shelves"
+                ["text"] = "Search Bedside Cabinet"
             },
             [9] = {
-                ["type"] = "livingroom",
-                ["coords"] = {["x"] = -6.90, ["y"] = 4.42, ["z"] = 1.0},
+                ["type"] = "chairs",
+                ["coords"] = {["x"] = -1.38, ["y"] = 3.03, ["z"] = 1.16},
                 ["searched"] = false,
                 ["isBusy"] = false,
-                ["text"] = "Search Through Shelves"
+                ["text"] = "Search Lounge chairs"
             },
             [10] = {
-                ["type"] = "livingroom",
-                ["coords"] = {["x"] = -6.98, ["y"] = 7.91, ["z"] = 1.0},
+                ["type"] = "chairs",
+                ["coords"] = {["x"] = 1.46, ["y"] = 3.06, ["z"] = 1.16},
                 ["searched"] = false,
                 ["isBusy"] = false,
-                ["text"] = "Search Through Shelves"
+                ["text"] = "Search Lounge chairs"
             },
             [11] = {
-                ["type"] = "cabin",
-                ["coords"] = {["x"] = 4.19, ["y"] = -5.14, ["z"] = 1.0},
-                ["searched"] = false,
-                ["isBusy"] = false,
-                ["text"] = "Search Through Side Table"
-            },
-            [12] = {
-                ["type"] = "livingroom",
-                ["coords"] = {["x"] = 0.25, ["y"] = 6.12, ["z"] = 1.0},
-                ["searched"] = false,
-                ["isBusy"] = false,
-                ["text"] = "Search Through Shelves"
-            },
-            [13] = {
-                ["type"] = "cabin",
-                ["coords"] = {["x"] = -4.44, ["y"] = 6.68, ["z"] = 1.0},
-                ["searched"] = false,
-                ["isBusy"] = false,
-                ["text"] = "Search Through Coffee Table"
-            },
-            [14] = {
-                ["type"] = "chest",
-                ["coords"] = {["x"] = 4.79, ["y"] = 5.41, ["z"] = 1.0},
+                ["type"] = "bed",
+                ["coords"] = {["x"] = -2.97, ["y"] = 0.14, ["z"] = 1.16},
                 ["searched"] = false,
                 ["isBusy"] = false,
                 ["text"] = "Search Under The Bed"
@@ -2448,99 +1987,78 @@ Config.Houses = {
         ["tier"] = 1,
         ["furniture"] = {
             [1] = {
-                ["type"] = "cabin",
-                ["coords"] = {["x"] = 4.15, ["y"] = 7.82, ["z"] = 1.0},
+                ["type"] = "cupboards",
+                ["coords"] = {["x"] = 5.72, ["y"] = 0.06, ["z"] = 1.16},
+                ["searched"] = false,
+                ["isBusy"] = false,
+                ["text"] = "Search Cupboards"
+            },
+            [2] = {
+                ["type"] = "cupboards",
+                ["coords"] = {["x"] = -4.27, ["y"] = 3.58, ["z"] = 1.16},
+                ["searched"] = false,
+                ["isBusy"] = false,
+                ["text"] = "Search Cupboards"
+            },
+            [3] = {
+                ["type"] = "wardrobes",
+                ["coords"] = {["x"] = 4.24, ["y"] = -3.62, ["z"] = 1.16},
+                ["searched"] = false,
+                ["isBusy"] = false,
+                ["text"] = "Search Wardrobe"
+            },
+            [4] = {
+                ["type"] = "wardrobes",
+                ["coords"] = {["x"] = 1.41, ["y"] = -3.67, ["z"] = 1.16},
+                ["searched"] = false,
+                ["isBusy"] = false,
+                ["text"] = "Search Wardrobe"
+            },
+            [5] = {
+                ["type"] = "wardrobes",
+                ["coords"] = {["x"] = -1.88, ["y"] = -3.71, ["z"] = 1.16},
+                ["searched"] = false,
+                ["isBusy"] = false,
+                ["text"] = "Search Wardrobe"
+            },
+            [6] = {
+                ["type"] = "wardrobes",
+                ["coords"] = {["x"] = -4.38, ["y"] = -3.62, ["z"] = 1.16},
+                ["searched"] = false,
+                ["isBusy"] = false,
+                ["text"] = "Search Wardrobe"
+            },
+            [7] = {
+                ["type"] = "bedsidecabinet",
+                ["coords"] = {["x"] = -5.53, ["y"] = -1.48, ["z"] = 1.16},
                 ["searched"] = false,
                 ["isBusy"] = false,
                 ["text"] = "Search Bedside Cabinet"
             },
-            [2] = {
-                ["type"] = "cabin",
-                ["coords"] = {["x"] = 5.95, ["y"] = 9.34, ["z"] = 1.0},
-                ["searched"] = false,
-                ["isBusy"] = false,
-                ["text"] = "Search Through The Wardrobe"
-            },
-            [3] = {
-                ["type"] = "kitchen",
-                ["coords"] = {["x"] = -1.03, ["y"] = 0.78, ["z"] = 1.0},
-                ["searched"] = false,
-                ["isBusy"] = false,
-                ["text"] = "Search Through Kitchen Drawers"
-            },
-            [4] = {
-                ["type"] = "chest",
-                ["coords"] = {["x"] = 6.904, ["y"] = 3.987, ["z"] = 1.0},
-                ["searched"] = false,
-                ["isBusy"] = false,
-                ["text"] = "Search Through Chest"
-            },
-            [5] = {
-                ["type"] = "cabin",
-                ["coords"] = {["x"] = 0.933, ["y"] = 1.254, ["z"] = 1.0},
-                ["searched"] = false,
-                ["isBusy"] = false,
-                ["text"] = "Search Through Drawers"
-            },
-            [6] = {
-                ["type"] = "cabin",
-                ["coords"] = {["x"] = 6.19, ["y"] = 3.35, ["z"] = 1.0},
-                ["searched"] = false,
-                ["isBusy"] = false,
-                ["text"] = "Search Through Nighstand Cabinet"
-            },
-            [7] = {
-                ["type"] = "kitchen",
-                ["coords"] = {["x"] = -2.20, ["y"] = -0.30, ["z"] = 1.0},
-                ["searched"] = false,
-                ["isBusy"] = false,
-                ["text"] = "Search Through Kitchen Drawers"
-            },
             [8] = {
-                ["type"] = "kitchen",
-                ["coords"] = {["x"] = -4.35, ["y"] = -0.64, ["z"] = 1.0},
+                ["type"] = "bedsidecabinet",
+                ["coords"] = {["x"] = -5.39, ["y"] = 1.66, ["z"] = 1.16},
                 ["searched"] = false,
                 ["isBusy"] = false,
-                ["text"] = "Search Through Shelves"
+                ["text"] = "Search Bedside Cabinet"
             },
             [9] = {
-                ["type"] = "livingroom",
-                ["coords"] = {["x"] = -6.90, ["y"] = 4.42, ["z"] = 1.0},
+                ["type"] = "chairs",
+                ["coords"] = {["x"] = -1.38, ["y"] = 3.03, ["z"] = 1.16},
                 ["searched"] = false,
                 ["isBusy"] = false,
-                ["text"] = "Search Through Shelves"
+                ["text"] = "Search Lounge chairs"
             },
             [10] = {
-                ["type"] = "livingroom",
-                ["coords"] = {["x"] = -6.98, ["y"] = 7.91, ["z"] = 1.0},
+                ["type"] = "chairs",
+                ["coords"] = {["x"] = 1.46, ["y"] = 3.06, ["z"] = 1.16},
                 ["searched"] = false,
                 ["isBusy"] = false,
-                ["text"] = "Search Through Shelves"
+                ["text"] = "Search Lounge chairs"
             },
             [11] = {
-                ["type"] = "cabin",
-                ["coords"] = {["x"] = 4.19, ["y"] = -5.14, ["z"] = 1.0},
-                ["searched"] = false,
-                ["isBusy"] = false,
-                ["text"] = "Search Through Side Table"
-            },
-            [12] = {
-                ["type"] = "livingroom",
-                ["coords"] = {["x"] = 0.25, ["y"] = 6.12, ["z"] = 1.0},
-                ["searched"] = false,
-                ["isBusy"] = false,
-                ["text"] = "Search Through Shelves"
-            },
-            [13] = {
-                ["type"] = "cabin",
-                ["coords"] = {["x"] = -4.44, ["y"] = 6.68, ["z"] = 1.0},
-                ["searched"] = false,
-                ["isBusy"] = false,
-                ["text"] = "Search Through Coffee Table"
-            },
-            [14] = {
-                ["type"] = "chest",
-                ["coords"] = {["x"] = 4.79, ["y"] = 5.41, ["z"] = 1.0},
+                ["type"] = "bed",
+                ["coords"] = {["x"] = -2.97, ["y"] = 0.14, ["z"] = 1.16},
                 ["searched"] = false,
                 ["isBusy"] = false,
                 ["text"] = "Search Under The Bed"
@@ -2558,99 +2076,78 @@ Config.Houses = {
         ["tier"] = 1,
         ["furniture"] = {
             [1] = {
-                ["type"] = "cabin",
-                ["coords"] = {["x"] = 4.15, ["y"] = 7.82, ["z"] = 1.0},
+                ["type"] = "cupboards",
+                ["coords"] = {["x"] = 5.72, ["y"] = 0.06, ["z"] = 1.16},
+                ["searched"] = false,
+                ["isBusy"] = false,
+                ["text"] = "Search Cupboards"
+            },
+            [2] = {
+                ["type"] = "cupboards",
+                ["coords"] = {["x"] = -4.27, ["y"] = 3.58, ["z"] = 1.16},
+                ["searched"] = false,
+                ["isBusy"] = false,
+                ["text"] = "Search Cupboards"
+            },
+            [3] = {
+                ["type"] = "wardrobes",
+                ["coords"] = {["x"] = 4.24, ["y"] = -3.62, ["z"] = 1.16},
+                ["searched"] = false,
+                ["isBusy"] = false,
+                ["text"] = "Search Wardrobe"
+            },
+            [4] = {
+                ["type"] = "wardrobes",
+                ["coords"] = {["x"] = 1.41, ["y"] = -3.67, ["z"] = 1.16},
+                ["searched"] = false,
+                ["isBusy"] = false,
+                ["text"] = "Search Wardrobe"
+            },
+            [5] = {
+                ["type"] = "wardrobes",
+                ["coords"] = {["x"] = -1.88, ["y"] = -3.71, ["z"] = 1.16},
+                ["searched"] = false,
+                ["isBusy"] = false,
+                ["text"] = "Search Wardrobe"
+            },
+            [6] = {
+                ["type"] = "wardrobes",
+                ["coords"] = {["x"] = -4.38, ["y"] = -3.62, ["z"] = 1.16},
+                ["searched"] = false,
+                ["isBusy"] = false,
+                ["text"] = "Search Wardrobe"
+            },
+            [7] = {
+                ["type"] = "bedsidecabinet",
+                ["coords"] = {["x"] = -5.53, ["y"] = -1.48, ["z"] = 1.16},
                 ["searched"] = false,
                 ["isBusy"] = false,
                 ["text"] = "Search Bedside Cabinet"
             },
-            [2] = {
-                ["type"] = "cabin",
-                ["coords"] = {["x"] = 5.95, ["y"] = 9.34, ["z"] = 1.0},
-                ["searched"] = false,
-                ["isBusy"] = false,
-                ["text"] = "Search Through The Wardrobe"
-            },
-            [3] = {
-                ["type"] = "kitchen",
-                ["coords"] = {["x"] = -1.03, ["y"] = 0.78, ["z"] = 1.0},
-                ["searched"] = false,
-                ["isBusy"] = false,
-                ["text"] = "Search Through Kitchen Drawers"
-            },
-            [4] = {
-                ["type"] = "chest",
-                ["coords"] = {["x"] = 6.904, ["y"] = 3.987, ["z"] = 1.0},
-                ["searched"] = false,
-                ["isBusy"] = false,
-                ["text"] = "Search Through Chest"
-            },
-            [5] = {
-                ["type"] = "cabin",
-                ["coords"] = {["x"] = 0.933, ["y"] = 1.254, ["z"] = 1.0},
-                ["searched"] = false,
-                ["isBusy"] = false,
-                ["text"] = "Search Through Drawers"
-            },
-            [6] = {
-                ["type"] = "cabin",
-                ["coords"] = {["x"] = 6.19, ["y"] = 3.35, ["z"] = 1.0},
-                ["searched"] = false,
-                ["isBusy"] = false,
-                ["text"] = "Search Through Nighstand Cabinet"
-            },
-            [7] = {
-                ["type"] = "kitchen",
-                ["coords"] = {["x"] = -2.20, ["y"] = -0.30, ["z"] = 1.0},
-                ["searched"] = false,
-                ["isBusy"] = false,
-                ["text"] = "Search Through Kitchen Drawers"
-            },
             [8] = {
-                ["type"] = "kitchen",
-                ["coords"] = {["x"] = -4.35, ["y"] = -0.64, ["z"] = 1.0},
+                ["type"] = "bedsidecabinet",
+                ["coords"] = {["x"] = -5.39, ["y"] = 1.66, ["z"] = 1.16},
                 ["searched"] = false,
                 ["isBusy"] = false,
-                ["text"] = "Search Through Shelves"
+                ["text"] = "Search Bedside Cabinet"
             },
             [9] = {
-                ["type"] = "livingroom",
-                ["coords"] = {["x"] = -6.90, ["y"] = 4.42, ["z"] = 1.0},
+                ["type"] = "chairs",
+                ["coords"] = {["x"] = -1.38, ["y"] = 3.03, ["z"] = 1.16},
                 ["searched"] = false,
                 ["isBusy"] = false,
-                ["text"] = "Search Through Shelves"
+                ["text"] = "Search Lounge chairs"
             },
             [10] = {
-                ["type"] = "livingroom",
-                ["coords"] = {["x"] = -6.98, ["y"] = 7.91, ["z"] = 1.0},
+                ["type"] = "chairs",
+                ["coords"] = {["x"] = 1.46, ["y"] = 3.06, ["z"] = 1.16},
                 ["searched"] = false,
                 ["isBusy"] = false,
-                ["text"] = "Search Through Shelves"
+                ["text"] = "Search Lounge chairs"
             },
             [11] = {
-                ["type"] = "cabin",
-                ["coords"] = {["x"] = 4.19, ["y"] = -5.14, ["z"] = 1.0},
-                ["searched"] = false,
-                ["isBusy"] = false,
-                ["text"] = "Search Through Side Table"
-            },
-            [12] = {
-                ["type"] = "livingroom",
-                ["coords"] = {["x"] = 0.25, ["y"] = 6.12, ["z"] = 1.0},
-                ["searched"] = false,
-                ["isBusy"] = false,
-                ["text"] = "Search Through Shelves"
-            },
-            [13] = {
-                ["type"] = "cabin",
-                ["coords"] = {["x"] = -4.44, ["y"] = 6.68, ["z"] = 1.0},
-                ["searched"] = false,
-                ["isBusy"] = false,
-                ["text"] = "Search Through Coffee Table"
-            },
-            [14] = {
-                ["type"] = "chest",
-                ["coords"] = {["x"] = 4.79, ["y"] = 5.41, ["z"] = 1.0},
+                ["type"] = "bed",
+                ["coords"] = {["x"] = -2.97, ["y"] = 0.14, ["z"] = 1.16},
                 ["searched"] = false,
                 ["isBusy"] = false,
                 ["text"] = "Search Under The Bed"
@@ -2668,99 +2165,78 @@ Config.Houses = {
         ["tier"] = 1,
         ["furniture"] = {
             [1] = {
-                ["type"] = "cabin",
-                ["coords"] = {["x"] = 4.15, ["y"] = 7.82, ["z"] = 1.0},
+                ["type"] = "cupboards",
+                ["coords"] = {["x"] = 5.72, ["y"] = 0.06, ["z"] = 1.16},
+                ["searched"] = false,
+                ["isBusy"] = false,
+                ["text"] = "Search Cupboards"
+            },
+            [2] = {
+                ["type"] = "cupboards",
+                ["coords"] = {["x"] = -4.27, ["y"] = 3.58, ["z"] = 1.16},
+                ["searched"] = false,
+                ["isBusy"] = false,
+                ["text"] = "Search Cupboards"
+            },
+            [3] = {
+                ["type"] = "wardrobes",
+                ["coords"] = {["x"] = 4.24, ["y"] = -3.62, ["z"] = 1.16},
+                ["searched"] = false,
+                ["isBusy"] = false,
+                ["text"] = "Search Wardrobe"
+            },
+            [4] = {
+                ["type"] = "wardrobes",
+                ["coords"] = {["x"] = 1.41, ["y"] = -3.67, ["z"] = 1.16},
+                ["searched"] = false,
+                ["isBusy"] = false,
+                ["text"] = "Search Wardrobe"
+            },
+            [5] = {
+                ["type"] = "wardrobes",
+                ["coords"] = {["x"] = -1.88, ["y"] = -3.71, ["z"] = 1.16},
+                ["searched"] = false,
+                ["isBusy"] = false,
+                ["text"] = "Search Wardrobe"
+            },
+            [6] = {
+                ["type"] = "wardrobes",
+                ["coords"] = {["x"] = -4.38, ["y"] = -3.62, ["z"] = 1.16},
+                ["searched"] = false,
+                ["isBusy"] = false,
+                ["text"] = "Search Wardrobe"
+            },
+            [7] = {
+                ["type"] = "bedsidecabinet",
+                ["coords"] = {["x"] = -5.53, ["y"] = -1.48, ["z"] = 1.16},
                 ["searched"] = false,
                 ["isBusy"] = false,
                 ["text"] = "Search Bedside Cabinet"
             },
-            [2] = {
-                ["type"] = "cabin",
-                ["coords"] = {["x"] = 5.95, ["y"] = 9.34, ["z"] = 1.0},
-                ["searched"] = false,
-                ["isBusy"] = false,
-                ["text"] = "Search Through The Wardrobe"
-            },
-            [3] = {
-                ["type"] = "kitchen",
-                ["coords"] = {["x"] = -1.03, ["y"] = 0.78, ["z"] = 1.0},
-                ["searched"] = false,
-                ["isBusy"] = false,
-                ["text"] = "Search Through Kitchen Drawers"
-            },
-            [4] = {
-                ["type"] = "chest",
-                ["coords"] = {["x"] = 6.904, ["y"] = 3.987, ["z"] = 1.0},
-                ["searched"] = false,
-                ["isBusy"] = false,
-                ["text"] = "Search Through Chest"
-            },
-            [5] = {
-                ["type"] = "cabin",
-                ["coords"] = {["x"] = 0.933, ["y"] = 1.254, ["z"] = 1.0},
-                ["searched"] = false,
-                ["isBusy"] = false,
-                ["text"] = "Search Through Drawers"
-            },
-            [6] = {
-                ["type"] = "cabin",
-                ["coords"] = {["x"] = 6.19, ["y"] = 3.35, ["z"] = 1.0},
-                ["searched"] = false,
-                ["isBusy"] = false,
-                ["text"] = "Search Through Nighstand Cabinet"
-            },
-            [7] = {
-                ["type"] = "kitchen",
-                ["coords"] = {["x"] = -2.20, ["y"] = -0.30, ["z"] = 1.0},
-                ["searched"] = false,
-                ["isBusy"] = false,
-                ["text"] = "Search Through Kitchen Drawers"
-            },
             [8] = {
-                ["type"] = "kitchen",
-                ["coords"] = {["x"] = -4.35, ["y"] = -0.64, ["z"] = 1.0},
+                ["type"] = "bedsidecabinet",
+                ["coords"] = {["x"] = -5.39, ["y"] = 1.66, ["z"] = 1.16},
                 ["searched"] = false,
                 ["isBusy"] = false,
-                ["text"] = "Search Through Shelves"
+                ["text"] = "Search Bedside Cabinet"
             },
             [9] = {
-                ["type"] = "livingroom",
-                ["coords"] = {["x"] = -6.90, ["y"] = 4.42, ["z"] = 1.0},
+                ["type"] = "chairs",
+                ["coords"] = {["x"] = -1.38, ["y"] = 3.03, ["z"] = 1.16},
                 ["searched"] = false,
                 ["isBusy"] = false,
-                ["text"] = "Search Through Shelves"
+                ["text"] = "Search Lounge chairs"
             },
             [10] = {
-                ["type"] = "livingroom",
-                ["coords"] = {["x"] = -6.98, ["y"] = 7.91, ["z"] = 1.0},
+                ["type"] = "chairs",
+                ["coords"] = {["x"] = 1.46, ["y"] = 3.06, ["z"] = 1.16},
                 ["searched"] = false,
                 ["isBusy"] = false,
-                ["text"] = "Search Through Shelves"
+                ["text"] = "Search Lounge chairs"
             },
             [11] = {
-                ["type"] = "cabin",
-                ["coords"] = {["x"] = 4.19, ["y"] = -5.14, ["z"] = 1.0},
-                ["searched"] = false,
-                ["isBusy"] = false,
-                ["text"] = "Search Through Side Table"
-            },
-            [12] = {
-                ["type"] = "livingroom",
-                ["coords"] = {["x"] = 0.25, ["y"] = 6.12, ["z"] = 1.0},
-                ["searched"] = false,
-                ["isBusy"] = false,
-                ["text"] = "Search Through Shelves"
-            },
-            [13] = {
-                ["type"] = "cabin",
-                ["coords"] = {["x"] = -4.44, ["y"] = 6.68, ["z"] = 1.0},
-                ["searched"] = false,
-                ["isBusy"] = false,
-                ["text"] = "Search Through Coffee Table"
-            },
-            [14] = {
-                ["type"] = "chest",
-                ["coords"] = {["x"] = 4.79, ["y"] = 5.41, ["z"] = 1.0},
+                ["type"] = "bed",
+                ["coords"] = {["x"] = -2.97, ["y"] = 0.14, ["z"] = 1.16},
                 ["searched"] = false,
                 ["isBusy"] = false,
                 ["text"] = "Search Under The Bed"
@@ -2778,99 +2254,78 @@ Config.Houses = {
         ["tier"] = 1,
         ["furniture"] = {
             [1] = {
-                ["type"] = "cabin",
-                ["coords"] = {["x"] = 4.15, ["y"] = 7.82, ["z"] = 1.0},
+                ["type"] = "cupboards",
+                ["coords"] = {["x"] = 5.72, ["y"] = 0.06, ["z"] = 1.16},
+                ["searched"] = false,
+                ["isBusy"] = false,
+                ["text"] = "Search Cupboards"
+            },
+            [2] = {
+                ["type"] = "cupboards",
+                ["coords"] = {["x"] = -4.27, ["y"] = 3.58, ["z"] = 1.16},
+                ["searched"] = false,
+                ["isBusy"] = false,
+                ["text"] = "Search Cupboards"
+            },
+            [3] = {
+                ["type"] = "wardrobes",
+                ["coords"] = {["x"] = 4.24, ["y"] = -3.62, ["z"] = 1.16},
+                ["searched"] = false,
+                ["isBusy"] = false,
+                ["text"] = "Search Wardrobe"
+            },
+            [4] = {
+                ["type"] = "wardrobes",
+                ["coords"] = {["x"] = 1.41, ["y"] = -3.67, ["z"] = 1.16},
+                ["searched"] = false,
+                ["isBusy"] = false,
+                ["text"] = "Search Wardrobe"
+            },
+            [5] = {
+                ["type"] = "wardrobes",
+                ["coords"] = {["x"] = -1.88, ["y"] = -3.71, ["z"] = 1.16},
+                ["searched"] = false,
+                ["isBusy"] = false,
+                ["text"] = "Search Wardrobe"
+            },
+            [6] = {
+                ["type"] = "wardrobes",
+                ["coords"] = {["x"] = -4.38, ["y"] = -3.62, ["z"] = 1.16},
+                ["searched"] = false,
+                ["isBusy"] = false,
+                ["text"] = "Search Wardrobe"
+            },
+            [7] = {
+                ["type"] = "bedsidecabinet",
+                ["coords"] = {["x"] = -5.53, ["y"] = -1.48, ["z"] = 1.16},
                 ["searched"] = false,
                 ["isBusy"] = false,
                 ["text"] = "Search Bedside Cabinet"
             },
-            [2] = {
-                ["type"] = "cabin",
-                ["coords"] = {["x"] = 5.95, ["y"] = 9.34, ["z"] = 1.0},
-                ["searched"] = false,
-                ["isBusy"] = false,
-                ["text"] = "Search Through The Wardrobe"
-            },
-            [3] = {
-                ["type"] = "kitchen",
-                ["coords"] = {["x"] = -1.03, ["y"] = 0.78, ["z"] = 1.0},
-                ["searched"] = false,
-                ["isBusy"] = false,
-                ["text"] = "Search Through Kitchen Drawers"
-            },
-            [4] = {
-                ["type"] = "chest",
-                ["coords"] = {["x"] = 6.904, ["y"] = 3.987, ["z"] = 1.0},
-                ["searched"] = false,
-                ["isBusy"] = false,
-                ["text"] = "Search Through Chest"
-            },
-            [5] = {
-                ["type"] = "cabin",
-                ["coords"] = {["x"] = 0.933, ["y"] = 1.254, ["z"] = 1.0},
-                ["searched"] = false,
-                ["isBusy"] = false,
-                ["text"] = "Search Through Drawers"
-            },
-            [6] = {
-                ["type"] = "cabin",
-                ["coords"] = {["x"] = 6.19, ["y"] = 3.35, ["z"] = 1.0},
-                ["searched"] = false,
-                ["isBusy"] = false,
-                ["text"] = "Search Through Nighstand Cabinet"
-            },
-            [7] = {
-                ["type"] = "kitchen",
-                ["coords"] = {["x"] = -2.20, ["y"] = -0.30, ["z"] = 1.0},
-                ["searched"] = false,
-                ["isBusy"] = false,
-                ["text"] = "Search Through Kitchen Drawers"
-            },
             [8] = {
-                ["type"] = "kitchen",
-                ["coords"] = {["x"] = -4.35, ["y"] = -0.64, ["z"] = 1.0},
+                ["type"] = "bedsidecabinet",
+                ["coords"] = {["x"] = -5.39, ["y"] = 1.66, ["z"] = 1.16},
                 ["searched"] = false,
                 ["isBusy"] = false,
-                ["text"] = "Search Through Shelves"
+                ["text"] = "Search Bedside Cabinet"
             },
             [9] = {
-                ["type"] = "livingroom",
-                ["coords"] = {["x"] = -6.90, ["y"] = 4.42, ["z"] = 1.0},
+                ["type"] = "chairs",
+                ["coords"] = {["x"] = -1.38, ["y"] = 3.03, ["z"] = 1.16},
                 ["searched"] = false,
                 ["isBusy"] = false,
-                ["text"] = "Search Through Shelves"
+                ["text"] = "Search Lounge chairs"
             },
             [10] = {
-                ["type"] = "livingroom",
-                ["coords"] = {["x"] = -6.98, ["y"] = 7.91, ["z"] = 1.0},
+                ["type"] = "chairs",
+                ["coords"] = {["x"] = 1.46, ["y"] = 3.06, ["z"] = 1.16},
                 ["searched"] = false,
                 ["isBusy"] = false,
-                ["text"] = "Search Through Shelves"
+                ["text"] = "Search Lounge chairs"
             },
             [11] = {
-                ["type"] = "cabin",
-                ["coords"] = {["x"] = 4.19, ["y"] = -5.14, ["z"] = 1.0},
-                ["searched"] = false,
-                ["isBusy"] = false,
-                ["text"] = "Search Through Side Table"
-            },
-            [12] = {
-                ["type"] = "livingroom",
-                ["coords"] = {["x"] = 0.25, ["y"] = 6.12, ["z"] = 1.0},
-                ["searched"] = false,
-                ["isBusy"] = false,
-                ["text"] = "Search Through Shelves"
-            },
-            [13] = {
-                ["type"] = "cabin",
-                ["coords"] = {["x"] = -4.44, ["y"] = 6.68, ["z"] = 1.0},
-                ["searched"] = false,
-                ["isBusy"] = false,
-                ["text"] = "Search Through Coffee Table"
-            },
-            [14] = {
-                ["type"] = "chest",
-                ["coords"] = {["x"] = 4.79, ["y"] = 5.41, ["z"] = 1.0},
+                ["type"] = "bed",
+                ["coords"] = {["x"] = -2.97, ["y"] = 0.14, ["z"] = 1.16},
                 ["searched"] = false,
                 ["isBusy"] = false,
                 ["text"] = "Search Under The Bed"
@@ -2888,99 +2343,78 @@ Config.Houses = {
         ["tier"] = 1,
         ["furniture"] = {
             [1] = {
-                ["type"] = "cabin",
-                ["coords"] = {["x"] = 4.15, ["y"] = 7.82, ["z"] = 1.0},
+                ["type"] = "cupboards",
+                ["coords"] = {["x"] = 5.72, ["y"] = 0.06, ["z"] = 1.16},
+                ["searched"] = false,
+                ["isBusy"] = false,
+                ["text"] = "Search Cupboards"
+            },
+            [2] = {
+                ["type"] = "cupboards",
+                ["coords"] = {["x"] = -4.27, ["y"] = 3.58, ["z"] = 1.16},
+                ["searched"] = false,
+                ["isBusy"] = false,
+                ["text"] = "Search Cupboards"
+            },
+            [3] = {
+                ["type"] = "wardrobes",
+                ["coords"] = {["x"] = 4.24, ["y"] = -3.62, ["z"] = 1.16},
+                ["searched"] = false,
+                ["isBusy"] = false,
+                ["text"] = "Search Wardrobe"
+            },
+            [4] = {
+                ["type"] = "wardrobes",
+                ["coords"] = {["x"] = 1.41, ["y"] = -3.67, ["z"] = 1.16},
+                ["searched"] = false,
+                ["isBusy"] = false,
+                ["text"] = "Search Wardrobe"
+            },
+            [5] = {
+                ["type"] = "wardrobes",
+                ["coords"] = {["x"] = -1.88, ["y"] = -3.71, ["z"] = 1.16},
+                ["searched"] = false,
+                ["isBusy"] = false,
+                ["text"] = "Search Wardrobe"
+            },
+            [6] = {
+                ["type"] = "wardrobes",
+                ["coords"] = {["x"] = -4.38, ["y"] = -3.62, ["z"] = 1.16},
+                ["searched"] = false,
+                ["isBusy"] = false,
+                ["text"] = "Search Wardrobe"
+            },
+            [7] = {
+                ["type"] = "bedsidecabinet",
+                ["coords"] = {["x"] = -5.53, ["y"] = -1.48, ["z"] = 1.16},
                 ["searched"] = false,
                 ["isBusy"] = false,
                 ["text"] = "Search Bedside Cabinet"
             },
-            [2] = {
-                ["type"] = "cabin",
-                ["coords"] = {["x"] = 5.95, ["y"] = 9.34, ["z"] = 1.0},
-                ["searched"] = false,
-                ["isBusy"] = false,
-                ["text"] = "Search Through The Wardrobe"
-            },
-            [3] = {
-                ["type"] = "kitchen",
-                ["coords"] = {["x"] = -1.03, ["y"] = 0.78, ["z"] = 1.0},
-                ["searched"] = false,
-                ["isBusy"] = false,
-                ["text"] = "Search Through Kitchen Drawers"
-            },
-            [4] = {
-                ["type"] = "chest",
-                ["coords"] = {["x"] = 6.904, ["y"] = 3.987, ["z"] = 1.0},
-                ["searched"] = false,
-                ["isBusy"] = false,
-                ["text"] = "Search Through Chest"
-            },
-            [5] = {
-                ["type"] = "cabin",
-                ["coords"] = {["x"] = 0.933, ["y"] = 1.254, ["z"] = 1.0},
-                ["searched"] = false,
-                ["isBusy"] = false,
-                ["text"] = "Search Through Drawers"
-            },
-            [6] = {
-                ["type"] = "cabin",
-                ["coords"] = {["x"] = 6.19, ["y"] = 3.35, ["z"] = 1.0},
-                ["searched"] = false,
-                ["isBusy"] = false,
-                ["text"] = "Search Through Nighstand Cabinet"
-            },
-            [7] = {
-                ["type"] = "kitchen",
-                ["coords"] = {["x"] = -2.20, ["y"] = -0.30, ["z"] = 1.0},
-                ["searched"] = false,
-                ["isBusy"] = false,
-                ["text"] = "Search Through Kitchen Drawers"
-            },
             [8] = {
-                ["type"] = "kitchen",
-                ["coords"] = {["x"] = -4.35, ["y"] = -0.64, ["z"] = 1.0},
+                ["type"] = "bedsidecabinet",
+                ["coords"] = {["x"] = -5.39, ["y"] = 1.66, ["z"] = 1.16},
                 ["searched"] = false,
                 ["isBusy"] = false,
-                ["text"] = "Search Through Shelves"
+                ["text"] = "Search Bedside Cabinet"
             },
             [9] = {
-                ["type"] = "livingroom",
-                ["coords"] = {["x"] = -6.90, ["y"] = 4.42, ["z"] = 1.0},
+                ["type"] = "chairs",
+                ["coords"] = {["x"] = -1.38, ["y"] = 3.03, ["z"] = 1.16},
                 ["searched"] = false,
                 ["isBusy"] = false,
-                ["text"] = "Search Through Shelves"
+                ["text"] = "Search Lounge chairs"
             },
             [10] = {
-                ["type"] = "livingroom",
-                ["coords"] = {["x"] = -6.98, ["y"] = 7.91, ["z"] = 1.0},
+                ["type"] = "chairs",
+                ["coords"] = {["x"] = 1.46, ["y"] = 3.06, ["z"] = 1.16},
                 ["searched"] = false,
                 ["isBusy"] = false,
-                ["text"] = "Search Through Shelves"
+                ["text"] = "Search Lounge chairs"
             },
             [11] = {
-                ["type"] = "cabin",
-                ["coords"] = {["x"] = 4.19, ["y"] = -5.14, ["z"] = 1.0},
-                ["searched"] = false,
-                ["isBusy"] = false,
-                ["text"] = "Search Through Side Table"
-            },
-            [12] = {
-                ["type"] = "livingroom",
-                ["coords"] = {["x"] = 0.25, ["y"] = 6.12, ["z"] = 1.0},
-                ["searched"] = false,
-                ["isBusy"] = false,
-                ["text"] = "Search Through Shelves"
-            },
-            [13] = {
-                ["type"] = "cabin",
-                ["coords"] = {["x"] = -4.44, ["y"] = 6.68, ["z"] = 1.0},
-                ["searched"] = false,
-                ["isBusy"] = false,
-                ["text"] = "Search Through Coffee Table"
-            },
-            [14] = {
-                ["type"] = "chest",
-                ["coords"] = {["x"] = 4.79, ["y"] = 5.41, ["z"] = 1.0},
+                ["type"] = "bed",
+                ["coords"] = {["x"] = -2.97, ["y"] = 0.14, ["z"] = 1.16},
                 ["searched"] = false,
                 ["isBusy"] = false,
                 ["text"] = "Search Under The Bed"
@@ -2998,99 +2432,78 @@ Config.Houses = {
         ["tier"] = 1,
         ["furniture"] = {
             [1] = {
-                ["type"] = "cabin",
-                ["coords"] = {["x"] = 4.15, ["y"] = 7.82, ["z"] = 1.0},
+                ["type"] = "cupboards",
+                ["coords"] = {["x"] = 5.72, ["y"] = 0.06, ["z"] = 1.16},
+                ["searched"] = false,
+                ["isBusy"] = false,
+                ["text"] = "Search Cupboards"
+            },
+            [2] = {
+                ["type"] = "cupboards",
+                ["coords"] = {["x"] = -4.27, ["y"] = 3.58, ["z"] = 1.16},
+                ["searched"] = false,
+                ["isBusy"] = false,
+                ["text"] = "Search Cupboards"
+            },
+            [3] = {
+                ["type"] = "wardrobes",
+                ["coords"] = {["x"] = 4.24, ["y"] = -3.62, ["z"] = 1.16},
+                ["searched"] = false,
+                ["isBusy"] = false,
+                ["text"] = "Search Wardrobe"
+            },
+            [4] = {
+                ["type"] = "wardrobes",
+                ["coords"] = {["x"] = 1.41, ["y"] = -3.67, ["z"] = 1.16},
+                ["searched"] = false,
+                ["isBusy"] = false,
+                ["text"] = "Search Wardrobe"
+            },
+            [5] = {
+                ["type"] = "wardrobes",
+                ["coords"] = {["x"] = -1.88, ["y"] = -3.71, ["z"] = 1.16},
+                ["searched"] = false,
+                ["isBusy"] = false,
+                ["text"] = "Search Wardrobe"
+            },
+            [6] = {
+                ["type"] = "wardrobes",
+                ["coords"] = {["x"] = -4.38, ["y"] = -3.62, ["z"] = 1.16},
+                ["searched"] = false,
+                ["isBusy"] = false,
+                ["text"] = "Search Wardrobe"
+            },
+            [7] = {
+                ["type"] = "bedsidecabinet",
+                ["coords"] = {["x"] = -5.53, ["y"] = -1.48, ["z"] = 1.16},
                 ["searched"] = false,
                 ["isBusy"] = false,
                 ["text"] = "Search Bedside Cabinet"
             },
-            [2] = {
-                ["type"] = "cabin",
-                ["coords"] = {["x"] = 5.95, ["y"] = 9.34, ["z"] = 1.0},
-                ["searched"] = false,
-                ["isBusy"] = false,
-                ["text"] = "Search Through The Wardrobe"
-            },
-            [3] = {
-                ["type"] = "kitchen",
-                ["coords"] = {["x"] = -1.03, ["y"] = 0.78, ["z"] = 1.0},
-                ["searched"] = false,
-                ["isBusy"] = false,
-                ["text"] = "Search Through Kitchen Drawers"
-            },
-            [4] = {
-                ["type"] = "chest",
-                ["coords"] = {["x"] = 6.904, ["y"] = 3.987, ["z"] = 1.0},
-                ["searched"] = false,
-                ["isBusy"] = false,
-                ["text"] = "Search Through Chest"
-            },
-            [5] = {
-                ["type"] = "cabin",
-                ["coords"] = {["x"] = 0.933, ["y"] = 1.254, ["z"] = 1.0},
-                ["searched"] = false,
-                ["isBusy"] = false,
-                ["text"] = "Search Through Drawers"
-            },
-            [6] = {
-                ["type"] = "cabin",
-                ["coords"] = {["x"] = 6.19, ["y"] = 3.35, ["z"] = 1.0},
-                ["searched"] = false,
-                ["isBusy"] = false,
-                ["text"] = "Search Through Nighstand Cabinet"
-            },
-            [7] = {
-                ["type"] = "kitchen",
-                ["coords"] = {["x"] = -2.20, ["y"] = -0.30, ["z"] = 1.0},
-                ["searched"] = false,
-                ["isBusy"] = false,
-                ["text"] = "Search Through Kitchen Drawers"
-            },
             [8] = {
-                ["type"] = "kitchen",
-                ["coords"] = {["x"] = -4.35, ["y"] = -0.64, ["z"] = 1.0},
+                ["type"] = "bedsidecabinet",
+                ["coords"] = {["x"] = -5.39, ["y"] = 1.66, ["z"] = 1.16},
                 ["searched"] = false,
                 ["isBusy"] = false,
-                ["text"] = "Search Through Shelves"
+                ["text"] = "Search Bedside Cabinet"
             },
             [9] = {
-                ["type"] = "livingroom",
-                ["coords"] = {["x"] = -6.90, ["y"] = 4.42, ["z"] = 1.0},
+                ["type"] = "chairs",
+                ["coords"] = {["x"] = -1.38, ["y"] = 3.03, ["z"] = 1.16},
                 ["searched"] = false,
                 ["isBusy"] = false,
-                ["text"] = "Search Through Shelves"
+                ["text"] = "Search Lounge chairs"
             },
             [10] = {
-                ["type"] = "livingroom",
-                ["coords"] = {["x"] = -6.98, ["y"] = 7.91, ["z"] = 1.0},
+                ["type"] = "chairs",
+                ["coords"] = {["x"] = 1.46, ["y"] = 3.06, ["z"] = 1.16},
                 ["searched"] = false,
                 ["isBusy"] = false,
-                ["text"] = "Search Through Shelves"
+                ["text"] = "Search Lounge chairs"
             },
             [11] = {
-                ["type"] = "cabin",
-                ["coords"] = {["x"] = 4.19, ["y"] = -5.14, ["z"] = 1.0},
-                ["searched"] = false,
-                ["isBusy"] = false,
-                ["text"] = "Search Through Side Table"
-            },
-            [12] = {
-                ["type"] = "livingroom",
-                ["coords"] = {["x"] = 0.25, ["y"] = 6.12, ["z"] = 1.0},
-                ["searched"] = false,
-                ["isBusy"] = false,
-                ["text"] = "Search Through Shelves"
-            },
-            [13] = {
-                ["type"] = "cabin",
-                ["coords"] = {["x"] = -4.44, ["y"] = 6.68, ["z"] = 1.0},
-                ["searched"] = false,
-                ["isBusy"] = false,
-                ["text"] = "Search Through Coffee Table"
-            },
-            [14] = {
-                ["type"] = "chest",
-                ["coords"] = {["x"] = 4.79, ["y"] = 5.41, ["z"] = 1.0},
+                ["type"] = "bed",
+                ["coords"] = {["x"] = -2.97, ["y"] = 0.14, ["z"] = 1.16},
                 ["searched"] = false,
                 ["isBusy"] = false,
                 ["text"] = "Search Under The Bed"
@@ -3108,99 +2521,78 @@ Config.Houses = {
         ["tier"] = 1,
         ["furniture"] = {
             [1] = {
-                ["type"] = "cabin",
-                ["coords"] = {["x"] = 4.15, ["y"] = 7.82, ["z"] = 1.0},
+                ["type"] = "cupboards",
+                ["coords"] = {["x"] = 5.72, ["y"] = 0.06, ["z"] = 1.16},
+                ["searched"] = false,
+                ["isBusy"] = false,
+                ["text"] = "Search Cupboards"
+            },
+            [2] = {
+                ["type"] = "cupboards",
+                ["coords"] = {["x"] = -4.27, ["y"] = 3.58, ["z"] = 1.16},
+                ["searched"] = false,
+                ["isBusy"] = false,
+                ["text"] = "Search Cupboards"
+            },
+            [3] = {
+                ["type"] = "wardrobes",
+                ["coords"] = {["x"] = 4.24, ["y"] = -3.62, ["z"] = 1.16},
+                ["searched"] = false,
+                ["isBusy"] = false,
+                ["text"] = "Search Wardrobe"
+            },
+            [4] = {
+                ["type"] = "wardrobes",
+                ["coords"] = {["x"] = 1.41, ["y"] = -3.67, ["z"] = 1.16},
+                ["searched"] = false,
+                ["isBusy"] = false,
+                ["text"] = "Search Wardrobe"
+            },
+            [5] = {
+                ["type"] = "wardrobes",
+                ["coords"] = {["x"] = -1.88, ["y"] = -3.71, ["z"] = 1.16},
+                ["searched"] = false,
+                ["isBusy"] = false,
+                ["text"] = "Search Wardrobe"
+            },
+            [6] = {
+                ["type"] = "wardrobes",
+                ["coords"] = {["x"] = -4.38, ["y"] = -3.62, ["z"] = 1.16},
+                ["searched"] = false,
+                ["isBusy"] = false,
+                ["text"] = "Search Wardrobe"
+            },
+            [7] = {
+                ["type"] = "bedsidecabinet",
+                ["coords"] = {["x"] = -5.53, ["y"] = -1.48, ["z"] = 1.16},
                 ["searched"] = false,
                 ["isBusy"] = false,
                 ["text"] = "Search Bedside Cabinet"
             },
-            [2] = {
-                ["type"] = "cabin",
-                ["coords"] = {["x"] = 5.95, ["y"] = 9.34, ["z"] = 1.0},
-                ["searched"] = false,
-                ["isBusy"] = false,
-                ["text"] = "Search Through The Wardrobe"
-            },
-            [3] = {
-                ["type"] = "kitchen",
-                ["coords"] = {["x"] = -1.03, ["y"] = 0.78, ["z"] = 1.0},
-                ["searched"] = false,
-                ["isBusy"] = false,
-                ["text"] = "Search Through Kitchen Drawers"
-            },
-            [4] = {
-                ["type"] = "chest",
-                ["coords"] = {["x"] = 6.904, ["y"] = 3.987, ["z"] = 1.0},
-                ["searched"] = false,
-                ["isBusy"] = false,
-                ["text"] = "Search Through Chest"
-            },
-            [5] = {
-                ["type"] = "cabin",
-                ["coords"] = {["x"] = 0.933, ["y"] = 1.254, ["z"] = 1.0},
-                ["searched"] = false,
-                ["isBusy"] = false,
-                ["text"] = "Search Through Drawers"
-            },
-            [6] = {
-                ["type"] = "cabin",
-                ["coords"] = {["x"] = 6.19, ["y"] = 3.35, ["z"] = 1.0},
-                ["searched"] = false,
-                ["isBusy"] = false,
-                ["text"] = "Search Through Nighstand Cabinet"
-            },
-            [7] = {
-                ["type"] = "kitchen",
-                ["coords"] = {["x"] = -2.20, ["y"] = -0.30, ["z"] = 1.0},
-                ["searched"] = false,
-                ["isBusy"] = false,
-                ["text"] = "Search Through Kitchen Drawers"
-            },
             [8] = {
-                ["type"] = "kitchen",
-                ["coords"] = {["x"] = -4.35, ["y"] = -0.64, ["z"] = 1.0},
+                ["type"] = "bedsidecabinet",
+                ["coords"] = {["x"] = -5.39, ["y"] = 1.66, ["z"] = 1.16},
                 ["searched"] = false,
                 ["isBusy"] = false,
-                ["text"] = "Search Through Shelves"
+                ["text"] = "Search Bedside Cabinet"
             },
             [9] = {
-                ["type"] = "livingroom",
-                ["coords"] = {["x"] = -6.90, ["y"] = 4.42, ["z"] = 1.0},
+                ["type"] = "chairs",
+                ["coords"] = {["x"] = -1.38, ["y"] = 3.03, ["z"] = 1.16},
                 ["searched"] = false,
                 ["isBusy"] = false,
-                ["text"] = "Search Through Shelves"
+                ["text"] = "Search Lounge chairs"
             },
             [10] = {
-                ["type"] = "livingroom",
-                ["coords"] = {["x"] = -6.98, ["y"] = 7.91, ["z"] = 1.0},
+                ["type"] = "chairs",
+                ["coords"] = {["x"] = 1.46, ["y"] = 3.06, ["z"] = 1.16},
                 ["searched"] = false,
                 ["isBusy"] = false,
-                ["text"] = "Search Through Shelves"
+                ["text"] = "Search Lounge chairs"
             },
             [11] = {
-                ["type"] = "cabin",
-                ["coords"] = {["x"] = 4.19, ["y"] = -5.14, ["z"] = 1.0},
-                ["searched"] = false,
-                ["isBusy"] = false,
-                ["text"] = "Search Through Side Table"
-            },
-            [12] = {
-                ["type"] = "livingroom",
-                ["coords"] = {["x"] = 0.25, ["y"] = 6.12, ["z"] = 1.0},
-                ["searched"] = false,
-                ["isBusy"] = false,
-                ["text"] = "Search Through Shelves"
-            },
-            [13] = {
-                ["type"] = "cabin",
-                ["coords"] = {["x"] = -4.44, ["y"] = 6.68, ["z"] = 1.0},
-                ["searched"] = false,
-                ["isBusy"] = false,
-                ["text"] = "Search Through Coffee Table"
-            },
-            [14] = {
-                ["type"] = "chest",
-                ["coords"] = {["x"] = 4.79, ["y"] = 5.41, ["z"] = 1.0},
+                ["type"] = "bed",
+                ["coords"] = {["x"] = -2.97, ["y"] = 0.14, ["z"] = 1.16},
                 ["searched"] = false,
                 ["isBusy"] = false,
                 ["text"] = "Search Under The Bed"
@@ -3218,99 +2610,78 @@ Config.Houses = {
         ["tier"] = 1,
         ["furniture"] = {
             [1] = {
-                ["type"] = "cabin",
-                ["coords"] = {["x"] = 4.15, ["y"] = 7.82, ["z"] = 1.0},
+                ["type"] = "cupboards",
+                ["coords"] = {["x"] = 5.72, ["y"] = 0.06, ["z"] = 1.16},
+                ["searched"] = false,
+                ["isBusy"] = false,
+                ["text"] = "Search Cupboards"
+            },
+            [2] = {
+                ["type"] = "cupboards",
+                ["coords"] = {["x"] = -4.27, ["y"] = 3.58, ["z"] = 1.16},
+                ["searched"] = false,
+                ["isBusy"] = false,
+                ["text"] = "Search Cupboards"
+            },
+            [3] = {
+                ["type"] = "wardrobes",
+                ["coords"] = {["x"] = 4.24, ["y"] = -3.62, ["z"] = 1.16},
+                ["searched"] = false,
+                ["isBusy"] = false,
+                ["text"] = "Search Wardrobe"
+            },
+            [4] = {
+                ["type"] = "wardrobes",
+                ["coords"] = {["x"] = 1.41, ["y"] = -3.67, ["z"] = 1.16},
+                ["searched"] = false,
+                ["isBusy"] = false,
+                ["text"] = "Search Wardrobe"
+            },
+            [5] = {
+                ["type"] = "wardrobes",
+                ["coords"] = {["x"] = -1.88, ["y"] = -3.71, ["z"] = 1.16},
+                ["searched"] = false,
+                ["isBusy"] = false,
+                ["text"] = "Search Wardrobe"
+            },
+            [6] = {
+                ["type"] = "wardrobes",
+                ["coords"] = {["x"] = -4.38, ["y"] = -3.62, ["z"] = 1.16},
+                ["searched"] = false,
+                ["isBusy"] = false,
+                ["text"] = "Search Wardrobe"
+            },
+            [7] = {
+                ["type"] = "bedsidecabinet",
+                ["coords"] = {["x"] = -5.53, ["y"] = -1.48, ["z"] = 1.16},
                 ["searched"] = false,
                 ["isBusy"] = false,
                 ["text"] = "Search Bedside Cabinet"
             },
-            [2] = {
-                ["type"] = "cabin",
-                ["coords"] = {["x"] = 5.95, ["y"] = 9.34, ["z"] = 1.0},
-                ["searched"] = false,
-                ["isBusy"] = false,
-                ["text"] = "Search Through The Wardrobe"
-            },
-            [3] = {
-                ["type"] = "kitchen",
-                ["coords"] = {["x"] = -1.03, ["y"] = 0.78, ["z"] = 1.0},
-                ["searched"] = false,
-                ["isBusy"] = false,
-                ["text"] = "Search Through Kitchen Drawers"
-            },
-            [4] = {
-                ["type"] = "chest",
-                ["coords"] = {["x"] = 6.904, ["y"] = 3.987, ["z"] = 1.0},
-                ["searched"] = false,
-                ["isBusy"] = false,
-                ["text"] = "Search Through Chest"
-            },
-            [5] = {
-                ["type"] = "cabin",
-                ["coords"] = {["x"] = 0.933, ["y"] = 1.254, ["z"] = 1.0},
-                ["searched"] = false,
-                ["isBusy"] = false,
-                ["text"] = "Search Through Drawers"
-            },
-            [6] = {
-                ["type"] = "cabin",
-                ["coords"] = {["x"] = 6.19, ["y"] = 3.35, ["z"] = 1.0},
-                ["searched"] = false,
-                ["isBusy"] = false,
-                ["text"] = "Search Through Nighstand Cabinet"
-            },
-            [7] = {
-                ["type"] = "kitchen",
-                ["coords"] = {["x"] = -2.20, ["y"] = -0.30, ["z"] = 1.0},
-                ["searched"] = false,
-                ["isBusy"] = false,
-                ["text"] = "Search Through Kitchen Drawers"
-            },
             [8] = {
-                ["type"] = "kitchen",
-                ["coords"] = {["x"] = -4.35, ["y"] = -0.64, ["z"] = 1.0},
+                ["type"] = "bedsidecabinet",
+                ["coords"] = {["x"] = -5.39, ["y"] = 1.66, ["z"] = 1.16},
                 ["searched"] = false,
                 ["isBusy"] = false,
-                ["text"] = "Search Through Shelves"
+                ["text"] = "Search Bedside Cabinet"
             },
             [9] = {
-                ["type"] = "livingroom",
-                ["coords"] = {["x"] = -6.90, ["y"] = 4.42, ["z"] = 1.0},
+                ["type"] = "chairs",
+                ["coords"] = {["x"] = -1.38, ["y"] = 3.03, ["z"] = 1.16},
                 ["searched"] = false,
                 ["isBusy"] = false,
-                ["text"] = "Search Through Shelves"
+                ["text"] = "Search Lounge chairs"
             },
             [10] = {
-                ["type"] = "livingroom",
-                ["coords"] = {["x"] = -6.98, ["y"] = 7.91, ["z"] = 1.0},
+                ["type"] = "chairs",
+                ["coords"] = {["x"] = 1.46, ["y"] = 3.06, ["z"] = 1.16},
                 ["searched"] = false,
                 ["isBusy"] = false,
-                ["text"] = "Search Through Shelves"
+                ["text"] = "Search Lounge chairs"
             },
             [11] = {
-                ["type"] = "cabin",
-                ["coords"] = {["x"] = 4.19, ["y"] = -5.14, ["z"] = 1.0},
-                ["searched"] = false,
-                ["isBusy"] = false,
-                ["text"] = "Search Through Side Table"
-            },
-            [12] = {
-                ["type"] = "livingroom",
-                ["coords"] = {["x"] = 0.25, ["y"] = 6.12, ["z"] = 1.0},
-                ["searched"] = false,
-                ["isBusy"] = false,
-                ["text"] = "Search Through Shelves"
-            },
-            [13] = {
-                ["type"] = "cabin",
-                ["coords"] = {["x"] = -4.44, ["y"] = 6.68, ["z"] = 1.0},
-                ["searched"] = false,
-                ["isBusy"] = false,
-                ["text"] = "Search Through Coffee Table"
-            },
-            [14] = {
-                ["type"] = "chest",
-                ["coords"] = {["x"] = 4.79, ["y"] = 5.41, ["z"] = 1.0},
+                ["type"] = "bed",
+                ["coords"] = {["x"] = -2.97, ["y"] = 0.14, ["z"] = 1.16},
                 ["searched"] = false,
                 ["isBusy"] = false,
                 ["text"] = "Search Under The Bed"
@@ -3328,99 +2699,78 @@ Config.Houses = {
         ["tier"] = 1,
         ["furniture"] = {
             [1] = {
-                ["type"] = "cabin",
-                ["coords"] = {["x"] = 4.15, ["y"] = 7.82, ["z"] = 1.0},
+                ["type"] = "cupboards",
+                ["coords"] = {["x"] = 5.72, ["y"] = 0.06, ["z"] = 1.16},
+                ["searched"] = false,
+                ["isBusy"] = false,
+                ["text"] = "Search Cupboards"
+            },
+            [2] = {
+                ["type"] = "cupboards",
+                ["coords"] = {["x"] = -4.27, ["y"] = 3.58, ["z"] = 1.16},
+                ["searched"] = false,
+                ["isBusy"] = false,
+                ["text"] = "Search Cupboards"
+            },
+            [3] = {
+                ["type"] = "wardrobes",
+                ["coords"] = {["x"] = 4.24, ["y"] = -3.62, ["z"] = 1.16},
+                ["searched"] = false,
+                ["isBusy"] = false,
+                ["text"] = "Search Wardrobe"
+            },
+            [4] = {
+                ["type"] = "wardrobes",
+                ["coords"] = {["x"] = 1.41, ["y"] = -3.67, ["z"] = 1.16},
+                ["searched"] = false,
+                ["isBusy"] = false,
+                ["text"] = "Search Wardrobe"
+            },
+            [5] = {
+                ["type"] = "wardrobes",
+                ["coords"] = {["x"] = -1.88, ["y"] = -3.71, ["z"] = 1.16},
+                ["searched"] = false,
+                ["isBusy"] = false,
+                ["text"] = "Search Wardrobe"
+            },
+            [6] = {
+                ["type"] = "wardrobes",
+                ["coords"] = {["x"] = -4.38, ["y"] = -3.62, ["z"] = 1.16},
+                ["searched"] = false,
+                ["isBusy"] = false,
+                ["text"] = "Search Wardrobe"
+            },
+            [7] = {
+                ["type"] = "bedsidecabinet",
+                ["coords"] = {["x"] = -5.53, ["y"] = -1.48, ["z"] = 1.16},
                 ["searched"] = false,
                 ["isBusy"] = false,
                 ["text"] = "Search Bedside Cabinet"
             },
-            [2] = {
-                ["type"] = "cabin",
-                ["coords"] = {["x"] = 5.95, ["y"] = 9.34, ["z"] = 1.0},
-                ["searched"] = false,
-                ["isBusy"] = false,
-                ["text"] = "Search Through The Wardrobe"
-            },
-            [3] = {
-                ["type"] = "kitchen",
-                ["coords"] = {["x"] = -1.03, ["y"] = 0.78, ["z"] = 1.0},
-                ["searched"] = false,
-                ["isBusy"] = false,
-                ["text"] = "Search Through Kitchen Drawers"
-            },
-            [4] = {
-                ["type"] = "chest",
-                ["coords"] = {["x"] = 6.904, ["y"] = 3.987, ["z"] = 1.0},
-                ["searched"] = false,
-                ["isBusy"] = false,
-                ["text"] = "Search Through Chest"
-            },
-            [5] = {
-                ["type"] = "cabin",
-                ["coords"] = {["x"] = 0.933, ["y"] = 1.254, ["z"] = 1.0},
-                ["searched"] = false,
-                ["isBusy"] = false,
-                ["text"] = "Search Through Drawers"
-            },
-            [6] = {
-                ["type"] = "cabin",
-                ["coords"] = {["x"] = 6.19, ["y"] = 3.35, ["z"] = 1.0},
-                ["searched"] = false,
-                ["isBusy"] = false,
-                ["text"] = "Search Through Nighstand Cabinet"
-            },
-            [7] = {
-                ["type"] = "kitchen",
-                ["coords"] = {["x"] = -2.20, ["y"] = -0.30, ["z"] = 1.0},
-                ["searched"] = false,
-                ["isBusy"] = false,
-                ["text"] = "Search Through Kitchen Drawers"
-            },
             [8] = {
-                ["type"] = "kitchen",
-                ["coords"] = {["x"] = -4.35, ["y"] = -0.64, ["z"] = 1.0},
+                ["type"] = "bedsidecabinet",
+                ["coords"] = {["x"] = -5.39, ["y"] = 1.66, ["z"] = 1.16},
                 ["searched"] = false,
                 ["isBusy"] = false,
-                ["text"] = "Search Through Shelves"
+                ["text"] = "Search Bedside Cabinet"
             },
             [9] = {
-                ["type"] = "livingroom",
-                ["coords"] = {["x"] = -6.90, ["y"] = 4.42, ["z"] = 1.0},
+                ["type"] = "chairs",
+                ["coords"] = {["x"] = -1.38, ["y"] = 3.03, ["z"] = 1.16},
                 ["searched"] = false,
                 ["isBusy"] = false,
-                ["text"] = "Search Through Shelves"
+                ["text"] = "Search Lounge chairs"
             },
             [10] = {
-                ["type"] = "livingroom",
-                ["coords"] = {["x"] = -6.98, ["y"] = 7.91, ["z"] = 1.0},
+                ["type"] = "chairs",
+                ["coords"] = {["x"] = 1.46, ["y"] = 3.06, ["z"] = 1.16},
                 ["searched"] = false,
                 ["isBusy"] = false,
-                ["text"] = "Search Through Shelves"
+                ["text"] = "Search Lounge chairs"
             },
             [11] = {
-                ["type"] = "cabin",
-                ["coords"] = {["x"] = 4.19, ["y"] = -5.14, ["z"] = 1.0},
-                ["searched"] = false,
-                ["isBusy"] = false,
-                ["text"] = "Search Through Side Table"
-            },
-            [12] = {
-                ["type"] = "livingroom",
-                ["coords"] = {["x"] = 0.25, ["y"] = 6.12, ["z"] = 1.0},
-                ["searched"] = false,
-                ["isBusy"] = false,
-                ["text"] = "Search Through Shelves"
-            },
-            [13] = {
-                ["type"] = "cabin",
-                ["coords"] = {["x"] = -4.44, ["y"] = 6.68, ["z"] = 1.0},
-                ["searched"] = false,
-                ["isBusy"] = false,
-                ["text"] = "Search Through Coffee Table"
-            },
-            [14] = {
-                ["type"] = "chest",
-                ["coords"] = {["x"] = 4.79, ["y"] = 5.41, ["z"] = 1.0},
+                ["type"] = "bed",
+                ["coords"] = {["x"] = -2.97, ["y"] = 0.14, ["z"] = 1.16},
                 ["searched"] = false,
                 ["isBusy"] = false,
                 ["text"] = "Search Under The Bed"
@@ -3438,99 +2788,78 @@ Config.Houses = {
         ["tier"] = 1,
         ["furniture"] = {
             [1] = {
-                ["type"] = "cabin",
-                ["coords"] = {["x"] = 4.15, ["y"] = 7.82, ["z"] = 1.0},
+                ["type"] = "cupboards",
+                ["coords"] = {["x"] = 5.72, ["y"] = 0.06, ["z"] = 1.16},
+                ["searched"] = false,
+                ["isBusy"] = false,
+                ["text"] = "Search Cupboards"
+            },
+            [2] = {
+                ["type"] = "cupboards",
+                ["coords"] = {["x"] = -4.27, ["y"] = 3.58, ["z"] = 1.16},
+                ["searched"] = false,
+                ["isBusy"] = false,
+                ["text"] = "Search Cupboards"
+            },
+            [3] = {
+                ["type"] = "wardrobes",
+                ["coords"] = {["x"] = 4.24, ["y"] = -3.62, ["z"] = 1.16},
+                ["searched"] = false,
+                ["isBusy"] = false,
+                ["text"] = "Search Wardrobe"
+            },
+            [4] = {
+                ["type"] = "wardrobes",
+                ["coords"] = {["x"] = 1.41, ["y"] = -3.67, ["z"] = 1.16},
+                ["searched"] = false,
+                ["isBusy"] = false,
+                ["text"] = "Search Wardrobe"
+            },
+            [5] = {
+                ["type"] = "wardrobes",
+                ["coords"] = {["x"] = -1.88, ["y"] = -3.71, ["z"] = 1.16},
+                ["searched"] = false,
+                ["isBusy"] = false,
+                ["text"] = "Search Wardrobe"
+            },
+            [6] = {
+                ["type"] = "wardrobes",
+                ["coords"] = {["x"] = -4.38, ["y"] = -3.62, ["z"] = 1.16},
+                ["searched"] = false,
+                ["isBusy"] = false,
+                ["text"] = "Search Wardrobe"
+            },
+            [7] = {
+                ["type"] = "bedsidecabinet",
+                ["coords"] = {["x"] = -5.53, ["y"] = -1.48, ["z"] = 1.16},
                 ["searched"] = false,
                 ["isBusy"] = false,
                 ["text"] = "Search Bedside Cabinet"
             },
-            [2] = {
-                ["type"] = "cabin",
-                ["coords"] = {["x"] = 5.95, ["y"] = 9.34, ["z"] = 1.0},
-                ["searched"] = false,
-                ["isBusy"] = false,
-                ["text"] = "Search Through The Wardrobe"
-            },
-            [3] = {
-                ["type"] = "kitchen",
-                ["coords"] = {["x"] = -1.03, ["y"] = 0.78, ["z"] = 1.0},
-                ["searched"] = false,
-                ["isBusy"] = false,
-                ["text"] = "Search Through Kitchen Drawers"
-            },
-            [4] = {
-                ["type"] = "chest",
-                ["coords"] = {["x"] = 6.904, ["y"] = 3.987, ["z"] = 1.0},
-                ["searched"] = false,
-                ["isBusy"] = false,
-                ["text"] = "Search Through Chest"
-            },
-            [5] = {
-                ["type"] = "cabin",
-                ["coords"] = {["x"] = 0.933, ["y"] = 1.254, ["z"] = 1.0},
-                ["searched"] = false,
-                ["isBusy"] = false,
-                ["text"] = "Search Through Drawers"
-            },
-            [6] = {
-                ["type"] = "cabin",
-                ["coords"] = {["x"] = 6.19, ["y"] = 3.35, ["z"] = 1.0},
-                ["searched"] = false,
-                ["isBusy"] = false,
-                ["text"] = "Search Through Nighstand Cabinet"
-            },
-            [7] = {
-                ["type"] = "kitchen",
-                ["coords"] = {["x"] = -2.20, ["y"] = -0.30, ["z"] = 1.0},
-                ["searched"] = false,
-                ["isBusy"] = false,
-                ["text"] = "Search Through Kitchen Drawers"
-            },
             [8] = {
-                ["type"] = "kitchen",
-                ["coords"] = {["x"] = -4.35, ["y"] = -0.64, ["z"] = 1.0},
+                ["type"] = "bedsidecabinet",
+                ["coords"] = {["x"] = -5.39, ["y"] = 1.66, ["z"] = 1.16},
                 ["searched"] = false,
                 ["isBusy"] = false,
-                ["text"] = "Search Through Shelves"
+                ["text"] = "Search Bedside Cabinet"
             },
             [9] = {
-                ["type"] = "livingroom",
-                ["coords"] = {["x"] = -6.90, ["y"] = 4.42, ["z"] = 1.0},
+                ["type"] = "chairs",
+                ["coords"] = {["x"] = -1.38, ["y"] = 3.03, ["z"] = 1.16},
                 ["searched"] = false,
                 ["isBusy"] = false,
-                ["text"] = "Search Through Shelves"
+                ["text"] = "Search Lounge chairs"
             },
             [10] = {
-                ["type"] = "livingroom",
-                ["coords"] = {["x"] = -6.98, ["y"] = 7.91, ["z"] = 1.0},
+                ["type"] = "chairs",
+                ["coords"] = {["x"] = 1.46, ["y"] = 3.06, ["z"] = 1.16},
                 ["searched"] = false,
                 ["isBusy"] = false,
-                ["text"] = "Search Through Shelves"
+                ["text"] = "Search Lounge chairs"
             },
             [11] = {
-                ["type"] = "cabin",
-                ["coords"] = {["x"] = 4.19, ["y"] = -5.14, ["z"] = 1.0},
-                ["searched"] = false,
-                ["isBusy"] = false,
-                ["text"] = "Search Through Side Table"
-            },
-            [12] = {
-                ["type"] = "livingroom",
-                ["coords"] = {["x"] = 0.25, ["y"] = 6.12, ["z"] = 1.0},
-                ["searched"] = false,
-                ["isBusy"] = false,
-                ["text"] = "Search Through Shelves"
-            },
-            [13] = {
-                ["type"] = "cabin",
-                ["coords"] = {["x"] = -4.44, ["y"] = 6.68, ["z"] = 1.0},
-                ["searched"] = false,
-                ["isBusy"] = false,
-                ["text"] = "Search Through Coffee Table"
-            },
-            [14] = {
-                ["type"] = "chest",
-                ["coords"] = {["x"] = 4.79, ["y"] = 5.41, ["z"] = 1.0},
+                ["type"] = "bed",
+                ["coords"] = {["x"] = -2.97, ["y"] = 0.14, ["z"] = 1.16},
                 ["searched"] = false,
                 ["isBusy"] = false,
                 ["text"] = "Search Under The Bed"
@@ -3548,99 +2877,78 @@ Config.Houses = {
         ["tier"] = 1,
         ["furniture"] = {
             [1] = {
-                ["type"] = "cabin",
-                ["coords"] = {["x"] = 4.15, ["y"] = 7.82, ["z"] = 1.0},
+                ["type"] = "cupboards",
+                ["coords"] = {["x"] = 5.72, ["y"] = 0.06, ["z"] = 1.16},
+                ["searched"] = false,
+                ["isBusy"] = false,
+                ["text"] = "Search Cupboards"
+            },
+            [2] = {
+                ["type"] = "cupboards",
+                ["coords"] = {["x"] = -4.27, ["y"] = 3.58, ["z"] = 1.16},
+                ["searched"] = false,
+                ["isBusy"] = false,
+                ["text"] = "Search Cupboards"
+            },
+            [3] = {
+                ["type"] = "wardrobes",
+                ["coords"] = {["x"] = 4.24, ["y"] = -3.62, ["z"] = 1.16},
+                ["searched"] = false,
+                ["isBusy"] = false,
+                ["text"] = "Search Wardrobe"
+            },
+            [4] = {
+                ["type"] = "wardrobes",
+                ["coords"] = {["x"] = 1.41, ["y"] = -3.67, ["z"] = 1.16},
+                ["searched"] = false,
+                ["isBusy"] = false,
+                ["text"] = "Search Wardrobe"
+            },
+            [5] = {
+                ["type"] = "wardrobes",
+                ["coords"] = {["x"] = -1.88, ["y"] = -3.71, ["z"] = 1.16},
+                ["searched"] = false,
+                ["isBusy"] = false,
+                ["text"] = "Search Wardrobe"
+            },
+            [6] = {
+                ["type"] = "wardrobes",
+                ["coords"] = {["x"] = -4.38, ["y"] = -3.62, ["z"] = 1.16},
+                ["searched"] = false,
+                ["isBusy"] = false,
+                ["text"] = "Search Wardrobe"
+            },
+            [7] = {
+                ["type"] = "bedsidecabinet",
+                ["coords"] = {["x"] = -5.53, ["y"] = -1.48, ["z"] = 1.16},
                 ["searched"] = false,
                 ["isBusy"] = false,
                 ["text"] = "Search Bedside Cabinet"
             },
-            [2] = {
-                ["type"] = "cabin",
-                ["coords"] = {["x"] = 5.95, ["y"] = 9.34, ["z"] = 1.0},
-                ["searched"] = false,
-                ["isBusy"] = false,
-                ["text"] = "Search Through The Wardrobe"
-            },
-            [3] = {
-                ["type"] = "kitchen",
-                ["coords"] = {["x"] = -1.03, ["y"] = 0.78, ["z"] = 1.0},
-                ["searched"] = false,
-                ["isBusy"] = false,
-                ["text"] = "Search Through Kitchen Drawers"
-            },
-            [4] = {
-                ["type"] = "chest",
-                ["coords"] = {["x"] = 6.904, ["y"] = 3.987, ["z"] = 1.0},
-                ["searched"] = false,
-                ["isBusy"] = false,
-                ["text"] = "Search Through Chest"
-            },
-            [5] = {
-                ["type"] = "cabin",
-                ["coords"] = {["x"] = 0.933, ["y"] = 1.254, ["z"] = 1.0},
-                ["searched"] = false,
-                ["isBusy"] = false,
-                ["text"] = "Search Through Drawers"
-            },
-            [6] = {
-                ["type"] = "cabin",
-                ["coords"] = {["x"] = 6.19, ["y"] = 3.35, ["z"] = 1.0},
-                ["searched"] = false,
-                ["isBusy"] = false,
-                ["text"] = "Search Through Nighstand Cabinet"
-            },
-            [7] = {
-                ["type"] = "kitchen",
-                ["coords"] = {["x"] = -2.20, ["y"] = -0.30, ["z"] = 1.0},
-                ["searched"] = false,
-                ["isBusy"] = false,
-                ["text"] = "Search Through Kitchen Drawers"
-            },
             [8] = {
-                ["type"] = "kitchen",
-                ["coords"] = {["x"] = -4.35, ["y"] = -0.64, ["z"] = 1.0},
+                ["type"] = "bedsidecabinet",
+                ["coords"] = {["x"] = -5.39, ["y"] = 1.66, ["z"] = 1.16},
                 ["searched"] = false,
                 ["isBusy"] = false,
-                ["text"] = "Search Through Shelves"
+                ["text"] = "Search Bedside Cabinet"
             },
             [9] = {
-                ["type"] = "livingroom",
-                ["coords"] = {["x"] = -6.90, ["y"] = 4.42, ["z"] = 1.0},
+                ["type"] = "chairs",
+                ["coords"] = {["x"] = -1.38, ["y"] = 3.03, ["z"] = 1.16},
                 ["searched"] = false,
                 ["isBusy"] = false,
-                ["text"] = "Search Through Shelves"
+                ["text"] = "Search Lounge chairs"
             },
             [10] = {
-                ["type"] = "livingroom",
-                ["coords"] = {["x"] = -6.98, ["y"] = 7.91, ["z"] = 1.0},
+                ["type"] = "chairs",
+                ["coords"] = {["x"] = 1.46, ["y"] = 3.06, ["z"] = 1.16},
                 ["searched"] = false,
                 ["isBusy"] = false,
-                ["text"] = "Search Through Shelves"
+                ["text"] = "Search Lounge chairs"
             },
             [11] = {
-                ["type"] = "cabin",
-                ["coords"] = {["x"] = 4.19, ["y"] = -5.14, ["z"] = 1.0},
-                ["searched"] = false,
-                ["isBusy"] = false,
-                ["text"] = "Search Through Side Table"
-            },
-            [12] = {
-                ["type"] = "livingroom",
-                ["coords"] = {["x"] = 0.25, ["y"] = 6.12, ["z"] = 1.0},
-                ["searched"] = false,
-                ["isBusy"] = false,
-                ["text"] = "Search Through Shelves"
-            },
-            [13] = {
-                ["type"] = "cabin",
-                ["coords"] = {["x"] = -4.44, ["y"] = 6.68, ["z"] = 1.0},
-                ["searched"] = false,
-                ["isBusy"] = false,
-                ["text"] = "Search Through Coffee Table"
-            },
-            [14] = {
-                ["type"] = "chest",
-                ["coords"] = {["x"] = 4.79, ["y"] = 5.41, ["z"] = 1.0},
+                ["type"] = "bed",
+                ["coords"] = {["x"] = -2.97, ["y"] = 0.14, ["z"] = 1.16},
                 ["searched"] = false,
                 ["isBusy"] = false,
                 ["text"] = "Search Under The Bed"
@@ -3658,99 +2966,78 @@ Config.Houses = {
         ["tier"] = 1,
         ["furniture"] = {
             [1] = {
-                ["type"] = "cabin",
-                ["coords"] = {["x"] = 4.15, ["y"] = 7.82, ["z"] = 1.0},
+                ["type"] = "cupboards",
+                ["coords"] = {["x"] = 5.72, ["y"] = 0.06, ["z"] = 1.16},
+                ["searched"] = false,
+                ["isBusy"] = false,
+                ["text"] = "Search Cupboards"
+            },
+            [2] = {
+                ["type"] = "cupboards",
+                ["coords"] = {["x"] = -4.27, ["y"] = 3.58, ["z"] = 1.16},
+                ["searched"] = false,
+                ["isBusy"] = false,
+                ["text"] = "Search Cupboards"
+            },
+            [3] = {
+                ["type"] = "wardrobes",
+                ["coords"] = {["x"] = 4.24, ["y"] = -3.62, ["z"] = 1.16},
+                ["searched"] = false,
+                ["isBusy"] = false,
+                ["text"] = "Search Wardrobe"
+            },
+            [4] = {
+                ["type"] = "wardrobes",
+                ["coords"] = {["x"] = 1.41, ["y"] = -3.67, ["z"] = 1.16},
+                ["searched"] = false,
+                ["isBusy"] = false,
+                ["text"] = "Search Wardrobe"
+            },
+            [5] = {
+                ["type"] = "wardrobes",
+                ["coords"] = {["x"] = -1.88, ["y"] = -3.71, ["z"] = 1.16},
+                ["searched"] = false,
+                ["isBusy"] = false,
+                ["text"] = "Search Wardrobe"
+            },
+            [6] = {
+                ["type"] = "wardrobes",
+                ["coords"] = {["x"] = -4.38, ["y"] = -3.62, ["z"] = 1.16},
+                ["searched"] = false,
+                ["isBusy"] = false,
+                ["text"] = "Search Wardrobe"
+            },
+            [7] = {
+                ["type"] = "bedsidecabinet",
+                ["coords"] = {["x"] = -5.53, ["y"] = -1.48, ["z"] = 1.16},
                 ["searched"] = false,
                 ["isBusy"] = false,
                 ["text"] = "Search Bedside Cabinet"
             },
-            [2] = {
-                ["type"] = "cabin",
-                ["coords"] = {["x"] = 5.95, ["y"] = 9.34, ["z"] = 1.0},
-                ["searched"] = false,
-                ["isBusy"] = false,
-                ["text"] = "Search Through The Wardrobe"
-            },
-            [3] = {
-                ["type"] = "kitchen",
-                ["coords"] = {["x"] = -1.03, ["y"] = 0.78, ["z"] = 1.0},
-                ["searched"] = false,
-                ["isBusy"] = false,
-                ["text"] = "Search Through Kitchen Drawers"
-            },
-            [4] = {
-                ["type"] = "chest",
-                ["coords"] = {["x"] = 6.904, ["y"] = 3.987, ["z"] = 1.0},
-                ["searched"] = false,
-                ["isBusy"] = false,
-                ["text"] = "Search Through Chest"
-            },
-            [5] = {
-                ["type"] = "cabin",
-                ["coords"] = {["x"] = 0.933, ["y"] = 1.254, ["z"] = 1.0},
-                ["searched"] = false,
-                ["isBusy"] = false,
-                ["text"] = "Search Through Drawers"
-            },
-            [6] = {
-                ["type"] = "cabin",
-                ["coords"] = {["x"] = 6.19, ["y"] = 3.35, ["z"] = 1.0},
-                ["searched"] = false,
-                ["isBusy"] = false,
-                ["text"] = "Search Through Nighstand Cabinet"
-            },
-            [7] = {
-                ["type"] = "kitchen",
-                ["coords"] = {["x"] = -2.20, ["y"] = -0.30, ["z"] = 1.0},
-                ["searched"] = false,
-                ["isBusy"] = false,
-                ["text"] = "Search Through Kitchen Drawers"
-            },
             [8] = {
-                ["type"] = "kitchen",
-                ["coords"] = {["x"] = -4.35, ["y"] = -0.64, ["z"] = 1.0},
+                ["type"] = "bedsidecabinet",
+                ["coords"] = {["x"] = -5.39, ["y"] = 1.66, ["z"] = 1.16},
                 ["searched"] = false,
                 ["isBusy"] = false,
-                ["text"] = "Search Through Shelves"
+                ["text"] = "Search Bedside Cabinet"
             },
             [9] = {
-                ["type"] = "livingroom",
-                ["coords"] = {["x"] = -6.90, ["y"] = 4.42, ["z"] = 1.0},
+                ["type"] = "chairs",
+                ["coords"] = {["x"] = -1.38, ["y"] = 3.03, ["z"] = 1.16},
                 ["searched"] = false,
                 ["isBusy"] = false,
-                ["text"] = "Search Through Shelves"
+                ["text"] = "Search Lounge chairs"
             },
             [10] = {
-                ["type"] = "livingroom",
-                ["coords"] = {["x"] = -6.98, ["y"] = 7.91, ["z"] = 1.0},
+                ["type"] = "chairs",
+                ["coords"] = {["x"] = 1.46, ["y"] = 3.06, ["z"] = 1.16},
                 ["searched"] = false,
                 ["isBusy"] = false,
-                ["text"] = "Search Through Shelves"
+                ["text"] = "Search Lounge chairs"
             },
             [11] = {
-                ["type"] = "cabin",
-                ["coords"] = {["x"] = 4.19, ["y"] = -5.14, ["z"] = 1.0},
-                ["searched"] = false,
-                ["isBusy"] = false,
-                ["text"] = "Search Through Side Table"
-            },
-            [12] = {
-                ["type"] = "livingroom",
-                ["coords"] = {["x"] = 0.25, ["y"] = 6.12, ["z"] = 1.0},
-                ["searched"] = false,
-                ["isBusy"] = false,
-                ["text"] = "Search Through Shelves"
-            },
-            [13] = {
-                ["type"] = "cabin",
-                ["coords"] = {["x"] = -4.44, ["y"] = 6.68, ["z"] = 1.0},
-                ["searched"] = false,
-                ["isBusy"] = false,
-                ["text"] = "Search Through Coffee Table"
-            },
-            [14] = {
-                ["type"] = "chest",
-                ["coords"] = {["x"] = 4.79, ["y"] = 5.41, ["z"] = 1.0},
+                ["type"] = "bed",
+                ["coords"] = {["x"] = -2.97, ["y"] = 0.14, ["z"] = 1.16},
                 ["searched"] = false,
                 ["isBusy"] = false,
                 ["text"] = "Search Under The Bed"
@@ -3768,99 +3055,78 @@ Config.Houses = {
         ["tier"] = 1,
         ["furniture"] = {
             [1] = {
-                ["type"] = "cabin",
-                ["coords"] = {["x"] = 4.15, ["y"] = 7.82, ["z"] = 1.0},
+                ["type"] = "cupboards",
+                ["coords"] = {["x"] = 5.72, ["y"] = 0.06, ["z"] = 1.16},
+                ["searched"] = false,
+                ["isBusy"] = false,
+                ["text"] = "Search Cupboards"
+            },
+            [2] = {
+                ["type"] = "cupboards",
+                ["coords"] = {["x"] = -4.27, ["y"] = 3.58, ["z"] = 1.16},
+                ["searched"] = false,
+                ["isBusy"] = false,
+                ["text"] = "Search Cupboards"
+            },
+            [3] = {
+                ["type"] = "wardrobes",
+                ["coords"] = {["x"] = 4.24, ["y"] = -3.62, ["z"] = 1.16},
+                ["searched"] = false,
+                ["isBusy"] = false,
+                ["text"] = "Search Wardrobe"
+            },
+            [4] = {
+                ["type"] = "wardrobes",
+                ["coords"] = {["x"] = 1.41, ["y"] = -3.67, ["z"] = 1.16},
+                ["searched"] = false,
+                ["isBusy"] = false,
+                ["text"] = "Search Wardrobe"
+            },
+            [5] = {
+                ["type"] = "wardrobes",
+                ["coords"] = {["x"] = -1.88, ["y"] = -3.71, ["z"] = 1.16},
+                ["searched"] = false,
+                ["isBusy"] = false,
+                ["text"] = "Search Wardrobe"
+            },
+            [6] = {
+                ["type"] = "wardrobes",
+                ["coords"] = {["x"] = -4.38, ["y"] = -3.62, ["z"] = 1.16},
+                ["searched"] = false,
+                ["isBusy"] = false,
+                ["text"] = "Search Wardrobe"
+            },
+            [7] = {
+                ["type"] = "bedsidecabinet",
+                ["coords"] = {["x"] = -5.53, ["y"] = -1.48, ["z"] = 1.16},
                 ["searched"] = false,
                 ["isBusy"] = false,
                 ["text"] = "Search Bedside Cabinet"
             },
-            [2] = {
-                ["type"] = "cabin",
-                ["coords"] = {["x"] = 5.95, ["y"] = 9.34, ["z"] = 1.0},
-                ["searched"] = false,
-                ["isBusy"] = false,
-                ["text"] = "Search Through The Wardrobe"
-            },
-            [3] = {
-                ["type"] = "kitchen",
-                ["coords"] = {["x"] = -1.03, ["y"] = 0.78, ["z"] = 1.0},
-                ["searched"] = false,
-                ["isBusy"] = false,
-                ["text"] = "Search Through Kitchen Drawers"
-            },
-            [4] = {
-                ["type"] = "chest",
-                ["coords"] = {["x"] = 6.904, ["y"] = 3.987, ["z"] = 1.0},
-                ["searched"] = false,
-                ["isBusy"] = false,
-                ["text"] = "Search Through Chest"
-            },
-            [5] = {
-                ["type"] = "cabin",
-                ["coords"] = {["x"] = 0.933, ["y"] = 1.254, ["z"] = 1.0},
-                ["searched"] = false,
-                ["isBusy"] = false,
-                ["text"] = "Search Through Drawers"
-            },
-            [6] = {
-                ["type"] = "cabin",
-                ["coords"] = {["x"] = 6.19, ["y"] = 3.35, ["z"] = 1.0},
-                ["searched"] = false,
-                ["isBusy"] = false,
-                ["text"] = "Search Through Nighstand Cabinet"
-            },
-            [7] = {
-                ["type"] = "kitchen",
-                ["coords"] = {["x"] = -2.20, ["y"] = -0.30, ["z"] = 1.0},
-                ["searched"] = false,
-                ["isBusy"] = false,
-                ["text"] = "Search Through Kitchen Drawers"
-            },
             [8] = {
-                ["type"] = "kitchen",
-                ["coords"] = {["x"] = -4.35, ["y"] = -0.64, ["z"] = 1.0},
+                ["type"] = "bedsidecabinet",
+                ["coords"] = {["x"] = -5.39, ["y"] = 1.66, ["z"] = 1.16},
                 ["searched"] = false,
                 ["isBusy"] = false,
-                ["text"] = "Search Through Shelves"
+                ["text"] = "Search Bedside Cabinet"
             },
             [9] = {
-                ["type"] = "livingroom",
-                ["coords"] = {["x"] = -6.90, ["y"] = 4.42, ["z"] = 1.0},
+                ["type"] = "chairs",
+                ["coords"] = {["x"] = -1.38, ["y"] = 3.03, ["z"] = 1.16},
                 ["searched"] = false,
                 ["isBusy"] = false,
-                ["text"] = "Search Through Shelves"
+                ["text"] = "Search Lounge chairs"
             },
             [10] = {
-                ["type"] = "livingroom",
-                ["coords"] = {["x"] = -6.98, ["y"] = 7.91, ["z"] = 1.0},
+                ["type"] = "chairs",
+                ["coords"] = {["x"] = 1.46, ["y"] = 3.06, ["z"] = 1.16},
                 ["searched"] = false,
                 ["isBusy"] = false,
-                ["text"] = "Search Through Shelves"
+                ["text"] = "Search Lounge chairs"
             },
             [11] = {
-                ["type"] = "cabin",
-                ["coords"] = {["x"] = 4.19, ["y"] = -5.14, ["z"] = 1.0},
-                ["searched"] = false,
-                ["isBusy"] = false,
-                ["text"] = "Search Through Side Table"
-            },
-            [12] = {
-                ["type"] = "livingroom",
-                ["coords"] = {["x"] = 0.25, ["y"] = 6.12, ["z"] = 1.0},
-                ["searched"] = false,
-                ["isBusy"] = false,
-                ["text"] = "Search Through Shelves"
-            },
-            [13] = {
-                ["type"] = "cabin",
-                ["coords"] = {["x"] = -4.44, ["y"] = 6.68, ["z"] = 1.0},
-                ["searched"] = false,
-                ["isBusy"] = false,
-                ["text"] = "Search Through Coffee Table"
-            },
-            [14] = {
-                ["type"] = "chest",
-                ["coords"] = {["x"] = 4.79, ["y"] = 5.41, ["z"] = 1.0},
+                ["type"] = "bed",
+                ["coords"] = {["x"] = -2.97, ["y"] = 0.14, ["z"] = 1.16},
                 ["searched"] = false,
                 ["isBusy"] = false,
                 ["text"] = "Search Under The Bed"
@@ -3878,99 +3144,78 @@ Config.Houses = {
         ["tier"] = 1,
         ["furniture"] = {
             [1] = {
-                ["type"] = "cabin",
-                ["coords"] = {["x"] = 4.15, ["y"] = 7.82, ["z"] = 1.0},
+                ["type"] = "cupboards",
+                ["coords"] = {["x"] = 5.72, ["y"] = 0.06, ["z"] = 1.16},
+                ["searched"] = false,
+                ["isBusy"] = false,
+                ["text"] = "Search Cupboards"
+            },
+            [2] = {
+                ["type"] = "cupboards",
+                ["coords"] = {["x"] = -4.27, ["y"] = 3.58, ["z"] = 1.16},
+                ["searched"] = false,
+                ["isBusy"] = false,
+                ["text"] = "Search Cupboards"
+            },
+            [3] = {
+                ["type"] = "wardrobes",
+                ["coords"] = {["x"] = 4.24, ["y"] = -3.62, ["z"] = 1.16},
+                ["searched"] = false,
+                ["isBusy"] = false,
+                ["text"] = "Search Wardrobe"
+            },
+            [4] = {
+                ["type"] = "wardrobes",
+                ["coords"] = {["x"] = 1.41, ["y"] = -3.67, ["z"] = 1.16},
+                ["searched"] = false,
+                ["isBusy"] = false,
+                ["text"] = "Search Wardrobe"
+            },
+            [5] = {
+                ["type"] = "wardrobes",
+                ["coords"] = {["x"] = -1.88, ["y"] = -3.71, ["z"] = 1.16},
+                ["searched"] = false,
+                ["isBusy"] = false,
+                ["text"] = "Search Wardrobe"
+            },
+            [6] = {
+                ["type"] = "wardrobes",
+                ["coords"] = {["x"] = -4.38, ["y"] = -3.62, ["z"] = 1.16},
+                ["searched"] = false,
+                ["isBusy"] = false,
+                ["text"] = "Search Wardrobe"
+            },
+            [7] = {
+                ["type"] = "bedsidecabinet",
+                ["coords"] = {["x"] = -5.53, ["y"] = -1.48, ["z"] = 1.16},
                 ["searched"] = false,
                 ["isBusy"] = false,
                 ["text"] = "Search Bedside Cabinet"
             },
-            [2] = {
-                ["type"] = "cabin",
-                ["coords"] = {["x"] = 5.95, ["y"] = 9.34, ["z"] = 1.0},
-                ["searched"] = false,
-                ["isBusy"] = false,
-                ["text"] = "Search Through The Wardrobe"
-            },
-            [3] = {
-                ["type"] = "kitchen",
-                ["coords"] = {["x"] = -1.03, ["y"] = 0.78, ["z"] = 1.0},
-                ["searched"] = false,
-                ["isBusy"] = false,
-                ["text"] = "Search Through Kitchen Drawers"
-            },
-            [4] = {
-                ["type"] = "chest",
-                ["coords"] = {["x"] = 6.904, ["y"] = 3.987, ["z"] = 1.0},
-                ["searched"] = false,
-                ["isBusy"] = false,
-                ["text"] = "Search Through Chest"
-            },
-            [5] = {
-                ["type"] = "cabin",
-                ["coords"] = {["x"] = 0.933, ["y"] = 1.254, ["z"] = 1.0},
-                ["searched"] = false,
-                ["isBusy"] = false,
-                ["text"] = "Search Through Drawers"
-            },
-            [6] = {
-                ["type"] = "cabin",
-                ["coords"] = {["x"] = 6.19, ["y"] = 3.35, ["z"] = 1.0},
-                ["searched"] = false,
-                ["isBusy"] = false,
-                ["text"] = "Search Through Nighstand Cabinet"
-            },
-            [7] = {
-                ["type"] = "kitchen",
-                ["coords"] = {["x"] = -2.20, ["y"] = -0.30, ["z"] = 1.0},
-                ["searched"] = false,
-                ["isBusy"] = false,
-                ["text"] = "Search Through Kitchen Drawers"
-            },
             [8] = {
-                ["type"] = "kitchen",
-                ["coords"] = {["x"] = -4.35, ["y"] = -0.64, ["z"] = 1.0},
+                ["type"] = "bedsidecabinet",
+                ["coords"] = {["x"] = -5.39, ["y"] = 1.66, ["z"] = 1.16},
                 ["searched"] = false,
                 ["isBusy"] = false,
-                ["text"] = "Search Through Shelves"
+                ["text"] = "Search Bedside Cabinet"
             },
             [9] = {
-                ["type"] = "livingroom",
-                ["coords"] = {["x"] = -6.90, ["y"] = 4.42, ["z"] = 1.0},
+                ["type"] = "chairs",
+                ["coords"] = {["x"] = -1.38, ["y"] = 3.03, ["z"] = 1.16},
                 ["searched"] = false,
                 ["isBusy"] = false,
-                ["text"] = "Search Through Shelves"
+                ["text"] = "Search Lounge chairs"
             },
             [10] = {
-                ["type"] = "livingroom",
-                ["coords"] = {["x"] = -6.98, ["y"] = 7.91, ["z"] = 1.0},
+                ["type"] = "chairs",
+                ["coords"] = {["x"] = 1.46, ["y"] = 3.06, ["z"] = 1.16},
                 ["searched"] = false,
                 ["isBusy"] = false,
-                ["text"] = "Search Through Shelves"
+                ["text"] = "Search Lounge chairs"
             },
             [11] = {
-                ["type"] = "cabin",
-                ["coords"] = {["x"] = 4.19, ["y"] = -5.14, ["z"] = 1.0},
-                ["searched"] = false,
-                ["isBusy"] = false,
-                ["text"] = "Search Through Side Table"
-            },
-            [12] = {
-                ["type"] = "livingroom",
-                ["coords"] = {["x"] = 0.25, ["y"] = 6.12, ["z"] = 1.0},
-                ["searched"] = false,
-                ["isBusy"] = false,
-                ["text"] = "Search Through Shelves"
-            },
-            [13] = {
-                ["type"] = "cabin",
-                ["coords"] = {["x"] = -4.44, ["y"] = 6.68, ["z"] = 1.0},
-                ["searched"] = false,
-                ["isBusy"] = false,
-                ["text"] = "Search Through Coffee Table"
-            },
-            [14] = {
-                ["type"] = "chest",
-                ["coords"] = {["x"] = 4.79, ["y"] = 5.41, ["z"] = 1.0},
+                ["type"] = "bed",
+                ["coords"] = {["x"] = -2.97, ["y"] = 0.14, ["z"] = 1.16},
                 ["searched"] = false,
                 ["isBusy"] = false,
                 ["text"] = "Search Under The Bed"
@@ -3988,99 +3233,78 @@ Config.Houses = {
         ["tier"] = 1,
         ["furniture"] = {
             [1] = {
-                ["type"] = "cabin",
-                ["coords"] = {["x"] = 4.15, ["y"] = 7.82, ["z"] = 1.0},
+                ["type"] = "cupboards",
+                ["coords"] = {["x"] = 5.72, ["y"] = 0.06, ["z"] = 1.16},
+                ["searched"] = false,
+                ["isBusy"] = false,
+                ["text"] = "Search Cupboards"
+            },
+            [2] = {
+                ["type"] = "cupboards",
+                ["coords"] = {["x"] = -4.27, ["y"] = 3.58, ["z"] = 1.16},
+                ["searched"] = false,
+                ["isBusy"] = false,
+                ["text"] = "Search Cupboards"
+            },
+            [3] = {
+                ["type"] = "wardrobes",
+                ["coords"] = {["x"] = 4.24, ["y"] = -3.62, ["z"] = 1.16},
+                ["searched"] = false,
+                ["isBusy"] = false,
+                ["text"] = "Search Wardrobe"
+            },
+            [4] = {
+                ["type"] = "wardrobes",
+                ["coords"] = {["x"] = 1.41, ["y"] = -3.67, ["z"] = 1.16},
+                ["searched"] = false,
+                ["isBusy"] = false,
+                ["text"] = "Search Wardrobe"
+            },
+            [5] = {
+                ["type"] = "wardrobes",
+                ["coords"] = {["x"] = -1.88, ["y"] = -3.71, ["z"] = 1.16},
+                ["searched"] = false,
+                ["isBusy"] = false,
+                ["text"] = "Search Wardrobe"
+            },
+            [6] = {
+                ["type"] = "wardrobes",
+                ["coords"] = {["x"] = -4.38, ["y"] = -3.62, ["z"] = 1.16},
+                ["searched"] = false,
+                ["isBusy"] = false,
+                ["text"] = "Search Wardrobe"
+            },
+            [7] = {
+                ["type"] = "bedsidecabinet",
+                ["coords"] = {["x"] = -5.53, ["y"] = -1.48, ["z"] = 1.16},
                 ["searched"] = false,
                 ["isBusy"] = false,
                 ["text"] = "Search Bedside Cabinet"
             },
-            [2] = {
-                ["type"] = "cabin",
-                ["coords"] = {["x"] = 5.95, ["y"] = 9.34, ["z"] = 1.0},
-                ["searched"] = false,
-                ["isBusy"] = false,
-                ["text"] = "Search Through The Wardrobe"
-            },
-            [3] = {
-                ["type"] = "kitchen",
-                ["coords"] = {["x"] = -1.03, ["y"] = 0.78, ["z"] = 1.0},
-                ["searched"] = false,
-                ["isBusy"] = false,
-                ["text"] = "Search Through Kitchen Drawers"
-            },
-            [4] = {
-                ["type"] = "chest",
-                ["coords"] = {["x"] = 6.904, ["y"] = 3.987, ["z"] = 1.0},
-                ["searched"] = false,
-                ["isBusy"] = false,
-                ["text"] = "Search Through Chest"
-            },
-            [5] = {
-                ["type"] = "cabin",
-                ["coords"] = {["x"] = 0.933, ["y"] = 1.254, ["z"] = 1.0},
-                ["searched"] = false,
-                ["isBusy"] = false,
-                ["text"] = "Search Through Drawers"
-            },
-            [6] = {
-                ["type"] = "cabin",
-                ["coords"] = {["x"] = 6.19, ["y"] = 3.35, ["z"] = 1.0},
-                ["searched"] = false,
-                ["isBusy"] = false,
-                ["text"] = "Search Through Nighstand Cabinet"
-            },
-            [7] = {
-                ["type"] = "kitchen",
-                ["coords"] = {["x"] = -2.20, ["y"] = -0.30, ["z"] = 1.0},
-                ["searched"] = false,
-                ["isBusy"] = false,
-                ["text"] = "Search Through Kitchen Drawers"
-            },
             [8] = {
-                ["type"] = "kitchen",
-                ["coords"] = {["x"] = -4.35, ["y"] = -0.64, ["z"] = 1.0},
+                ["type"] = "bedsidecabinet",
+                ["coords"] = {["x"] = -5.39, ["y"] = 1.66, ["z"] = 1.16},
                 ["searched"] = false,
                 ["isBusy"] = false,
-                ["text"] = "Search Through Shelves"
+                ["text"] = "Search Bedside Cabinet"
             },
             [9] = {
-                ["type"] = "livingroom",
-                ["coords"] = {["x"] = -6.90, ["y"] = 4.42, ["z"] = 1.0},
+                ["type"] = "chairs",
+                ["coords"] = {["x"] = -1.38, ["y"] = 3.03, ["z"] = 1.16},
                 ["searched"] = false,
                 ["isBusy"] = false,
-                ["text"] = "Search Through Shelves"
+                ["text"] = "Search Lounge chairs"
             },
             [10] = {
-                ["type"] = "livingroom",
-                ["coords"] = {["x"] = -6.98, ["y"] = 7.91, ["z"] = 1.0},
+                ["type"] = "chairs",
+                ["coords"] = {["x"] = 1.46, ["y"] = 3.06, ["z"] = 1.16},
                 ["searched"] = false,
                 ["isBusy"] = false,
-                ["text"] = "Search Through Shelves"
+                ["text"] = "Search Lounge chairs"
             },
             [11] = {
-                ["type"] = "cabin",
-                ["coords"] = {["x"] = 4.19, ["y"] = -5.14, ["z"] = 1.0},
-                ["searched"] = false,
-                ["isBusy"] = false,
-                ["text"] = "Search Through Side Table"
-            },
-            [12] = {
-                ["type"] = "livingroom",
-                ["coords"] = {["x"] = 0.25, ["y"] = 6.12, ["z"] = 1.0},
-                ["searched"] = false,
-                ["isBusy"] = false,
-                ["text"] = "Search Through Shelves"
-            },
-            [13] = {
-                ["type"] = "cabin",
-                ["coords"] = {["x"] = -4.44, ["y"] = 6.68, ["z"] = 1.0},
-                ["searched"] = false,
-                ["isBusy"] = false,
-                ["text"] = "Search Through Coffee Table"
-            },
-            [14] = {
-                ["type"] = "chest",
-                ["coords"] = {["x"] = 4.79, ["y"] = 5.41, ["z"] = 1.0},
+                ["type"] = "bed",
+                ["coords"] = {["x"] = -2.97, ["y"] = 0.14, ["z"] = 1.16},
                 ["searched"] = false,
                 ["isBusy"] = false,
                 ["text"] = "Search Under The Bed"
@@ -4098,99 +3322,78 @@ Config.Houses = {
         ["tier"] = 1,
         ["furniture"] = {
             [1] = {
-                ["type"] = "cabin",
-                ["coords"] = {["x"] = 4.15, ["y"] = 7.82, ["z"] = 1.0},
+                ["type"] = "cupboards",
+                ["coords"] = {["x"] = 5.72, ["y"] = 0.06, ["z"] = 1.16},
+                ["searched"] = false,
+                ["isBusy"] = false,
+                ["text"] = "Search Cupboards"
+            },
+            [2] = {
+                ["type"] = "cupboards",
+                ["coords"] = {["x"] = -4.27, ["y"] = 3.58, ["z"] = 1.16},
+                ["searched"] = false,
+                ["isBusy"] = false,
+                ["text"] = "Search Cupboards"
+            },
+            [3] = {
+                ["type"] = "wardrobes",
+                ["coords"] = {["x"] = 4.24, ["y"] = -3.62, ["z"] = 1.16},
+                ["searched"] = false,
+                ["isBusy"] = false,
+                ["text"] = "Search Wardrobe"
+            },
+            [4] = {
+                ["type"] = "wardrobes",
+                ["coords"] = {["x"] = 1.41, ["y"] = -3.67, ["z"] = 1.16},
+                ["searched"] = false,
+                ["isBusy"] = false,
+                ["text"] = "Search Wardrobe"
+            },
+            [5] = {
+                ["type"] = "wardrobes",
+                ["coords"] = {["x"] = -1.88, ["y"] = -3.71, ["z"] = 1.16},
+                ["searched"] = false,
+                ["isBusy"] = false,
+                ["text"] = "Search Wardrobe"
+            },
+            [6] = {
+                ["type"] = "wardrobes",
+                ["coords"] = {["x"] = -4.38, ["y"] = -3.62, ["z"] = 1.16},
+                ["searched"] = false,
+                ["isBusy"] = false,
+                ["text"] = "Search Wardrobe"
+            },
+            [7] = {
+                ["type"] = "bedsidecabinet",
+                ["coords"] = {["x"] = -5.53, ["y"] = -1.48, ["z"] = 1.16},
                 ["searched"] = false,
                 ["isBusy"] = false,
                 ["text"] = "Search Bedside Cabinet"
             },
-            [2] = {
-                ["type"] = "cabin",
-                ["coords"] = {["x"] = 5.95, ["y"] = 9.34, ["z"] = 1.0},
-                ["searched"] = false,
-                ["isBusy"] = false,
-                ["text"] = "Search Through The Wardrobe"
-            },
-            [3] = {
-                ["type"] = "kitchen",
-                ["coords"] = {["x"] = -1.03, ["y"] = 0.78, ["z"] = 1.0},
-                ["searched"] = false,
-                ["isBusy"] = false,
-                ["text"] = "Search Through Kitchen Drawers"
-            },
-            [4] = {
-                ["type"] = "chest",
-                ["coords"] = {["x"] = 6.904, ["y"] = 3.987, ["z"] = 1.0},
-                ["searched"] = false,
-                ["isBusy"] = false,
-                ["text"] = "Search Through Chest"
-            },
-            [5] = {
-                ["type"] = "cabin",
-                ["coords"] = {["x"] = 0.933, ["y"] = 1.254, ["z"] = 1.0},
-                ["searched"] = false,
-                ["isBusy"] = false,
-                ["text"] = "Search Through Drawers"
-            },
-            [6] = {
-                ["type"] = "cabin",
-                ["coords"] = {["x"] = 6.19, ["y"] = 3.35, ["z"] = 1.0},
-                ["searched"] = false,
-                ["isBusy"] = false,
-                ["text"] = "Search Through Nighstand Cabinet"
-            },
-            [7] = {
-                ["type"] = "kitchen",
-                ["coords"] = {["x"] = -2.20, ["y"] = -0.30, ["z"] = 1.0},
-                ["searched"] = false,
-                ["isBusy"] = false,
-                ["text"] = "Search Through Kitchen Drawers"
-            },
             [8] = {
-                ["type"] = "kitchen",
-                ["coords"] = {["x"] = -4.35, ["y"] = -0.64, ["z"] = 1.0},
+                ["type"] = "bedsidecabinet",
+                ["coords"] = {["x"] = -5.39, ["y"] = 1.66, ["z"] = 1.16},
                 ["searched"] = false,
                 ["isBusy"] = false,
-                ["text"] = "Search Through Shelves"
+                ["text"] = "Search Bedside Cabinet"
             },
             [9] = {
-                ["type"] = "livingroom",
-                ["coords"] = {["x"] = -6.90, ["y"] = 4.42, ["z"] = 1.0},
+                ["type"] = "chairs",
+                ["coords"] = {["x"] = -1.38, ["y"] = 3.03, ["z"] = 1.16},
                 ["searched"] = false,
                 ["isBusy"] = false,
-                ["text"] = "Search Through Shelves"
+                ["text"] = "Search Lounge chairs"
             },
             [10] = {
-                ["type"] = "livingroom",
-                ["coords"] = {["x"] = -6.98, ["y"] = 7.91, ["z"] = 1.0},
+                ["type"] = "chairs",
+                ["coords"] = {["x"] = 1.46, ["y"] = 3.06, ["z"] = 1.16},
                 ["searched"] = false,
                 ["isBusy"] = false,
-                ["text"] = "Search Through Shelves"
+                ["text"] = "Search Lounge chairs"
             },
             [11] = {
-                ["type"] = "cabin",
-                ["coords"] = {["x"] = 4.19, ["y"] = -5.14, ["z"] = 1.0},
-                ["searched"] = false,
-                ["isBusy"] = false,
-                ["text"] = "Search Through Side Table"
-            },
-            [12] = {
-                ["type"] = "livingroom",
-                ["coords"] = {["x"] = 0.25, ["y"] = 6.12, ["z"] = 1.0},
-                ["searched"] = false,
-                ["isBusy"] = false,
-                ["text"] = "Search Through Shelves"
-            },
-            [13] = {
-                ["type"] = "cabin",
-                ["coords"] = {["x"] = -4.44, ["y"] = 6.68, ["z"] = 1.0},
-                ["searched"] = false,
-                ["isBusy"] = false,
-                ["text"] = "Search Through Coffee Table"
-            },
-            [14] = {
-                ["type"] = "chest",
-                ["coords"] = {["x"] = 4.79, ["y"] = 5.41, ["z"] = 1.0},
+                ["type"] = "bed",
+                ["coords"] = {["x"] = -2.97, ["y"] = 0.14, ["z"] = 1.16},
                 ["searched"] = false,
                 ["isBusy"] = false,
                 ["text"] = "Search Under The Bed"
@@ -4208,99 +3411,78 @@ Config.Houses = {
         ["tier"] = 1,
         ["furniture"] = {
             [1] = {
-                ["type"] = "cabin",
-                ["coords"] = {["x"] = 4.15, ["y"] = 7.82, ["z"] = 1.0},
+                ["type"] = "cupboards",
+                ["coords"] = {["x"] = 5.72, ["y"] = 0.06, ["z"] = 1.16},
+                ["searched"] = false,
+                ["isBusy"] = false,
+                ["text"] = "Search Cupboards"
+            },
+            [2] = {
+                ["type"] = "cupboards",
+                ["coords"] = {["x"] = -4.27, ["y"] = 3.58, ["z"] = 1.16},
+                ["searched"] = false,
+                ["isBusy"] = false,
+                ["text"] = "Search Cupboards"
+            },
+            [3] = {
+                ["type"] = "wardrobes",
+                ["coords"] = {["x"] = 4.24, ["y"] = -3.62, ["z"] = 1.16},
+                ["searched"] = false,
+                ["isBusy"] = false,
+                ["text"] = "Search Wardrobe"
+            },
+            [4] = {
+                ["type"] = "wardrobes",
+                ["coords"] = {["x"] = 1.41, ["y"] = -3.67, ["z"] = 1.16},
+                ["searched"] = false,
+                ["isBusy"] = false,
+                ["text"] = "Search Wardrobe"
+            },
+            [5] = {
+                ["type"] = "wardrobes",
+                ["coords"] = {["x"] = -1.88, ["y"] = -3.71, ["z"] = 1.16},
+                ["searched"] = false,
+                ["isBusy"] = false,
+                ["text"] = "Search Wardrobe"
+            },
+            [6] = {
+                ["type"] = "wardrobes",
+                ["coords"] = {["x"] = -4.38, ["y"] = -3.62, ["z"] = 1.16},
+                ["searched"] = false,
+                ["isBusy"] = false,
+                ["text"] = "Search Wardrobe"
+            },
+            [7] = {
+                ["type"] = "bedsidecabinet",
+                ["coords"] = {["x"] = -5.53, ["y"] = -1.48, ["z"] = 1.16},
                 ["searched"] = false,
                 ["isBusy"] = false,
                 ["text"] = "Search Bedside Cabinet"
             },
-            [2] = {
-                ["type"] = "cabin",
-                ["coords"] = {["x"] = 5.95, ["y"] = 9.34, ["z"] = 1.0},
-                ["searched"] = false,
-                ["isBusy"] = false,
-                ["text"] = "Search Through The Wardrobe"
-            },
-            [3] = {
-                ["type"] = "kitchen",
-                ["coords"] = {["x"] = -1.03, ["y"] = 0.78, ["z"] = 1.0},
-                ["searched"] = false,
-                ["isBusy"] = false,
-                ["text"] = "Search Through Kitchen Drawers"
-            },
-            [4] = {
-                ["type"] = "chest",
-                ["coords"] = {["x"] = 6.904, ["y"] = 3.987, ["z"] = 1.0},
-                ["searched"] = false,
-                ["isBusy"] = false,
-                ["text"] = "Search Through Chest"
-            },
-            [5] = {
-                ["type"] = "cabin",
-                ["coords"] = {["x"] = 0.933, ["y"] = 1.254, ["z"] = 1.0},
-                ["searched"] = false,
-                ["isBusy"] = false,
-                ["text"] = "Search Through Drawers"
-            },
-            [6] = {
-                ["type"] = "cabin",
-                ["coords"] = {["x"] = 6.19, ["y"] = 3.35, ["z"] = 1.0},
-                ["searched"] = false,
-                ["isBusy"] = false,
-                ["text"] = "Search Through Nighstand Cabinet"
-            },
-            [7] = {
-                ["type"] = "kitchen",
-                ["coords"] = {["x"] = -2.20, ["y"] = -0.30, ["z"] = 1.0},
-                ["searched"] = false,
-                ["isBusy"] = false,
-                ["text"] = "Search Through Kitchen Drawers"
-            },
             [8] = {
-                ["type"] = "kitchen",
-                ["coords"] = {["x"] = -4.35, ["y"] = -0.64, ["z"] = 1.0},
+                ["type"] = "bedsidecabinet",
+                ["coords"] = {["x"] = -5.39, ["y"] = 1.66, ["z"] = 1.16},
                 ["searched"] = false,
                 ["isBusy"] = false,
-                ["text"] = "Search Through Shelves"
+                ["text"] = "Search Bedside Cabinet"
             },
             [9] = {
-                ["type"] = "livingroom",
-                ["coords"] = {["x"] = -6.90, ["y"] = 4.42, ["z"] = 1.0},
+                ["type"] = "chairs",
+                ["coords"] = {["x"] = -1.38, ["y"] = 3.03, ["z"] = 1.16},
                 ["searched"] = false,
                 ["isBusy"] = false,
-                ["text"] = "Search Through Shelves"
+                ["text"] = "Search Lounge chairs"
             },
             [10] = {
-                ["type"] = "livingroom",
-                ["coords"] = {["x"] = -6.98, ["y"] = 7.91, ["z"] = 1.0},
+                ["type"] = "chairs",
+                ["coords"] = {["x"] = 1.46, ["y"] = 3.06, ["z"] = 1.16},
                 ["searched"] = false,
                 ["isBusy"] = false,
-                ["text"] = "Search Through Shelves"
+                ["text"] = "Search Lounge chairs"
             },
             [11] = {
-                ["type"] = "cabin",
-                ["coords"] = {["x"] = 4.19, ["y"] = -5.14, ["z"] = 1.0},
-                ["searched"] = false,
-                ["isBusy"] = false,
-                ["text"] = "Search Through Side Table"
-            },
-            [12] = {
-                ["type"] = "livingroom",
-                ["coords"] = {["x"] = 0.25, ["y"] = 6.12, ["z"] = 1.0},
-                ["searched"] = false,
-                ["isBusy"] = false,
-                ["text"] = "Search Through Shelves"
-            },
-            [13] = {
-                ["type"] = "cabin",
-                ["coords"] = {["x"] = -4.44, ["y"] = 6.68, ["z"] = 1.0},
-                ["searched"] = false,
-                ["isBusy"] = false,
-                ["text"] = "Search Through Coffee Table"
-            },
-            [14] = {
-                ["type"] = "chest",
-                ["coords"] = {["x"] = 4.79, ["y"] = 5.41, ["z"] = 1.0},
+                ["type"] = "bed",
+                ["coords"] = {["x"] = -2.97, ["y"] = 0.14, ["z"] = 1.16},
                 ["searched"] = false,
                 ["isBusy"] = false,
                 ["text"] = "Search Under The Bed"
@@ -4318,99 +3500,78 @@ Config.Houses = {
         ["tier"] = 1,
         ["furniture"] = {
             [1] = {
-                ["type"] = "cabin",
-                ["coords"] = {["x"] = 4.15, ["y"] = 7.82, ["z"] = 1.0},
+                ["type"] = "cupboards",
+                ["coords"] = {["x"] = 5.72, ["y"] = 0.06, ["z"] = 1.16},
+                ["searched"] = false,
+                ["isBusy"] = false,
+                ["text"] = "Search Cupboards"
+            },
+            [2] = {
+                ["type"] = "cupboards",
+                ["coords"] = {["x"] = -4.27, ["y"] = 3.58, ["z"] = 1.16},
+                ["searched"] = false,
+                ["isBusy"] = false,
+                ["text"] = "Search Cupboards"
+            },
+            [3] = {
+                ["type"] = "wardrobes",
+                ["coords"] = {["x"] = 4.24, ["y"] = -3.62, ["z"] = 1.16},
+                ["searched"] = false,
+                ["isBusy"] = false,
+                ["text"] = "Search Wardrobe"
+            },
+            [4] = {
+                ["type"] = "wardrobes",
+                ["coords"] = {["x"] = 1.41, ["y"] = -3.67, ["z"] = 1.16},
+                ["searched"] = false,
+                ["isBusy"] = false,
+                ["text"] = "Search Wardrobe"
+            },
+            [5] = {
+                ["type"] = "wardrobes",
+                ["coords"] = {["x"] = -1.88, ["y"] = -3.71, ["z"] = 1.16},
+                ["searched"] = false,
+                ["isBusy"] = false,
+                ["text"] = "Search Wardrobe"
+            },
+            [6] = {
+                ["type"] = "wardrobes",
+                ["coords"] = {["x"] = -4.38, ["y"] = -3.62, ["z"] = 1.16},
+                ["searched"] = false,
+                ["isBusy"] = false,
+                ["text"] = "Search Wardrobe"
+            },
+            [7] = {
+                ["type"] = "bedsidecabinet",
+                ["coords"] = {["x"] = -5.53, ["y"] = -1.48, ["z"] = 1.16},
                 ["searched"] = false,
                 ["isBusy"] = false,
                 ["text"] = "Search Bedside Cabinet"
             },
-            [2] = {
-                ["type"] = "cabin",
-                ["coords"] = {["x"] = 5.95, ["y"] = 9.34, ["z"] = 1.0},
-                ["searched"] = false,
-                ["isBusy"] = false,
-                ["text"] = "Search Through The Wardrobe"
-            },
-            [3] = {
-                ["type"] = "kitchen",
-                ["coords"] = {["x"] = -1.03, ["y"] = 0.78, ["z"] = 1.0},
-                ["searched"] = false,
-                ["isBusy"] = false,
-                ["text"] = "Search Through Kitchen Drawers"
-            },
-            [4] = {
-                ["type"] = "chest",
-                ["coords"] = {["x"] = 6.904, ["y"] = 3.987, ["z"] = 1.0},
-                ["searched"] = false,
-                ["isBusy"] = false,
-                ["text"] = "Search Through Chest"
-            },
-            [5] = {
-                ["type"] = "cabin",
-                ["coords"] = {["x"] = 0.933, ["y"] = 1.254, ["z"] = 1.0},
-                ["searched"] = false,
-                ["isBusy"] = false,
-                ["text"] = "Search Through Drawers"
-            },
-            [6] = {
-                ["type"] = "cabin",
-                ["coords"] = {["x"] = 6.19, ["y"] = 3.35, ["z"] = 1.0},
-                ["searched"] = false,
-                ["isBusy"] = false,
-                ["text"] = "Search Through Nighstand Cabinet"
-            },
-            [7] = {
-                ["type"] = "kitchen",
-                ["coords"] = {["x"] = -2.20, ["y"] = -0.30, ["z"] = 1.0},
-                ["searched"] = false,
-                ["isBusy"] = false,
-                ["text"] = "Search Through Kitchen Drawers"
-            },
             [8] = {
-                ["type"] = "kitchen",
-                ["coords"] = {["x"] = -4.35, ["y"] = -0.64, ["z"] = 1.0},
+                ["type"] = "bedsidecabinet",
+                ["coords"] = {["x"] = -5.39, ["y"] = 1.66, ["z"] = 1.16},
                 ["searched"] = false,
                 ["isBusy"] = false,
-                ["text"] = "Search Through Shelves"
+                ["text"] = "Search Bedside Cabinet"
             },
             [9] = {
-                ["type"] = "livingroom",
-                ["coords"] = {["x"] = -6.90, ["y"] = 4.42, ["z"] = 1.0},
+                ["type"] = "chairs",
+                ["coords"] = {["x"] = -1.38, ["y"] = 3.03, ["z"] = 1.16},
                 ["searched"] = false,
                 ["isBusy"] = false,
-                ["text"] = "Search Through Shelves"
+                ["text"] = "Search Lounge chairs"
             },
             [10] = {
-                ["type"] = "livingroom",
-                ["coords"] = {["x"] = -6.98, ["y"] = 7.91, ["z"] = 1.0},
+                ["type"] = "chairs",
+                ["coords"] = {["x"] = 1.46, ["y"] = 3.06, ["z"] = 1.16},
                 ["searched"] = false,
                 ["isBusy"] = false,
-                ["text"] = "Search Through Shelves"
+                ["text"] = "Search Lounge chairs"
             },
             [11] = {
-                ["type"] = "cabin",
-                ["coords"] = {["x"] = 4.19, ["y"] = -5.14, ["z"] = 1.0},
-                ["searched"] = false,
-                ["isBusy"] = false,
-                ["text"] = "Search Through Side Table"
-            },
-            [12] = {
-                ["type"] = "livingroom",
-                ["coords"] = {["x"] = 0.25, ["y"] = 6.12, ["z"] = 1.0},
-                ["searched"] = false,
-                ["isBusy"] = false,
-                ["text"] = "Search Through Shelves"
-            },
-            [13] = {
-                ["type"] = "cabin",
-                ["coords"] = {["x"] = -4.44, ["y"] = 6.68, ["z"] = 1.0},
-                ["searched"] = false,
-                ["isBusy"] = false,
-                ["text"] = "Search Through Coffee Table"
-            },
-            [14] = {
-                ["type"] = "chest",
-                ["coords"] = {["x"] = 4.79, ["y"] = 5.41, ["z"] = 1.0},
+                ["type"] = "bed",
+                ["coords"] = {["x"] = -2.97, ["y"] = 0.14, ["z"] = 1.16},
                 ["searched"] = false,
                 ["isBusy"] = false,
                 ["text"] = "Search Under The Bed"
@@ -4428,99 +3589,78 @@ Config.Houses = {
         ["tier"] = 1,
         ["furniture"] = {
             [1] = {
-                ["type"] = "cabin",
-                ["coords"] = {["x"] = 4.15, ["y"] = 7.82, ["z"] = 1.0},
+                ["type"] = "cupboards",
+                ["coords"] = {["x"] = 5.72, ["y"] = 0.06, ["z"] = 1.16},
+                ["searched"] = false,
+                ["isBusy"] = false,
+                ["text"] = "Search Cupboards"
+            },
+            [2] = {
+                ["type"] = "cupboards",
+                ["coords"] = {["x"] = -4.27, ["y"] = 3.58, ["z"] = 1.16},
+                ["searched"] = false,
+                ["isBusy"] = false,
+                ["text"] = "Search Cupboards"
+            },
+            [3] = {
+                ["type"] = "wardrobes",
+                ["coords"] = {["x"] = 4.24, ["y"] = -3.62, ["z"] = 1.16},
+                ["searched"] = false,
+                ["isBusy"] = false,
+                ["text"] = "Search Wardrobe"
+            },
+            [4] = {
+                ["type"] = "wardrobes",
+                ["coords"] = {["x"] = 1.41, ["y"] = -3.67, ["z"] = 1.16},
+                ["searched"] = false,
+                ["isBusy"] = false,
+                ["text"] = "Search Wardrobe"
+            },
+            [5] = {
+                ["type"] = "wardrobes",
+                ["coords"] = {["x"] = -1.88, ["y"] = -3.71, ["z"] = 1.16},
+                ["searched"] = false,
+                ["isBusy"] = false,
+                ["text"] = "Search Wardrobe"
+            },
+            [6] = {
+                ["type"] = "wardrobes",
+                ["coords"] = {["x"] = -4.38, ["y"] = -3.62, ["z"] = 1.16},
+                ["searched"] = false,
+                ["isBusy"] = false,
+                ["text"] = "Search Wardrobe"
+            },
+            [7] = {
+                ["type"] = "bedsidecabinet",
+                ["coords"] = {["x"] = -5.53, ["y"] = -1.48, ["z"] = 1.16},
                 ["searched"] = false,
                 ["isBusy"] = false,
                 ["text"] = "Search Bedside Cabinet"
             },
-            [2] = {
-                ["type"] = "cabin",
-                ["coords"] = {["x"] = 5.95, ["y"] = 9.34, ["z"] = 1.0},
-                ["searched"] = false,
-                ["isBusy"] = false,
-                ["text"] = "Search Through The Wardrobe"
-            },
-            [3] = {
-                ["type"] = "kitchen",
-                ["coords"] = {["x"] = -1.03, ["y"] = 0.78, ["z"] = 1.0},
-                ["searched"] = false,
-                ["isBusy"] = false,
-                ["text"] = "Search Through Kitchen Drawers"
-            },
-            [4] = {
-                ["type"] = "chest",
-                ["coords"] = {["x"] = 6.904, ["y"] = 3.987, ["z"] = 1.0},
-                ["searched"] = false,
-                ["isBusy"] = false,
-                ["text"] = "Search Through Chest"
-            },
-            [5] = {
-                ["type"] = "cabin",
-                ["coords"] = {["x"] = 0.933, ["y"] = 1.254, ["z"] = 1.0},
-                ["searched"] = false,
-                ["isBusy"] = false,
-                ["text"] = "Search Through Drawers"
-            },
-            [6] = {
-                ["type"] = "cabin",
-                ["coords"] = {["x"] = 6.19, ["y"] = 3.35, ["z"] = 1.0},
-                ["searched"] = false,
-                ["isBusy"] = false,
-                ["text"] = "Search Through Nighstand Cabinet"
-            },
-            [7] = {
-                ["type"] = "kitchen",
-                ["coords"] = {["x"] = -2.20, ["y"] = -0.30, ["z"] = 1.0},
-                ["searched"] = false,
-                ["isBusy"] = false,
-                ["text"] = "Search Through Kitchen Drawers"
-            },
             [8] = {
-                ["type"] = "kitchen",
-                ["coords"] = {["x"] = -4.35, ["y"] = -0.64, ["z"] = 1.0},
+                ["type"] = "bedsidecabinet",
+                ["coords"] = {["x"] = -5.39, ["y"] = 1.66, ["z"] = 1.16},
                 ["searched"] = false,
                 ["isBusy"] = false,
-                ["text"] = "Search Through Shelves"
+                ["text"] = "Search Bedside Cabinet"
             },
             [9] = {
-                ["type"] = "livingroom",
-                ["coords"] = {["x"] = -6.90, ["y"] = 4.42, ["z"] = 1.0},
+                ["type"] = "chairs",
+                ["coords"] = {["x"] = -1.38, ["y"] = 3.03, ["z"] = 1.16},
                 ["searched"] = false,
                 ["isBusy"] = false,
-                ["text"] = "Search Through Shelves"
+                ["text"] = "Search Lounge chairs"
             },
             [10] = {
-                ["type"] = "livingroom",
-                ["coords"] = {["x"] = -6.98, ["y"] = 7.91, ["z"] = 1.0},
+                ["type"] = "chairs",
+                ["coords"] = {["x"] = 1.46, ["y"] = 3.06, ["z"] = 1.16},
                 ["searched"] = false,
                 ["isBusy"] = false,
-                ["text"] = "Search Through Shelves"
+                ["text"] = "Search Lounge chairs"
             },
             [11] = {
-                ["type"] = "cabin",
-                ["coords"] = {["x"] = 4.19, ["y"] = -5.14, ["z"] = 1.0},
-                ["searched"] = false,
-                ["isBusy"] = false,
-                ["text"] = "Search Through Side Table"
-            },
-            [12] = {
-                ["type"] = "livingroom",
-                ["coords"] = {["x"] = 0.25, ["y"] = 6.12, ["z"] = 1.0},
-                ["searched"] = false,
-                ["isBusy"] = false,
-                ["text"] = "Search Through Shelves"
-            },
-            [13] = {
-                ["type"] = "cabin",
-                ["coords"] = {["x"] = -4.44, ["y"] = 6.68, ["z"] = 1.0},
-                ["searched"] = false,
-                ["isBusy"] = false,
-                ["text"] = "Search Through Coffee Table"
-            },
-            [14] = {
-                ["type"] = "chest",
-                ["coords"] = {["x"] = 4.79, ["y"] = 5.41, ["z"] = 1.0},
+                ["type"] = "bed",
+                ["coords"] = {["x"] = -2.97, ["y"] = 0.14, ["z"] = 1.16},
                 ["searched"] = false,
                 ["isBusy"] = false,
                 ["text"] = "Search Under The Bed"
@@ -4538,99 +3678,78 @@ Config.Houses = {
         ["tier"] = 1,
         ["furniture"] = {
             [1] = {
-                ["type"] = "cabin",
-                ["coords"] = {["x"] = 4.15, ["y"] = 7.82, ["z"] = 1.0},
+                ["type"] = "cupboards",
+                ["coords"] = {["x"] = 5.72, ["y"] = 0.06, ["z"] = 1.16},
+                ["searched"] = false,
+                ["isBusy"] = false,
+                ["text"] = "Search Cupboards"
+            },
+            [2] = {
+                ["type"] = "cupboards",
+                ["coords"] = {["x"] = -4.27, ["y"] = 3.58, ["z"] = 1.16},
+                ["searched"] = false,
+                ["isBusy"] = false,
+                ["text"] = "Search Cupboards"
+            },
+            [3] = {
+                ["type"] = "wardrobes",
+                ["coords"] = {["x"] = 4.24, ["y"] = -3.62, ["z"] = 1.16},
+                ["searched"] = false,
+                ["isBusy"] = false,
+                ["text"] = "Search Wardrobe"
+            },
+            [4] = {
+                ["type"] = "wardrobes",
+                ["coords"] = {["x"] = 1.41, ["y"] = -3.67, ["z"] = 1.16},
+                ["searched"] = false,
+                ["isBusy"] = false,
+                ["text"] = "Search Wardrobe"
+            },
+            [5] = {
+                ["type"] = "wardrobes",
+                ["coords"] = {["x"] = -1.88, ["y"] = -3.71, ["z"] = 1.16},
+                ["searched"] = false,
+                ["isBusy"] = false,
+                ["text"] = "Search Wardrobe"
+            },
+            [6] = {
+                ["type"] = "wardrobes",
+                ["coords"] = {["x"] = -4.38, ["y"] = -3.62, ["z"] = 1.16},
+                ["searched"] = false,
+                ["isBusy"] = false,
+                ["text"] = "Search Wardrobe"
+            },
+            [7] = {
+                ["type"] = "bedsidecabinet",
+                ["coords"] = {["x"] = -5.53, ["y"] = -1.48, ["z"] = 1.16},
                 ["searched"] = false,
                 ["isBusy"] = false,
                 ["text"] = "Search Bedside Cabinet"
             },
-            [2] = {
-                ["type"] = "cabin",
-                ["coords"] = {["x"] = 5.95, ["y"] = 9.34, ["z"] = 1.0},
-                ["searched"] = false,
-                ["isBusy"] = false,
-                ["text"] = "Search Through The Wardrobe"
-            },
-            [3] = {
-                ["type"] = "kitchen",
-                ["coords"] = {["x"] = -1.03, ["y"] = 0.78, ["z"] = 1.0},
-                ["searched"] = false,
-                ["isBusy"] = false,
-                ["text"] = "Search Through Kitchen Drawers"
-            },
-            [4] = {
-                ["type"] = "chest",
-                ["coords"] = {["x"] = 6.904, ["y"] = 3.987, ["z"] = 1.0},
-                ["searched"] = false,
-                ["isBusy"] = false,
-                ["text"] = "Search Through Chest"
-            },
-            [5] = {
-                ["type"] = "cabin",
-                ["coords"] = {["x"] = 0.933, ["y"] = 1.254, ["z"] = 1.0},
-                ["searched"] = false,
-                ["isBusy"] = false,
-                ["text"] = "Search Through Drawers"
-            },
-            [6] = {
-                ["type"] = "cabin",
-                ["coords"] = {["x"] = 6.19, ["y"] = 3.35, ["z"] = 1.0},
-                ["searched"] = false,
-                ["isBusy"] = false,
-                ["text"] = "Search Through Nighstand Cabinet"
-            },
-            [7] = {
-                ["type"] = "kitchen",
-                ["coords"] = {["x"] = -2.20, ["y"] = -0.30, ["z"] = 1.0},
-                ["searched"] = false,
-                ["isBusy"] = false,
-                ["text"] = "Search Through Kitchen Drawers"
-            },
             [8] = {
-                ["type"] = "kitchen",
-                ["coords"] = {["x"] = -4.35, ["y"] = -0.64, ["z"] = 1.0},
+                ["type"] = "bedsidecabinet",
+                ["coords"] = {["x"] = -5.39, ["y"] = 1.66, ["z"] = 1.16},
                 ["searched"] = false,
                 ["isBusy"] = false,
-                ["text"] = "Search Through Shelves"
+                ["text"] = "Search Bedside Cabinet"
             },
             [9] = {
-                ["type"] = "livingroom",
-                ["coords"] = {["x"] = -6.90, ["y"] = 4.42, ["z"] = 1.0},
+                ["type"] = "chairs",
+                ["coords"] = {["x"] = -1.38, ["y"] = 3.03, ["z"] = 1.16},
                 ["searched"] = false,
                 ["isBusy"] = false,
-                ["text"] = "Search Through Shelves"
+                ["text"] = "Search Lounge chairs"
             },
             [10] = {
-                ["type"] = "livingroom",
-                ["coords"] = {["x"] = -6.98, ["y"] = 7.91, ["z"] = 1.0},
+                ["type"] = "chairs",
+                ["coords"] = {["x"] = 1.46, ["y"] = 3.06, ["z"] = 1.16},
                 ["searched"] = false,
                 ["isBusy"] = false,
-                ["text"] = "Search Through Shelves"
+                ["text"] = "Search Lounge chairs"
             },
             [11] = {
-                ["type"] = "cabin",
-                ["coords"] = {["x"] = 4.19, ["y"] = -5.14, ["z"] = 1.0},
-                ["searched"] = false,
-                ["isBusy"] = false,
-                ["text"] = "Search Through Side Table"
-            },
-            [12] = {
-                ["type"] = "livingroom",
-                ["coords"] = {["x"] = 0.25, ["y"] = 6.12, ["z"] = 1.0},
-                ["searched"] = false,
-                ["isBusy"] = false,
-                ["text"] = "Search Through Shelves"
-            },
-            [13] = {
-                ["type"] = "cabin",
-                ["coords"] = {["x"] = -4.44, ["y"] = 6.68, ["z"] = 1.0},
-                ["searched"] = false,
-                ["isBusy"] = false,
-                ["text"] = "Search Through Coffee Table"
-            },
-            [14] = {
-                ["type"] = "chest",
-                ["coords"] = {["x"] = 4.79, ["y"] = 5.41, ["z"] = 1.0},
+                ["type"] = "bed",
+                ["coords"] = {["x"] = -2.97, ["y"] = 0.14, ["z"] = 1.16},
                 ["searched"] = false,
                 ["isBusy"] = false,
                 ["text"] = "Search Under The Bed"
@@ -4648,99 +3767,78 @@ Config.Houses = {
         ["tier"] = 1,
         ["furniture"] = {
             [1] = {
-                ["type"] = "cabin",
-                ["coords"] = {["x"] = 4.15, ["y"] = 7.82, ["z"] = 1.0},
+                ["type"] = "cupboards",
+                ["coords"] = {["x"] = 5.72, ["y"] = 0.06, ["z"] = 1.16},
+                ["searched"] = false,
+                ["isBusy"] = false,
+                ["text"] = "Search Cupboards"
+            },
+            [2] = {
+                ["type"] = "cupboards",
+                ["coords"] = {["x"] = -4.27, ["y"] = 3.58, ["z"] = 1.16},
+                ["searched"] = false,
+                ["isBusy"] = false,
+                ["text"] = "Search Cupboards"
+            },
+            [3] = {
+                ["type"] = "wardrobes",
+                ["coords"] = {["x"] = 4.24, ["y"] = -3.62, ["z"] = 1.16},
+                ["searched"] = false,
+                ["isBusy"] = false,
+                ["text"] = "Search Wardrobe"
+            },
+            [4] = {
+                ["type"] = "wardrobes",
+                ["coords"] = {["x"] = 1.41, ["y"] = -3.67, ["z"] = 1.16},
+                ["searched"] = false,
+                ["isBusy"] = false,
+                ["text"] = "Search Wardrobe"
+            },
+            [5] = {
+                ["type"] = "wardrobes",
+                ["coords"] = {["x"] = -1.88, ["y"] = -3.71, ["z"] = 1.16},
+                ["searched"] = false,
+                ["isBusy"] = false,
+                ["text"] = "Search Wardrobe"
+            },
+            [6] = {
+                ["type"] = "wardrobes",
+                ["coords"] = {["x"] = -4.38, ["y"] = -3.62, ["z"] = 1.16},
+                ["searched"] = false,
+                ["isBusy"] = false,
+                ["text"] = "Search Wardrobe"
+            },
+            [7] = {
+                ["type"] = "bedsidecabinet",
+                ["coords"] = {["x"] = -5.53, ["y"] = -1.48, ["z"] = 1.16},
                 ["searched"] = false,
                 ["isBusy"] = false,
                 ["text"] = "Search Bedside Cabinet"
             },
-            [2] = {
-                ["type"] = "cabin",
-                ["coords"] = {["x"] = 5.95, ["y"] = 9.34, ["z"] = 1.0},
-                ["searched"] = false,
-                ["isBusy"] = false,
-                ["text"] = "Search Through The Wardrobe"
-            },
-            [3] = {
-                ["type"] = "kitchen",
-                ["coords"] = {["x"] = -1.03, ["y"] = 0.78, ["z"] = 1.0},
-                ["searched"] = false,
-                ["isBusy"] = false,
-                ["text"] = "Search Through Kitchen Drawers"
-            },
-            [4] = {
-                ["type"] = "chest",
-                ["coords"] = {["x"] = 6.904, ["y"] = 3.987, ["z"] = 1.0},
-                ["searched"] = false,
-                ["isBusy"] = false,
-                ["text"] = "Search Through Chest"
-            },
-            [5] = {
-                ["type"] = "cabin",
-                ["coords"] = {["x"] = 0.933, ["y"] = 1.254, ["z"] = 1.0},
-                ["searched"] = false,
-                ["isBusy"] = false,
-                ["text"] = "Search Through Drawers"
-            },
-            [6] = {
-                ["type"] = "cabin",
-                ["coords"] = {["x"] = 6.19, ["y"] = 3.35, ["z"] = 1.0},
-                ["searched"] = false,
-                ["isBusy"] = false,
-                ["text"] = "Search Through Nighstand Cabinet"
-            },
-            [7] = {
-                ["type"] = "kitchen",
-                ["coords"] = {["x"] = -2.20, ["y"] = -0.30, ["z"] = 1.0},
-                ["searched"] = false,
-                ["isBusy"] = false,
-                ["text"] = "Search Through Kitchen Drawers"
-            },
             [8] = {
-                ["type"] = "kitchen",
-                ["coords"] = {["x"] = -4.35, ["y"] = -0.64, ["z"] = 1.0},
+                ["type"] = "bedsidecabinet",
+                ["coords"] = {["x"] = -5.39, ["y"] = 1.66, ["z"] = 1.16},
                 ["searched"] = false,
                 ["isBusy"] = false,
-                ["text"] = "Search Through Shelves"
+                ["text"] = "Search Bedside Cabinet"
             },
             [9] = {
-                ["type"] = "livingroom",
-                ["coords"] = {["x"] = -6.90, ["y"] = 4.42, ["z"] = 1.0},
+                ["type"] = "chairs",
+                ["coords"] = {["x"] = -1.38, ["y"] = 3.03, ["z"] = 1.16},
                 ["searched"] = false,
                 ["isBusy"] = false,
-                ["text"] = "Search Through Shelves"
+                ["text"] = "Search Lounge chairs"
             },
             [10] = {
-                ["type"] = "livingroom",
-                ["coords"] = {["x"] = -6.98, ["y"] = 7.91, ["z"] = 1.0},
+                ["type"] = "chairs",
+                ["coords"] = {["x"] = 1.46, ["y"] = 3.06, ["z"] = 1.16},
                 ["searched"] = false,
                 ["isBusy"] = false,
-                ["text"] = "Search Through Shelves"
+                ["text"] = "Search Lounge chairs"
             },
             [11] = {
-                ["type"] = "cabin",
-                ["coords"] = {["x"] = 4.19, ["y"] = -5.14, ["z"] = 1.0},
-                ["searched"] = false,
-                ["isBusy"] = false,
-                ["text"] = "Search Through Side Table"
-            },
-            [12] = {
-                ["type"] = "livingroom",
-                ["coords"] = {["x"] = 0.25, ["y"] = 6.12, ["z"] = 1.0},
-                ["searched"] = false,
-                ["isBusy"] = false,
-                ["text"] = "Search Through Shelves"
-            },
-            [13] = {
-                ["type"] = "cabin",
-                ["coords"] = {["x"] = -4.44, ["y"] = 6.68, ["z"] = 1.0},
-                ["searched"] = false,
-                ["isBusy"] = false,
-                ["text"] = "Search Through Coffee Table"
-            },
-            [14] = {
-                ["type"] = "chest",
-                ["coords"] = {["x"] = 4.79, ["y"] = 5.41, ["z"] = 1.0},
+                ["type"] = "bed",
+                ["coords"] = {["x"] = -2.97, ["y"] = 0.14, ["z"] = 1.16},
                 ["searched"] = false,
                 ["isBusy"] = false,
                 ["text"] = "Search Under The Bed"
@@ -4758,99 +3856,78 @@ Config.Houses = {
         ["tier"] = 1,
         ["furniture"] = {
             [1] = {
-                ["type"] = "cabin",
-                ["coords"] = {["x"] = 4.15, ["y"] = 7.82, ["z"] = 1.0},
+                ["type"] = "cupboards",
+                ["coords"] = {["x"] = 5.72, ["y"] = 0.06, ["z"] = 1.16},
+                ["searched"] = false,
+                ["isBusy"] = false,
+                ["text"] = "Search Cupboards"
+            },
+            [2] = {
+                ["type"] = "cupboards",
+                ["coords"] = {["x"] = -4.27, ["y"] = 3.58, ["z"] = 1.16},
+                ["searched"] = false,
+                ["isBusy"] = false,
+                ["text"] = "Search Cupboards"
+            },
+            [3] = {
+                ["type"] = "wardrobes",
+                ["coords"] = {["x"] = 4.24, ["y"] = -3.62, ["z"] = 1.16},
+                ["searched"] = false,
+                ["isBusy"] = false,
+                ["text"] = "Search Wardrobe"
+            },
+            [4] = {
+                ["type"] = "wardrobes",
+                ["coords"] = {["x"] = 1.41, ["y"] = -3.67, ["z"] = 1.16},
+                ["searched"] = false,
+                ["isBusy"] = false,
+                ["text"] = "Search Wardrobe"
+            },
+            [5] = {
+                ["type"] = "wardrobes",
+                ["coords"] = {["x"] = -1.88, ["y"] = -3.71, ["z"] = 1.16},
+                ["searched"] = false,
+                ["isBusy"] = false,
+                ["text"] = "Search Wardrobe"
+            },
+            [6] = {
+                ["type"] = "wardrobes",
+                ["coords"] = {["x"] = -4.38, ["y"] = -3.62, ["z"] = 1.16},
+                ["searched"] = false,
+                ["isBusy"] = false,
+                ["text"] = "Search Wardrobe"
+            },
+            [7] = {
+                ["type"] = "bedsidecabinet",
+                ["coords"] = {["x"] = -5.53, ["y"] = -1.48, ["z"] = 1.16},
                 ["searched"] = false,
                 ["isBusy"] = false,
                 ["text"] = "Search Bedside Cabinet"
             },
-            [2] = {
-                ["type"] = "cabin",
-                ["coords"] = {["x"] = 5.95, ["y"] = 9.34, ["z"] = 1.0},
-                ["searched"] = false,
-                ["isBusy"] = false,
-                ["text"] = "Search Through The Wardrobe"
-            },
-            [3] = {
-                ["type"] = "kitchen",
-                ["coords"] = {["x"] = -1.03, ["y"] = 0.78, ["z"] = 1.0},
-                ["searched"] = false,
-                ["isBusy"] = false,
-                ["text"] = "Search Through Kitchen Drawers"
-            },
-            [4] = {
-                ["type"] = "chest",
-                ["coords"] = {["x"] = 6.904, ["y"] = 3.987, ["z"] = 1.0},
-                ["searched"] = false,
-                ["isBusy"] = false,
-                ["text"] = "Search Through Chest"
-            },
-            [5] = {
-                ["type"] = "cabin",
-                ["coords"] = {["x"] = 0.933, ["y"] = 1.254, ["z"] = 1.0},
-                ["searched"] = false,
-                ["isBusy"] = false,
-                ["text"] = "Search Through Drawers"
-            },
-            [6] = {
-                ["type"] = "cabin",
-                ["coords"] = {["x"] = 6.19, ["y"] = 3.35, ["z"] = 1.0},
-                ["searched"] = false,
-                ["isBusy"] = false,
-                ["text"] = "Search Through Nighstand Cabinet"
-            },
-            [7] = {
-                ["type"] = "kitchen",
-                ["coords"] = {["x"] = -2.20, ["y"] = -0.30, ["z"] = 1.0},
-                ["searched"] = false,
-                ["isBusy"] = false,
-                ["text"] = "Search Through Kitchen Drawers"
-            },
             [8] = {
-                ["type"] = "kitchen",
-                ["coords"] = {["x"] = -4.35, ["y"] = -0.64, ["z"] = 1.0},
+                ["type"] = "bedsidecabinet",
+                ["coords"] = {["x"] = -5.39, ["y"] = 1.66, ["z"] = 1.16},
                 ["searched"] = false,
                 ["isBusy"] = false,
-                ["text"] = "Search Through Shelves"
+                ["text"] = "Search Bedside Cabinet"
             },
             [9] = {
-                ["type"] = "livingroom",
-                ["coords"] = {["x"] = -6.90, ["y"] = 4.42, ["z"] = 1.0},
+                ["type"] = "chairs",
+                ["coords"] = {["x"] = -1.38, ["y"] = 3.03, ["z"] = 1.16},
                 ["searched"] = false,
                 ["isBusy"] = false,
-                ["text"] = "Search Through Shelves"
+                ["text"] = "Search Lounge chairs"
             },
             [10] = {
-                ["type"] = "livingroom",
-                ["coords"] = {["x"] = -6.98, ["y"] = 7.91, ["z"] = 1.0},
+                ["type"] = "chairs",
+                ["coords"] = {["x"] = 1.46, ["y"] = 3.06, ["z"] = 1.16},
                 ["searched"] = false,
                 ["isBusy"] = false,
-                ["text"] = "Search Through Shelves"
+                ["text"] = "Search Lounge chairs"
             },
             [11] = {
-                ["type"] = "cabin",
-                ["coords"] = {["x"] = 4.19, ["y"] = -5.14, ["z"] = 1.0},
-                ["searched"] = false,
-                ["isBusy"] = false,
-                ["text"] = "Search Through Side Table"
-            },
-            [12] = {
-                ["type"] = "livingroom",
-                ["coords"] = {["x"] = 0.25, ["y"] = 6.12, ["z"] = 1.0},
-                ["searched"] = false,
-                ["isBusy"] = false,
-                ["text"] = "Search Through Shelves"
-            },
-            [13] = {
-                ["type"] = "cabin",
-                ["coords"] = {["x"] = -4.44, ["y"] = 6.68, ["z"] = 1.0},
-                ["searched"] = false,
-                ["isBusy"] = false,
-                ["text"] = "Search Through Coffee Table"
-            },
-            [14] = {
-                ["type"] = "chest",
-                ["coords"] = {["x"] = 4.79, ["y"] = 5.41, ["z"] = 1.0},
+                ["type"] = "bed",
+                ["coords"] = {["x"] = -2.97, ["y"] = 0.14, ["z"] = 1.16},
                 ["searched"] = false,
                 ["isBusy"] = false,
                 ["text"] = "Search Under The Bed"
@@ -4868,99 +3945,78 @@ Config.Houses = {
         ["tier"] = 1,
         ["furniture"] = {
             [1] = {
-                ["type"] = "cabin",
-                ["coords"] = {["x"] = 4.15, ["y"] = 7.82, ["z"] = 1.0},
+                ["type"] = "cupboards",
+                ["coords"] = {["x"] = 5.72, ["y"] = 0.06, ["z"] = 1.16},
+                ["searched"] = false,
+                ["isBusy"] = false,
+                ["text"] = "Search Cupboards"
+            },
+            [2] = {
+                ["type"] = "cupboards",
+                ["coords"] = {["x"] = -4.27, ["y"] = 3.58, ["z"] = 1.16},
+                ["searched"] = false,
+                ["isBusy"] = false,
+                ["text"] = "Search Cupboards"
+            },
+            [3] = {
+                ["type"] = "wardrobes",
+                ["coords"] = {["x"] = 4.24, ["y"] = -3.62, ["z"] = 1.16},
+                ["searched"] = false,
+                ["isBusy"] = false,
+                ["text"] = "Search Wardrobe"
+            },
+            [4] = {
+                ["type"] = "wardrobes",
+                ["coords"] = {["x"] = 1.41, ["y"] = -3.67, ["z"] = 1.16},
+                ["searched"] = false,
+                ["isBusy"] = false,
+                ["text"] = "Search Wardrobe"
+            },
+            [5] = {
+                ["type"] = "wardrobes",
+                ["coords"] = {["x"] = -1.88, ["y"] = -3.71, ["z"] = 1.16},
+                ["searched"] = false,
+                ["isBusy"] = false,
+                ["text"] = "Search Wardrobe"
+            },
+            [6] = {
+                ["type"] = "wardrobes",
+                ["coords"] = {["x"] = -4.38, ["y"] = -3.62, ["z"] = 1.16},
+                ["searched"] = false,
+                ["isBusy"] = false,
+                ["text"] = "Search Wardrobe"
+            },
+            [7] = {
+                ["type"] = "bedsidecabinet",
+                ["coords"] = {["x"] = -5.53, ["y"] = -1.48, ["z"] = 1.16},
                 ["searched"] = false,
                 ["isBusy"] = false,
                 ["text"] = "Search Bedside Cabinet"
             },
-            [2] = {
-                ["type"] = "cabin",
-                ["coords"] = {["x"] = 5.95, ["y"] = 9.34, ["z"] = 1.0},
-                ["searched"] = false,
-                ["isBusy"] = false,
-                ["text"] = "Search Through The Wardrobe"
-            },
-            [3] = {
-                ["type"] = "kitchen",
-                ["coords"] = {["x"] = -1.03, ["y"] = 0.78, ["z"] = 1.0},
-                ["searched"] = false,
-                ["isBusy"] = false,
-                ["text"] = "Search Through Kitchen Drawers"
-            },
-            [4] = {
-                ["type"] = "chest",
-                ["coords"] = {["x"] = 6.904, ["y"] = 3.987, ["z"] = 1.0},
-                ["searched"] = false,
-                ["isBusy"] = false,
-                ["text"] = "Search Through Chest"
-            },
-            [5] = {
-                ["type"] = "cabin",
-                ["coords"] = {["x"] = 0.933, ["y"] = 1.254, ["z"] = 1.0},
-                ["searched"] = false,
-                ["isBusy"] = false,
-                ["text"] = "Search Through Drawers"
-            },
-            [6] = {
-                ["type"] = "cabin",
-                ["coords"] = {["x"] = 6.19, ["y"] = 3.35, ["z"] = 1.0},
-                ["searched"] = false,
-                ["isBusy"] = false,
-                ["text"] = "Search Through Nighstand Cabinet"
-            },
-            [7] = {
-                ["type"] = "kitchen",
-                ["coords"] = {["x"] = -2.20, ["y"] = -0.30, ["z"] = 1.0},
-                ["searched"] = false,
-                ["isBusy"] = false,
-                ["text"] = "Search Through Kitchen Drawers"
-            },
             [8] = {
-                ["type"] = "kitchen",
-                ["coords"] = {["x"] = -4.35, ["y"] = -0.64, ["z"] = 1.0},
+                ["type"] = "bedsidecabinet",
+                ["coords"] = {["x"] = -5.39, ["y"] = 1.66, ["z"] = 1.16},
                 ["searched"] = false,
                 ["isBusy"] = false,
-                ["text"] = "Search Through Shelves"
+                ["text"] = "Search Bedside Cabinet"
             },
             [9] = {
-                ["type"] = "livingroom",
-                ["coords"] = {["x"] = -6.90, ["y"] = 4.42, ["z"] = 1.0},
+                ["type"] = "chairs",
+                ["coords"] = {["x"] = -1.38, ["y"] = 3.03, ["z"] = 1.16},
                 ["searched"] = false,
                 ["isBusy"] = false,
-                ["text"] = "Search Through Shelves"
+                ["text"] = "Search Lounge chairs"
             },
             [10] = {
-                ["type"] = "livingroom",
-                ["coords"] = {["x"] = -6.98, ["y"] = 7.91, ["z"] = 1.0},
+                ["type"] = "chairs",
+                ["coords"] = {["x"] = 1.46, ["y"] = 3.06, ["z"] = 1.16},
                 ["searched"] = false,
                 ["isBusy"] = false,
-                ["text"] = "Search Through Shelves"
+                ["text"] = "Search Lounge chairs"
             },
             [11] = {
-                ["type"] = "cabin",
-                ["coords"] = {["x"] = 4.19, ["y"] = -5.14, ["z"] = 1.0},
-                ["searched"] = false,
-                ["isBusy"] = false,
-                ["text"] = "Search Through Side Table"
-            },
-            [12] = {
-                ["type"] = "livingroom",
-                ["coords"] = {["x"] = 0.25, ["y"] = 6.12, ["z"] = 1.0},
-                ["searched"] = false,
-                ["isBusy"] = false,
-                ["text"] = "Search Through Shelves"
-            },
-            [13] = {
-                ["type"] = "cabin",
-                ["coords"] = {["x"] = -4.44, ["y"] = 6.68, ["z"] = 1.0},
-                ["searched"] = false,
-                ["isBusy"] = false,
-                ["text"] = "Search Through Coffee Table"
-            },
-            [14] = {
-                ["type"] = "chest",
-                ["coords"] = {["x"] = 4.79, ["y"] = 5.41, ["z"] = 1.0},
+                ["type"] = "bed",
+                ["coords"] = {["x"] = -2.97, ["y"] = 0.14, ["z"] = 1.16},
                 ["searched"] = false,
                 ["isBusy"] = false,
                 ["text"] = "Search Under The Bed"
@@ -4978,99 +4034,78 @@ Config.Houses = {
         ["tier"] = 1,
         ["furniture"] = {
             [1] = {
-                ["type"] = "cabin",
-                ["coords"] = {["x"] = 4.15, ["y"] = 7.82, ["z"] = 1.0},
+                ["type"] = "cupboards",
+                ["coords"] = {["x"] = 5.72, ["y"] = 0.06, ["z"] = 1.16},
+                ["searched"] = false,
+                ["isBusy"] = false,
+                ["text"] = "Search Cupboards"
+            },
+            [2] = {
+                ["type"] = "cupboards",
+                ["coords"] = {["x"] = -4.27, ["y"] = 3.58, ["z"] = 1.16},
+                ["searched"] = false,
+                ["isBusy"] = false,
+                ["text"] = "Search Cupboards"
+            },
+            [3] = {
+                ["type"] = "wardrobes",
+                ["coords"] = {["x"] = 4.24, ["y"] = -3.62, ["z"] = 1.16},
+                ["searched"] = false,
+                ["isBusy"] = false,
+                ["text"] = "Search Wardrobe"
+            },
+            [4] = {
+                ["type"] = "wardrobes",
+                ["coords"] = {["x"] = 1.41, ["y"] = -3.67, ["z"] = 1.16},
+                ["searched"] = false,
+                ["isBusy"] = false,
+                ["text"] = "Search Wardrobe"
+            },
+            [5] = {
+                ["type"] = "wardrobes",
+                ["coords"] = {["x"] = -1.88, ["y"] = -3.71, ["z"] = 1.16},
+                ["searched"] = false,
+                ["isBusy"] = false,
+                ["text"] = "Search Wardrobe"
+            },
+            [6] = {
+                ["type"] = "wardrobes",
+                ["coords"] = {["x"] = -4.38, ["y"] = -3.62, ["z"] = 1.16},
+                ["searched"] = false,
+                ["isBusy"] = false,
+                ["text"] = "Search Wardrobe"
+            },
+            [7] = {
+                ["type"] = "bedsidecabinet",
+                ["coords"] = {["x"] = -5.53, ["y"] = -1.48, ["z"] = 1.16},
                 ["searched"] = false,
                 ["isBusy"] = false,
                 ["text"] = "Search Bedside Cabinet"
             },
-            [2] = {
-                ["type"] = "cabin",
-                ["coords"] = {["x"] = 5.95, ["y"] = 9.34, ["z"] = 1.0},
-                ["searched"] = false,
-                ["isBusy"] = false,
-                ["text"] = "Search Through The Wardrobe"
-            },
-            [3] = {
-                ["type"] = "kitchen",
-                ["coords"] = {["x"] = -1.03, ["y"] = 0.78, ["z"] = 1.0},
-                ["searched"] = false,
-                ["isBusy"] = false,
-                ["text"] = "Search Through Kitchen Drawers"
-            },
-            [4] = {
-                ["type"] = "chest",
-                ["coords"] = {["x"] = 6.904, ["y"] = 3.987, ["z"] = 1.0},
-                ["searched"] = false,
-                ["isBusy"] = false,
-                ["text"] = "Search Through Chest"
-            },
-            [5] = {
-                ["type"] = "cabin",
-                ["coords"] = {["x"] = 0.933, ["y"] = 1.254, ["z"] = 1.0},
-                ["searched"] = false,
-                ["isBusy"] = false,
-                ["text"] = "Search Through Drawers"
-            },
-            [6] = {
-                ["type"] = "cabin",
-                ["coords"] = {["x"] = 6.19, ["y"] = 3.35, ["z"] = 1.0},
-                ["searched"] = false,
-                ["isBusy"] = false,
-                ["text"] = "Search Through Nighstand Cabinet"
-            },
-            [7] = {
-                ["type"] = "kitchen",
-                ["coords"] = {["x"] = -2.20, ["y"] = -0.30, ["z"] = 1.0},
-                ["searched"] = false,
-                ["isBusy"] = false,
-                ["text"] = "Search Through Kitchen Drawers"
-            },
             [8] = {
-                ["type"] = "kitchen",
-                ["coords"] = {["x"] = -4.35, ["y"] = -0.64, ["z"] = 1.0},
+                ["type"] = "bedsidecabinet",
+                ["coords"] = {["x"] = -5.39, ["y"] = 1.66, ["z"] = 1.16},
                 ["searched"] = false,
                 ["isBusy"] = false,
-                ["text"] = "Search Through Shelves"
+                ["text"] = "Search Bedside Cabinet"
             },
             [9] = {
-                ["type"] = "livingroom",
-                ["coords"] = {["x"] = -6.90, ["y"] = 4.42, ["z"] = 1.0},
+                ["type"] = "chairs",
+                ["coords"] = {["x"] = -1.38, ["y"] = 3.03, ["z"] = 1.16},
                 ["searched"] = false,
                 ["isBusy"] = false,
-                ["text"] = "Search Through Shelves"
+                ["text"] = "Search Lounge chairs"
             },
             [10] = {
-                ["type"] = "livingroom",
-                ["coords"] = {["x"] = -6.98, ["y"] = 7.91, ["z"] = 1.0},
+                ["type"] = "chairs",
+                ["coords"] = {["x"] = 1.46, ["y"] = 3.06, ["z"] = 1.16},
                 ["searched"] = false,
                 ["isBusy"] = false,
-                ["text"] = "Search Through Shelves"
+                ["text"] = "Search Lounge chairs"
             },
             [11] = {
-                ["type"] = "cabin",
-                ["coords"] = {["x"] = 4.19, ["y"] = -5.14, ["z"] = 1.0},
-                ["searched"] = false,
-                ["isBusy"] = false,
-                ["text"] = "Search Through Side Table"
-            },
-            [12] = {
-                ["type"] = "livingroom",
-                ["coords"] = {["x"] = 0.25, ["y"] = 6.12, ["z"] = 1.0},
-                ["searched"] = false,
-                ["isBusy"] = false,
-                ["text"] = "Search Through Shelves"
-            },
-            [13] = {
-                ["type"] = "cabin",
-                ["coords"] = {["x"] = -4.44, ["y"] = 6.68, ["z"] = 1.0},
-                ["searched"] = false,
-                ["isBusy"] = false,
-                ["text"] = "Search Through Coffee Table"
-            },
-            [14] = {
-                ["type"] = "chest",
-                ["coords"] = {["x"] = 4.79, ["y"] = 5.41, ["z"] = 1.0},
+                ["type"] = "bed",
+                ["coords"] = {["x"] = -2.97, ["y"] = 0.14, ["z"] = 1.16},
                 ["searched"] = false,
                 ["isBusy"] = false,
                 ["text"] = "Search Under The Bed"
@@ -5088,99 +4123,78 @@ Config.Houses = {
         ["tier"] = 1,
         ["furniture"] = {
             [1] = {
-                ["type"] = "cabin",
-                ["coords"] = {["x"] = 4.15, ["y"] = 7.82, ["z"] = 1.0},
+                ["type"] = "cupboards",
+                ["coords"] = {["x"] = 5.72, ["y"] = 0.06, ["z"] = 1.16},
+                ["searched"] = false,
+                ["isBusy"] = false,
+                ["text"] = "Search Cupboards"
+            },
+            [2] = {
+                ["type"] = "cupboards",
+                ["coords"] = {["x"] = -4.27, ["y"] = 3.58, ["z"] = 1.16},
+                ["searched"] = false,
+                ["isBusy"] = false,
+                ["text"] = "Search Cupboards"
+            },
+            [3] = {
+                ["type"] = "wardrobes",
+                ["coords"] = {["x"] = 4.24, ["y"] = -3.62, ["z"] = 1.16},
+                ["searched"] = false,
+                ["isBusy"] = false,
+                ["text"] = "Search Wardrobe"
+            },
+            [4] = {
+                ["type"] = "wardrobes",
+                ["coords"] = {["x"] = 1.41, ["y"] = -3.67, ["z"] = 1.16},
+                ["searched"] = false,
+                ["isBusy"] = false,
+                ["text"] = "Search Wardrobe"
+            },
+            [5] = {
+                ["type"] = "wardrobes",
+                ["coords"] = {["x"] = -1.88, ["y"] = -3.71, ["z"] = 1.16},
+                ["searched"] = false,
+                ["isBusy"] = false,
+                ["text"] = "Search Wardrobe"
+            },
+            [6] = {
+                ["type"] = "wardrobes",
+                ["coords"] = {["x"] = -4.38, ["y"] = -3.62, ["z"] = 1.16},
+                ["searched"] = false,
+                ["isBusy"] = false,
+                ["text"] = "Search Wardrobe"
+            },
+            [7] = {
+                ["type"] = "bedsidecabinet",
+                ["coords"] = {["x"] = -5.53, ["y"] = -1.48, ["z"] = 1.16},
                 ["searched"] = false,
                 ["isBusy"] = false,
                 ["text"] = "Search Bedside Cabinet"
             },
-            [2] = {
-                ["type"] = "cabin",
-                ["coords"] = {["x"] = 5.95, ["y"] = 9.34, ["z"] = 1.0},
-                ["searched"] = false,
-                ["isBusy"] = false,
-                ["text"] = "Search Through The Wardrobe"
-            },
-            [3] = {
-                ["type"] = "kitchen",
-                ["coords"] = {["x"] = -1.03, ["y"] = 0.78, ["z"] = 1.0},
-                ["searched"] = false,
-                ["isBusy"] = false,
-                ["text"] = "Search Through Kitchen Drawers"
-            },
-            [4] = {
-                ["type"] = "chest",
-                ["coords"] = {["x"] = 6.904, ["y"] = 3.987, ["z"] = 1.0},
-                ["searched"] = false,
-                ["isBusy"] = false,
-                ["text"] = "Search Through Chest"
-            },
-            [5] = {
-                ["type"] = "cabin",
-                ["coords"] = {["x"] = 0.933, ["y"] = 1.254, ["z"] = 1.0},
-                ["searched"] = false,
-                ["isBusy"] = false,
-                ["text"] = "Search Through Drawers"
-            },
-            [6] = {
-                ["type"] = "cabin",
-                ["coords"] = {["x"] = 6.19, ["y"] = 3.35, ["z"] = 1.0},
-                ["searched"] = false,
-                ["isBusy"] = false,
-                ["text"] = "Search Through Nighstand Cabinet"
-            },
-            [7] = {
-                ["type"] = "kitchen",
-                ["coords"] = {["x"] = -2.20, ["y"] = -0.30, ["z"] = 1.0},
-                ["searched"] = false,
-                ["isBusy"] = false,
-                ["text"] = "Search Through Kitchen Drawers"
-            },
             [8] = {
-                ["type"] = "kitchen",
-                ["coords"] = {["x"] = -4.35, ["y"] = -0.64, ["z"] = 1.0},
+                ["type"] = "bedsidecabinet",
+                ["coords"] = {["x"] = -5.39, ["y"] = 1.66, ["z"] = 1.16},
                 ["searched"] = false,
                 ["isBusy"] = false,
-                ["text"] = "Search Through Shelves"
+                ["text"] = "Search Bedside Cabinet"
             },
             [9] = {
-                ["type"] = "livingroom",
-                ["coords"] = {["x"] = -6.90, ["y"] = 4.42, ["z"] = 1.0},
+                ["type"] = "chairs",
+                ["coords"] = {["x"] = -1.38, ["y"] = 3.03, ["z"] = 1.16},
                 ["searched"] = false,
                 ["isBusy"] = false,
-                ["text"] = "Search Through Shelves"
+                ["text"] = "Search Lounge chairs"
             },
             [10] = {
-                ["type"] = "livingroom",
-                ["coords"] = {["x"] = -6.98, ["y"] = 7.91, ["z"] = 1.0},
+                ["type"] = "chairs",
+                ["coords"] = {["x"] = 1.46, ["y"] = 3.06, ["z"] = 1.16},
                 ["searched"] = false,
                 ["isBusy"] = false,
-                ["text"] = "Search Through Shelves"
+                ["text"] = "Search Lounge chairs"
             },
             [11] = {
-                ["type"] = "cabin",
-                ["coords"] = {["x"] = 4.19, ["y"] = -5.14, ["z"] = 1.0},
-                ["searched"] = false,
-                ["isBusy"] = false,
-                ["text"] = "Search Through Side Table"
-            },
-            [12] = {
-                ["type"] = "livingroom",
-                ["coords"] = {["x"] = 0.25, ["y"] = 6.12, ["z"] = 1.0},
-                ["searched"] = false,
-                ["isBusy"] = false,
-                ["text"] = "Search Through Shelves"
-            },
-            [13] = {
-                ["type"] = "cabin",
-                ["coords"] = {["x"] = -4.44, ["y"] = 6.68, ["z"] = 1.0},
-                ["searched"] = false,
-                ["isBusy"] = false,
-                ["text"] = "Search Through Coffee Table"
-            },
-            [14] = {
-                ["type"] = "chest",
-                ["coords"] = {["x"] = 4.79, ["y"] = 5.41, ["z"] = 1.0},
+                ["type"] = "bed",
+                ["coords"] = {["x"] = -2.97, ["y"] = 0.14, ["z"] = 1.16},
                 ["searched"] = false,
                 ["isBusy"] = false,
                 ["text"] = "Search Under The Bed"
@@ -5198,99 +4212,78 @@ Config.Houses = {
         ["tier"] = 1,
         ["furniture"] = {
             [1] = {
-                ["type"] = "cabin",
-                ["coords"] = {["x"] = 4.15, ["y"] = 7.82, ["z"] = 1.0},
+                ["type"] = "cupboards",
+                ["coords"] = {["x"] = 5.72, ["y"] = 0.06, ["z"] = 1.16},
+                ["searched"] = false,
+                ["isBusy"] = false,
+                ["text"] = "Search Cupboards"
+            },
+            [2] = {
+                ["type"] = "cupboards",
+                ["coords"] = {["x"] = -4.27, ["y"] = 3.58, ["z"] = 1.16},
+                ["searched"] = false,
+                ["isBusy"] = false,
+                ["text"] = "Search Cupboards"
+            },
+            [3] = {
+                ["type"] = "wardrobes",
+                ["coords"] = {["x"] = 4.24, ["y"] = -3.62, ["z"] = 1.16},
+                ["searched"] = false,
+                ["isBusy"] = false,
+                ["text"] = "Search Wardrobe"
+            },
+            [4] = {
+                ["type"] = "wardrobes",
+                ["coords"] = {["x"] = 1.41, ["y"] = -3.67, ["z"] = 1.16},
+                ["searched"] = false,
+                ["isBusy"] = false,
+                ["text"] = "Search Wardrobe"
+            },
+            [5] = {
+                ["type"] = "wardrobes",
+                ["coords"] = {["x"] = -1.88, ["y"] = -3.71, ["z"] = 1.16},
+                ["searched"] = false,
+                ["isBusy"] = false,
+                ["text"] = "Search Wardrobe"
+            },
+            [6] = {
+                ["type"] = "wardrobes",
+                ["coords"] = {["x"] = -4.38, ["y"] = -3.62, ["z"] = 1.16},
+                ["searched"] = false,
+                ["isBusy"] = false,
+                ["text"] = "Search Wardrobe"
+            },
+            [7] = {
+                ["type"] = "bedsidecabinet",
+                ["coords"] = {["x"] = -5.53, ["y"] = -1.48, ["z"] = 1.16},
                 ["searched"] = false,
                 ["isBusy"] = false,
                 ["text"] = "Search Bedside Cabinet"
             },
-            [2] = {
-                ["type"] = "cabin",
-                ["coords"] = {["x"] = 5.95, ["y"] = 9.34, ["z"] = 1.0},
-                ["searched"] = false,
-                ["isBusy"] = false,
-                ["text"] = "Search Through The Wardrobe"
-            },
-            [3] = {
-                ["type"] = "kitchen",
-                ["coords"] = {["x"] = -1.03, ["y"] = 0.78, ["z"] = 1.0},
-                ["searched"] = false,
-                ["isBusy"] = false,
-                ["text"] = "Search Through Kitchen Drawers"
-            },
-            [4] = {
-                ["type"] = "chest",
-                ["coords"] = {["x"] = 6.904, ["y"] = 3.987, ["z"] = 1.0},
-                ["searched"] = false,
-                ["isBusy"] = false,
-                ["text"] = "Search Through Chest"
-            },
-            [5] = {
-                ["type"] = "cabin",
-                ["coords"] = {["x"] = 0.933, ["y"] = 1.254, ["z"] = 1.0},
-                ["searched"] = false,
-                ["isBusy"] = false,
-                ["text"] = "Search Through Drawers"
-            },
-            [6] = {
-                ["type"] = "cabin",
-                ["coords"] = {["x"] = 6.19, ["y"] = 3.35, ["z"] = 1.0},
-                ["searched"] = false,
-                ["isBusy"] = false,
-                ["text"] = "Search Through Nighstand Cabinet"
-            },
-            [7] = {
-                ["type"] = "kitchen",
-                ["coords"] = {["x"] = -2.20, ["y"] = -0.30, ["z"] = 1.0},
-                ["searched"] = false,
-                ["isBusy"] = false,
-                ["text"] = "Search Through Kitchen Drawers"
-            },
             [8] = {
-                ["type"] = "kitchen",
-                ["coords"] = {["x"] = -4.35, ["y"] = -0.64, ["z"] = 1.0},
+                ["type"] = "bedsidecabinet",
+                ["coords"] = {["x"] = -5.39, ["y"] = 1.66, ["z"] = 1.16},
                 ["searched"] = false,
                 ["isBusy"] = false,
-                ["text"] = "Search Through Shelves"
+                ["text"] = "Search Bedside Cabinet"
             },
             [9] = {
-                ["type"] = "livingroom",
-                ["coords"] = {["x"] = -6.90, ["y"] = 4.42, ["z"] = 1.0},
+                ["type"] = "chairs",
+                ["coords"] = {["x"] = -1.38, ["y"] = 3.03, ["z"] = 1.16},
                 ["searched"] = false,
                 ["isBusy"] = false,
-                ["text"] = "Search Through Shelves"
+                ["text"] = "Search Lounge chairs"
             },
             [10] = {
-                ["type"] = "livingroom",
-                ["coords"] = {["x"] = -6.98, ["y"] = 7.91, ["z"] = 1.0},
+                ["type"] = "chairs",
+                ["coords"] = {["x"] = 1.46, ["y"] = 3.06, ["z"] = 1.16},
                 ["searched"] = false,
                 ["isBusy"] = false,
-                ["text"] = "Search Through Shelves"
+                ["text"] = "Search Lounge chairs"
             },
             [11] = {
-                ["type"] = "cabin",
-                ["coords"] = {["x"] = 4.19, ["y"] = -5.14, ["z"] = 1.0},
-                ["searched"] = false,
-                ["isBusy"] = false,
-                ["text"] = "Search Through Side Table"
-            },
-            [12] = {
-                ["type"] = "livingroom",
-                ["coords"] = {["x"] = 0.25, ["y"] = 6.12, ["z"] = 1.0},
-                ["searched"] = false,
-                ["isBusy"] = false,
-                ["text"] = "Search Through Shelves"
-            },
-            [13] = {
-                ["type"] = "cabin",
-                ["coords"] = {["x"] = -4.44, ["y"] = 6.68, ["z"] = 1.0},
-                ["searched"] = false,
-                ["isBusy"] = false,
-                ["text"] = "Search Through Coffee Table"
-            },
-            [14] = {
-                ["type"] = "chest",
-                ["coords"] = {["x"] = 4.79, ["y"] = 5.41, ["z"] = 1.0},
+                ["type"] = "bed",
+                ["coords"] = {["x"] = -2.97, ["y"] = 0.14, ["z"] = 1.16},
                 ["searched"] = false,
                 ["isBusy"] = false,
                 ["text"] = "Search Under The Bed"
@@ -5308,99 +4301,78 @@ Config.Houses = {
         ["tier"] = 1,
         ["furniture"] = {
             [1] = {
-                ["type"] = "cabin",
-                ["coords"] = {["x"] = 4.15, ["y"] = 7.82, ["z"] = 1.0},
+                ["type"] = "cupboards",
+                ["coords"] = {["x"] = 5.72, ["y"] = 0.06, ["z"] = 1.16},
+                ["searched"] = false,
+                ["isBusy"] = false,
+                ["text"] = "Search Cupboards"
+            },
+            [2] = {
+                ["type"] = "cupboards",
+                ["coords"] = {["x"] = -4.27, ["y"] = 3.58, ["z"] = 1.16},
+                ["searched"] = false,
+                ["isBusy"] = false,
+                ["text"] = "Search Cupboards"
+            },
+            [3] = {
+                ["type"] = "wardrobes",
+                ["coords"] = {["x"] = 4.24, ["y"] = -3.62, ["z"] = 1.16},
+                ["searched"] = false,
+                ["isBusy"] = false,
+                ["text"] = "Search Wardrobe"
+            },
+            [4] = {
+                ["type"] = "wardrobes",
+                ["coords"] = {["x"] = 1.41, ["y"] = -3.67, ["z"] = 1.16},
+                ["searched"] = false,
+                ["isBusy"] = false,
+                ["text"] = "Search Wardrobe"
+            },
+            [5] = {
+                ["type"] = "wardrobes",
+                ["coords"] = {["x"] = -1.88, ["y"] = -3.71, ["z"] = 1.16},
+                ["searched"] = false,
+                ["isBusy"] = false,
+                ["text"] = "Search Wardrobe"
+            },
+            [6] = {
+                ["type"] = "wardrobes",
+                ["coords"] = {["x"] = -4.38, ["y"] = -3.62, ["z"] = 1.16},
+                ["searched"] = false,
+                ["isBusy"] = false,
+                ["text"] = "Search Wardrobe"
+            },
+            [7] = {
+                ["type"] = "bedsidecabinet",
+                ["coords"] = {["x"] = -5.53, ["y"] = -1.48, ["z"] = 1.16},
                 ["searched"] = false,
                 ["isBusy"] = false,
                 ["text"] = "Search Bedside Cabinet"
             },
-            [2] = {
-                ["type"] = "cabin",
-                ["coords"] = {["x"] = 5.95, ["y"] = 9.34, ["z"] = 1.0},
-                ["searched"] = false,
-                ["isBusy"] = false,
-                ["text"] = "Search Through The Wardrobe"
-            },
-            [3] = {
-                ["type"] = "kitchen",
-                ["coords"] = {["x"] = -1.03, ["y"] = 0.78, ["z"] = 1.0},
-                ["searched"] = false,
-                ["isBusy"] = false,
-                ["text"] = "Search Through Kitchen Drawers"
-            },
-            [4] = {
-                ["type"] = "chest",
-                ["coords"] = {["x"] = 6.904, ["y"] = 3.987, ["z"] = 1.0},
-                ["searched"] = false,
-                ["isBusy"] = false,
-                ["text"] = "Search Through Chest"
-            },
-            [5] = {
-                ["type"] = "cabin",
-                ["coords"] = {["x"] = 0.933, ["y"] = 1.254, ["z"] = 1.0},
-                ["searched"] = false,
-                ["isBusy"] = false,
-                ["text"] = "Search Through Drawers"
-            },
-            [6] = {
-                ["type"] = "cabin",
-                ["coords"] = {["x"] = 6.19, ["y"] = 3.35, ["z"] = 1.0},
-                ["searched"] = false,
-                ["isBusy"] = false,
-                ["text"] = "Search Through Nighstand Cabinet"
-            },
-            [7] = {
-                ["type"] = "kitchen",
-                ["coords"] = {["x"] = -2.20, ["y"] = -0.30, ["z"] = 1.0},
-                ["searched"] = false,
-                ["isBusy"] = false,
-                ["text"] = "Search Through Kitchen Drawers"
-            },
             [8] = {
-                ["type"] = "kitchen",
-                ["coords"] = {["x"] = -4.35, ["y"] = -0.64, ["z"] = 1.0},
+                ["type"] = "bedsidecabinet",
+                ["coords"] = {["x"] = -5.39, ["y"] = 1.66, ["z"] = 1.16},
                 ["searched"] = false,
                 ["isBusy"] = false,
-                ["text"] = "Search Through Shelves"
+                ["text"] = "Search Bedside Cabinet"
             },
             [9] = {
-                ["type"] = "livingroom",
-                ["coords"] = {["x"] = -6.90, ["y"] = 4.42, ["z"] = 1.0},
+                ["type"] = "chairs",
+                ["coords"] = {["x"] = -1.38, ["y"] = 3.03, ["z"] = 1.16},
                 ["searched"] = false,
                 ["isBusy"] = false,
-                ["text"] = "Search Through Shelves"
+                ["text"] = "Search Lounge chairs"
             },
             [10] = {
-                ["type"] = "livingroom",
-                ["coords"] = {["x"] = -6.98, ["y"] = 7.91, ["z"] = 1.0},
+                ["type"] = "chairs",
+                ["coords"] = {["x"] = 1.46, ["y"] = 3.06, ["z"] = 1.16},
                 ["searched"] = false,
                 ["isBusy"] = false,
-                ["text"] = "Search Through Shelves"
+                ["text"] = "Search Lounge chairs"
             },
             [11] = {
-                ["type"] = "cabin",
-                ["coords"] = {["x"] = 4.19, ["y"] = -5.14, ["z"] = 1.0},
-                ["searched"] = false,
-                ["isBusy"] = false,
-                ["text"] = "Search Through Side Table"
-            },
-            [12] = {
-                ["type"] = "livingroom",
-                ["coords"] = {["x"] = 0.25, ["y"] = 6.12, ["z"] = 1.0},
-                ["searched"] = false,
-                ["isBusy"] = false,
-                ["text"] = "Search Through Shelves"
-            },
-            [13] = {
-                ["type"] = "cabin",
-                ["coords"] = {["x"] = -4.44, ["y"] = 6.68, ["z"] = 1.0},
-                ["searched"] = false,
-                ["isBusy"] = false,
-                ["text"] = "Search Through Coffee Table"
-            },
-            [14] = {
-                ["type"] = "chest",
-                ["coords"] = {["x"] = 4.79, ["y"] = 5.41, ["z"] = 1.0},
+                ["type"] = "bed",
+                ["coords"] = {["x"] = -2.97, ["y"] = 0.14, ["z"] = 1.16},
                 ["searched"] = false,
                 ["isBusy"] = false,
                 ["text"] = "Search Under The Bed"
@@ -5418,99 +4390,78 @@ Config.Houses = {
         ["tier"] = 1,
         ["furniture"] = {
             [1] = {
-                ["type"] = "cabin",
-                ["coords"] = {["x"] = 4.15, ["y"] = 7.82, ["z"] = 1.0},
+                ["type"] = "cupboards",
+                ["coords"] = {["x"] = 5.72, ["y"] = 0.06, ["z"] = 1.16},
+                ["searched"] = false,
+                ["isBusy"] = false,
+                ["text"] = "Search Cupboards"
+            },
+            [2] = {
+                ["type"] = "cupboards",
+                ["coords"] = {["x"] = -4.27, ["y"] = 3.58, ["z"] = 1.16},
+                ["searched"] = false,
+                ["isBusy"] = false,
+                ["text"] = "Search Cupboards"
+            },
+            [3] = {
+                ["type"] = "wardrobes",
+                ["coords"] = {["x"] = 4.24, ["y"] = -3.62, ["z"] = 1.16},
+                ["searched"] = false,
+                ["isBusy"] = false,
+                ["text"] = "Search Wardrobe"
+            },
+            [4] = {
+                ["type"] = "wardrobes",
+                ["coords"] = {["x"] = 1.41, ["y"] = -3.67, ["z"] = 1.16},
+                ["searched"] = false,
+                ["isBusy"] = false,
+                ["text"] = "Search Wardrobe"
+            },
+            [5] = {
+                ["type"] = "wardrobes",
+                ["coords"] = {["x"] = -1.88, ["y"] = -3.71, ["z"] = 1.16},
+                ["searched"] = false,
+                ["isBusy"] = false,
+                ["text"] = "Search Wardrobe"
+            },
+            [6] = {
+                ["type"] = "wardrobes",
+                ["coords"] = {["x"] = -4.38, ["y"] = -3.62, ["z"] = 1.16},
+                ["searched"] = false,
+                ["isBusy"] = false,
+                ["text"] = "Search Wardrobe"
+            },
+            [7] = {
+                ["type"] = "bedsidecabinet",
+                ["coords"] = {["x"] = -5.53, ["y"] = -1.48, ["z"] = 1.16},
                 ["searched"] = false,
                 ["isBusy"] = false,
                 ["text"] = "Search Bedside Cabinet"
             },
-            [2] = {
-                ["type"] = "cabin",
-                ["coords"] = {["x"] = 5.95, ["y"] = 9.34, ["z"] = 1.0},
-                ["searched"] = false,
-                ["isBusy"] = false,
-                ["text"] = "Search Through The Wardrobe"
-            },
-            [3] = {
-                ["type"] = "kitchen",
-                ["coords"] = {["x"] = -1.03, ["y"] = 0.78, ["z"] = 1.0},
-                ["searched"] = false,
-                ["isBusy"] = false,
-                ["text"] = "Search Through Kitchen Drawers"
-            },
-            [4] = {
-                ["type"] = "chest",
-                ["coords"] = {["x"] = 6.904, ["y"] = 3.987, ["z"] = 1.0},
-                ["searched"] = false,
-                ["isBusy"] = false,
-                ["text"] = "Search Through Chest"
-            },
-            [5] = {
-                ["type"] = "cabin",
-                ["coords"] = {["x"] = 0.933, ["y"] = 1.254, ["z"] = 1.0},
-                ["searched"] = false,
-                ["isBusy"] = false,
-                ["text"] = "Search Through Drawers"
-            },
-            [6] = {
-                ["type"] = "cabin",
-                ["coords"] = {["x"] = 6.19, ["y"] = 3.35, ["z"] = 1.0},
-                ["searched"] = false,
-                ["isBusy"] = false,
-                ["text"] = "Search Through Nighstand Cabinet"
-            },
-            [7] = {
-                ["type"] = "kitchen",
-                ["coords"] = {["x"] = -2.20, ["y"] = -0.30, ["z"] = 1.0},
-                ["searched"] = false,
-                ["isBusy"] = false,
-                ["text"] = "Search Through Kitchen Drawers"
-            },
             [8] = {
-                ["type"] = "kitchen",
-                ["coords"] = {["x"] = -4.35, ["y"] = -0.64, ["z"] = 1.0},
+                ["type"] = "bedsidecabinet",
+                ["coords"] = {["x"] = -5.39, ["y"] = 1.66, ["z"] = 1.16},
                 ["searched"] = false,
                 ["isBusy"] = false,
-                ["text"] = "Search Through Shelves"
+                ["text"] = "Search Bedside Cabinet"
             },
             [9] = {
-                ["type"] = "livingroom",
-                ["coords"] = {["x"] = -6.90, ["y"] = 4.42, ["z"] = 1.0},
+                ["type"] = "chairs",
+                ["coords"] = {["x"] = -1.38, ["y"] = 3.03, ["z"] = 1.16},
                 ["searched"] = false,
                 ["isBusy"] = false,
-                ["text"] = "Search Through Shelves"
+                ["text"] = "Search Lounge chairs"
             },
             [10] = {
-                ["type"] = "livingroom",
-                ["coords"] = {["x"] = -6.98, ["y"] = 7.91, ["z"] = 1.0},
+                ["type"] = "chairs",
+                ["coords"] = {["x"] = 1.46, ["y"] = 3.06, ["z"] = 1.16},
                 ["searched"] = false,
                 ["isBusy"] = false,
-                ["text"] = "Search Through Shelves"
+                ["text"] = "Search Lounge chairs"
             },
             [11] = {
-                ["type"] = "cabin",
-                ["coords"] = {["x"] = 4.19, ["y"] = -5.14, ["z"] = 1.0},
-                ["searched"] = false,
-                ["isBusy"] = false,
-                ["text"] = "Search Through Side Table"
-            },
-            [12] = {
-                ["type"] = "livingroom",
-                ["coords"] = {["x"] = 0.25, ["y"] = 6.12, ["z"] = 1.0},
-                ["searched"] = false,
-                ["isBusy"] = false,
-                ["text"] = "Search Through Shelves"
-            },
-            [13] = {
-                ["type"] = "cabin",
-                ["coords"] = {["x"] = -4.44, ["y"] = 6.68, ["z"] = 1.0},
-                ["searched"] = false,
-                ["isBusy"] = false,
-                ["text"] = "Search Through Coffee Table"
-            },
-            [14] = {
-                ["type"] = "chest",
-                ["coords"] = {["x"] = 4.79, ["y"] = 5.41, ["z"] = 1.0},
+                ["type"] = "bed",
+                ["coords"] = {["x"] = -2.97, ["y"] = 0.14, ["z"] = 1.16},
                 ["searched"] = false,
                 ["isBusy"] = false,
                 ["text"] = "Search Under The Bed"
@@ -5528,99 +4479,78 @@ Config.Houses = {
         ["tier"] = 1,
         ["furniture"] = {
             [1] = {
-                ["type"] = "cabin",
-                ["coords"] = {["x"] = 4.15, ["y"] = 7.82, ["z"] = 1.0},
+                ["type"] = "cupboards",
+                ["coords"] = {["x"] = 5.72, ["y"] = 0.06, ["z"] = 1.16},
+                ["searched"] = false,
+                ["isBusy"] = false,
+                ["text"] = "Search Cupboards"
+            },
+            [2] = {
+                ["type"] = "cupboards",
+                ["coords"] = {["x"] = -4.27, ["y"] = 3.58, ["z"] = 1.16},
+                ["searched"] = false,
+                ["isBusy"] = false,
+                ["text"] = "Search Cupboards"
+            },
+            [3] = {
+                ["type"] = "wardrobes",
+                ["coords"] = {["x"] = 4.24, ["y"] = -3.62, ["z"] = 1.16},
+                ["searched"] = false,
+                ["isBusy"] = false,
+                ["text"] = "Search Wardrobe"
+            },
+            [4] = {
+                ["type"] = "wardrobes",
+                ["coords"] = {["x"] = 1.41, ["y"] = -3.67, ["z"] = 1.16},
+                ["searched"] = false,
+                ["isBusy"] = false,
+                ["text"] = "Search Wardrobe"
+            },
+            [5] = {
+                ["type"] = "wardrobes",
+                ["coords"] = {["x"] = -1.88, ["y"] = -3.71, ["z"] = 1.16},
+                ["searched"] = false,
+                ["isBusy"] = false,
+                ["text"] = "Search Wardrobe"
+            },
+            [6] = {
+                ["type"] = "wardrobes",
+                ["coords"] = {["x"] = -4.38, ["y"] = -3.62, ["z"] = 1.16},
+                ["searched"] = false,
+                ["isBusy"] = false,
+                ["text"] = "Search Wardrobe"
+            },
+            [7] = {
+                ["type"] = "bedsidecabinet",
+                ["coords"] = {["x"] = -5.53, ["y"] = -1.48, ["z"] = 1.16},
                 ["searched"] = false,
                 ["isBusy"] = false,
                 ["text"] = "Search Bedside Cabinet"
             },
-            [2] = {
-                ["type"] = "cabin",
-                ["coords"] = {["x"] = 5.95, ["y"] = 9.34, ["z"] = 1.0},
-                ["searched"] = false,
-                ["isBusy"] = false,
-                ["text"] = "Search Through The Wardrobe"
-            },
-            [3] = {
-                ["type"] = "kitchen",
-                ["coords"] = {["x"] = -1.03, ["y"] = 0.78, ["z"] = 1.0},
-                ["searched"] = false,
-                ["isBusy"] = false,
-                ["text"] = "Search Through Kitchen Drawers"
-            },
-            [4] = {
-                ["type"] = "chest",
-                ["coords"] = {["x"] = 6.904, ["y"] = 3.987, ["z"] = 1.0},
-                ["searched"] = false,
-                ["isBusy"] = false,
-                ["text"] = "Search Through Chest"
-            },
-            [5] = {
-                ["type"] = "cabin",
-                ["coords"] = {["x"] = 0.933, ["y"] = 1.254, ["z"] = 1.0},
-                ["searched"] = false,
-                ["isBusy"] = false,
-                ["text"] = "Search Through Drawers"
-            },
-            [6] = {
-                ["type"] = "cabin",
-                ["coords"] = {["x"] = 6.19, ["y"] = 3.35, ["z"] = 1.0},
-                ["searched"] = false,
-                ["isBusy"] = false,
-                ["text"] = "Search Through Nighstand Cabinet"
-            },
-            [7] = {
-                ["type"] = "kitchen",
-                ["coords"] = {["x"] = -2.20, ["y"] = -0.30, ["z"] = 1.0},
-                ["searched"] = false,
-                ["isBusy"] = false,
-                ["text"] = "Search Through Kitchen Drawers"
-            },
             [8] = {
-                ["type"] = "kitchen",
-                ["coords"] = {["x"] = -4.35, ["y"] = -0.64, ["z"] = 1.0},
+                ["type"] = "bedsidecabinet",
+                ["coords"] = {["x"] = -5.39, ["y"] = 1.66, ["z"] = 1.16},
                 ["searched"] = false,
                 ["isBusy"] = false,
-                ["text"] = "Search Through Shelves"
+                ["text"] = "Search Bedside Cabinet"
             },
             [9] = {
-                ["type"] = "livingroom",
-                ["coords"] = {["x"] = -6.90, ["y"] = 4.42, ["z"] = 1.0},
+                ["type"] = "chairs",
+                ["coords"] = {["x"] = -1.38, ["y"] = 3.03, ["z"] = 1.16},
                 ["searched"] = false,
                 ["isBusy"] = false,
-                ["text"] = "Search Through Shelves"
+                ["text"] = "Search Lounge chairs"
             },
             [10] = {
-                ["type"] = "livingroom",
-                ["coords"] = {["x"] = -6.98, ["y"] = 7.91, ["z"] = 1.0},
+                ["type"] = "chairs",
+                ["coords"] = {["x"] = 1.46, ["y"] = 3.06, ["z"] = 1.16},
                 ["searched"] = false,
                 ["isBusy"] = false,
-                ["text"] = "Search Through Shelves"
+                ["text"] = "Search Lounge chairs"
             },
             [11] = {
-                ["type"] = "cabin",
-                ["coords"] = {["x"] = 4.19, ["y"] = -5.14, ["z"] = 1.0},
-                ["searched"] = false,
-                ["isBusy"] = false,
-                ["text"] = "Search Through Side Table"
-            },
-            [12] = {
-                ["type"] = "livingroom",
-                ["coords"] = {["x"] = 0.25, ["y"] = 6.12, ["z"] = 1.0},
-                ["searched"] = false,
-                ["isBusy"] = false,
-                ["text"] = "Search Through Shelves"
-            },
-            [13] = {
-                ["type"] = "cabin",
-                ["coords"] = {["x"] = -4.44, ["y"] = 6.68, ["z"] = 1.0},
-                ["searched"] = false,
-                ["isBusy"] = false,
-                ["text"] = "Search Through Coffee Table"
-            },
-            [14] = {
-                ["type"] = "chest",
-                ["coords"] = {["x"] = 4.79, ["y"] = 5.41, ["z"] = 1.0},
+                ["type"] = "bed",
+                ["coords"] = {["x"] = -2.97, ["y"] = 0.14, ["z"] = 1.16},
                 ["searched"] = false,
                 ["isBusy"] = false,
                 ["text"] = "Search Under The Bed"
@@ -5638,99 +4568,78 @@ Config.Houses = {
         ["tier"] = 1,
         ["furniture"] = {
             [1] = {
-                ["type"] = "cabin",
-                ["coords"] = {["x"] = 4.15, ["y"] = 7.82, ["z"] = 1.0},
+                ["type"] = "cupboards",
+                ["coords"] = {["x"] = 5.72, ["y"] = 0.06, ["z"] = 1.16},
+                ["searched"] = false,
+                ["isBusy"] = false,
+                ["text"] = "Search Cupboards"
+            },
+            [2] = {
+                ["type"] = "cupboards",
+                ["coords"] = {["x"] = -4.27, ["y"] = 3.58, ["z"] = 1.16},
+                ["searched"] = false,
+                ["isBusy"] = false,
+                ["text"] = "Search Cupboards"
+            },
+            [3] = {
+                ["type"] = "wardrobes",
+                ["coords"] = {["x"] = 4.24, ["y"] = -3.62, ["z"] = 1.16},
+                ["searched"] = false,
+                ["isBusy"] = false,
+                ["text"] = "Search Wardrobe"
+            },
+            [4] = {
+                ["type"] = "wardrobes",
+                ["coords"] = {["x"] = 1.41, ["y"] = -3.67, ["z"] = 1.16},
+                ["searched"] = false,
+                ["isBusy"] = false,
+                ["text"] = "Search Wardrobe"
+            },
+            [5] = {
+                ["type"] = "wardrobes",
+                ["coords"] = {["x"] = -1.88, ["y"] = -3.71, ["z"] = 1.16},
+                ["searched"] = false,
+                ["isBusy"] = false,
+                ["text"] = "Search Wardrobe"
+            },
+            [6] = {
+                ["type"] = "wardrobes",
+                ["coords"] = {["x"] = -4.38, ["y"] = -3.62, ["z"] = 1.16},
+                ["searched"] = false,
+                ["isBusy"] = false,
+                ["text"] = "Search Wardrobe"
+            },
+            [7] = {
+                ["type"] = "bedsidecabinet",
+                ["coords"] = {["x"] = -5.53, ["y"] = -1.48, ["z"] = 1.16},
                 ["searched"] = false,
                 ["isBusy"] = false,
                 ["text"] = "Search Bedside Cabinet"
             },
-            [2] = {
-                ["type"] = "cabin",
-                ["coords"] = {["x"] = 5.95, ["y"] = 9.34, ["z"] = 1.0},
-                ["searched"] = false,
-                ["isBusy"] = false,
-                ["text"] = "Search Through The Wardrobe"
-            },
-            [3] = {
-                ["type"] = "kitchen",
-                ["coords"] = {["x"] = -1.03, ["y"] = 0.78, ["z"] = 1.0},
-                ["searched"] = false,
-                ["isBusy"] = false,
-                ["text"] = "Search Through Kitchen Drawers"
-            },
-            [4] = {
-                ["type"] = "chest",
-                ["coords"] = {["x"] = 6.904, ["y"] = 3.987, ["z"] = 1.0},
-                ["searched"] = false,
-                ["isBusy"] = false,
-                ["text"] = "Search Through Chest"
-            },
-            [5] = {
-                ["type"] = "cabin",
-                ["coords"] = {["x"] = 0.933, ["y"] = 1.254, ["z"] = 1.0},
-                ["searched"] = false,
-                ["isBusy"] = false,
-                ["text"] = "Search Through Drawers"
-            },
-            [6] = {
-                ["type"] = "cabin",
-                ["coords"] = {["x"] = 6.19, ["y"] = 3.35, ["z"] = 1.0},
-                ["searched"] = false,
-                ["isBusy"] = false,
-                ["text"] = "Search Through Nighstand Cabinet"
-            },
-            [7] = {
-                ["type"] = "kitchen",
-                ["coords"] = {["x"] = -2.20, ["y"] = -0.30, ["z"] = 1.0},
-                ["searched"] = false,
-                ["isBusy"] = false,
-                ["text"] = "Search Through Kitchen Drawers"
-            },
             [8] = {
-                ["type"] = "kitchen",
-                ["coords"] = {["x"] = -4.35, ["y"] = -0.64, ["z"] = 1.0},
+                ["type"] = "bedsidecabinet",
+                ["coords"] = {["x"] = -5.39, ["y"] = 1.66, ["z"] = 1.16},
                 ["searched"] = false,
                 ["isBusy"] = false,
-                ["text"] = "Search Through Shelves"
+                ["text"] = "Search Bedside Cabinet"
             },
             [9] = {
-                ["type"] = "livingroom",
-                ["coords"] = {["x"] = -6.90, ["y"] = 4.42, ["z"] = 1.0},
+                ["type"] = "chairs",
+                ["coords"] = {["x"] = -1.38, ["y"] = 3.03, ["z"] = 1.16},
                 ["searched"] = false,
                 ["isBusy"] = false,
-                ["text"] = "Search Through Shelves"
+                ["text"] = "Search Lounge chairs"
             },
             [10] = {
-                ["type"] = "livingroom",
-                ["coords"] = {["x"] = -6.98, ["y"] = 7.91, ["z"] = 1.0},
+                ["type"] = "chairs",
+                ["coords"] = {["x"] = 1.46, ["y"] = 3.06, ["z"] = 1.16},
                 ["searched"] = false,
                 ["isBusy"] = false,
-                ["text"] = "Search Through Shelves"
+                ["text"] = "Search Lounge chairs"
             },
             [11] = {
-                ["type"] = "cabin",
-                ["coords"] = {["x"] = 4.19, ["y"] = -5.14, ["z"] = 1.0},
-                ["searched"] = false,
-                ["isBusy"] = false,
-                ["text"] = "Search Through Side Table"
-            },
-            [12] = {
-                ["type"] = "livingroom",
-                ["coords"] = {["x"] = 0.25, ["y"] = 6.12, ["z"] = 1.0},
-                ["searched"] = false,
-                ["isBusy"] = false,
-                ["text"] = "Search Through Shelves"
-            },
-            [13] = {
-                ["type"] = "cabin",
-                ["coords"] = {["x"] = -4.44, ["y"] = 6.68, ["z"] = 1.0},
-                ["searched"] = false,
-                ["isBusy"] = false,
-                ["text"] = "Search Through Coffee Table"
-            },
-            [14] = {
-                ["type"] = "chest",
-                ["coords"] = {["x"] = 4.79, ["y"] = 5.41, ["z"] = 1.0},
+                ["type"] = "bed",
+                ["coords"] = {["x"] = -2.97, ["y"] = 0.14, ["z"] = 1.16},
                 ["searched"] = false,
                 ["isBusy"] = false,
                 ["text"] = "Search Under The Bed"
@@ -5748,99 +4657,78 @@ Config.Houses = {
         ["tier"] = 1,
         ["furniture"] = {
             [1] = {
-                ["type"] = "cabin",
-                ["coords"] = {["x"] = 4.15, ["y"] = 7.82, ["z"] = 1.0},
+                ["type"] = "cupboards",
+                ["coords"] = {["x"] = 5.72, ["y"] = 0.06, ["z"] = 1.16},
+                ["searched"] = false,
+                ["isBusy"] = false,
+                ["text"] = "Search Cupboards"
+            },
+            [2] = {
+                ["type"] = "cupboards",
+                ["coords"] = {["x"] = -4.27, ["y"] = 3.58, ["z"] = 1.16},
+                ["searched"] = false,
+                ["isBusy"] = false,
+                ["text"] = "Search Cupboards"
+            },
+            [3] = {
+                ["type"] = "wardrobes",
+                ["coords"] = {["x"] = 4.24, ["y"] = -3.62, ["z"] = 1.16},
+                ["searched"] = false,
+                ["isBusy"] = false,
+                ["text"] = "Search Wardrobe"
+            },
+            [4] = {
+                ["type"] = "wardrobes",
+                ["coords"] = {["x"] = 1.41, ["y"] = -3.67, ["z"] = 1.16},
+                ["searched"] = false,
+                ["isBusy"] = false,
+                ["text"] = "Search Wardrobe"
+            },
+            [5] = {
+                ["type"] = "wardrobes",
+                ["coords"] = {["x"] = -1.88, ["y"] = -3.71, ["z"] = 1.16},
+                ["searched"] = false,
+                ["isBusy"] = false,
+                ["text"] = "Search Wardrobe"
+            },
+            [6] = {
+                ["type"] = "wardrobes",
+                ["coords"] = {["x"] = -4.38, ["y"] = -3.62, ["z"] = 1.16},
+                ["searched"] = false,
+                ["isBusy"] = false,
+                ["text"] = "Search Wardrobe"
+            },
+            [7] = {
+                ["type"] = "bedsidecabinet",
+                ["coords"] = {["x"] = -5.53, ["y"] = -1.48, ["z"] = 1.16},
                 ["searched"] = false,
                 ["isBusy"] = false,
                 ["text"] = "Search Bedside Cabinet"
             },
-            [2] = {
-                ["type"] = "cabin",
-                ["coords"] = {["x"] = 5.95, ["y"] = 9.34, ["z"] = 1.0},
-                ["searched"] = false,
-                ["isBusy"] = false,
-                ["text"] = "Search Through The Wardrobe"
-            },
-            [3] = {
-                ["type"] = "kitchen",
-                ["coords"] = {["x"] = -1.03, ["y"] = 0.78, ["z"] = 1.0},
-                ["searched"] = false,
-                ["isBusy"] = false,
-                ["text"] = "Search Through Kitchen Drawers"
-            },
-            [4] = {
-                ["type"] = "chest",
-                ["coords"] = {["x"] = 6.904, ["y"] = 3.987, ["z"] = 1.0},
-                ["searched"] = false,
-                ["isBusy"] = false,
-                ["text"] = "Search Through Chest"
-            },
-            [5] = {
-                ["type"] = "cabin",
-                ["coords"] = {["x"] = 0.933, ["y"] = 1.254, ["z"] = 1.0},
-                ["searched"] = false,
-                ["isBusy"] = false,
-                ["text"] = "Search Through Drawers"
-            },
-            [6] = {
-                ["type"] = "cabin",
-                ["coords"] = {["x"] = 6.19, ["y"] = 3.35, ["z"] = 1.0},
-                ["searched"] = false,
-                ["isBusy"] = false,
-                ["text"] = "Search Through Nighstand Cabinet"
-            },
-            [7] = {
-                ["type"] = "kitchen",
-                ["coords"] = {["x"] = -2.20, ["y"] = -0.30, ["z"] = 1.0},
-                ["searched"] = false,
-                ["isBusy"] = false,
-                ["text"] = "Search Through Kitchen Drawers"
-            },
             [8] = {
-                ["type"] = "kitchen",
-                ["coords"] = {["x"] = -4.35, ["y"] = -0.64, ["z"] = 1.0},
+                ["type"] = "bedsidecabinet",
+                ["coords"] = {["x"] = -5.39, ["y"] = 1.66, ["z"] = 1.16},
                 ["searched"] = false,
                 ["isBusy"] = false,
-                ["text"] = "Search Through Shelves"
+                ["text"] = "Search Bedside Cabinet"
             },
             [9] = {
-                ["type"] = "livingroom",
-                ["coords"] = {["x"] = -6.90, ["y"] = 4.42, ["z"] = 1.0},
+                ["type"] = "chairs",
+                ["coords"] = {["x"] = -1.38, ["y"] = 3.03, ["z"] = 1.16},
                 ["searched"] = false,
                 ["isBusy"] = false,
-                ["text"] = "Search Through Shelves"
+                ["text"] = "Search Lounge chairs"
             },
             [10] = {
-                ["type"] = "livingroom",
-                ["coords"] = {["x"] = -6.98, ["y"] = 7.91, ["z"] = 1.0},
+                ["type"] = "chairs",
+                ["coords"] = {["x"] = 1.46, ["y"] = 3.06, ["z"] = 1.16},
                 ["searched"] = false,
                 ["isBusy"] = false,
-                ["text"] = "Search Through Shelves"
+                ["text"] = "Search Lounge chairs"
             },
             [11] = {
-                ["type"] = "cabin",
-                ["coords"] = {["x"] = 4.19, ["y"] = -5.14, ["z"] = 1.0},
-                ["searched"] = false,
-                ["isBusy"] = false,
-                ["text"] = "Search Through Side Table"
-            },
-            [12] = {
-                ["type"] = "livingroom",
-                ["coords"] = {["x"] = 0.25, ["y"] = 6.12, ["z"] = 1.0},
-                ["searched"] = false,
-                ["isBusy"] = false,
-                ["text"] = "Search Through Shelves"
-            },
-            [13] = {
-                ["type"] = "cabin",
-                ["coords"] = {["x"] = -4.44, ["y"] = 6.68, ["z"] = 1.0},
-                ["searched"] = false,
-                ["isBusy"] = false,
-                ["text"] = "Search Through Coffee Table"
-            },
-            [14] = {
-                ["type"] = "chest",
-                ["coords"] = {["x"] = 4.79, ["y"] = 5.41, ["z"] = 1.0},
+                ["type"] = "bed",
+                ["coords"] = {["x"] = -2.97, ["y"] = 0.14, ["z"] = 1.16},
                 ["searched"] = false,
                 ["isBusy"] = false,
                 ["text"] = "Search Under The Bed"
@@ -5858,99 +4746,78 @@ Config.Houses = {
         ["tier"] = 1,
         ["furniture"] = {
             [1] = {
-                ["type"] = "cabin",
-                ["coords"] = {["x"] = 4.15, ["y"] = 7.82, ["z"] = 1.0},
+                ["type"] = "cupboards",
+                ["coords"] = {["x"] = 5.72, ["y"] = 0.06, ["z"] = 1.16},
+                ["searched"] = false,
+                ["isBusy"] = false,
+                ["text"] = "Search Cupboards"
+            },
+            [2] = {
+                ["type"] = "cupboards",
+                ["coords"] = {["x"] = -4.27, ["y"] = 3.58, ["z"] = 1.16},
+                ["searched"] = false,
+                ["isBusy"] = false,
+                ["text"] = "Search Cupboards"
+            },
+            [3] = {
+                ["type"] = "wardrobes",
+                ["coords"] = {["x"] = 4.24, ["y"] = -3.62, ["z"] = 1.16},
+                ["searched"] = false,
+                ["isBusy"] = false,
+                ["text"] = "Search Wardrobe"
+            },
+            [4] = {
+                ["type"] = "wardrobes",
+                ["coords"] = {["x"] = 1.41, ["y"] = -3.67, ["z"] = 1.16},
+                ["searched"] = false,
+                ["isBusy"] = false,
+                ["text"] = "Search Wardrobe"
+            },
+            [5] = {
+                ["type"] = "wardrobes",
+                ["coords"] = {["x"] = -1.88, ["y"] = -3.71, ["z"] = 1.16},
+                ["searched"] = false,
+                ["isBusy"] = false,
+                ["text"] = "Search Wardrobe"
+            },
+            [6] = {
+                ["type"] = "wardrobes",
+                ["coords"] = {["x"] = -4.38, ["y"] = -3.62, ["z"] = 1.16},
+                ["searched"] = false,
+                ["isBusy"] = false,
+                ["text"] = "Search Wardrobe"
+            },
+            [7] = {
+                ["type"] = "bedsidecabinet",
+                ["coords"] = {["x"] = -5.53, ["y"] = -1.48, ["z"] = 1.16},
                 ["searched"] = false,
                 ["isBusy"] = false,
                 ["text"] = "Search Bedside Cabinet"
             },
-            [2] = {
-                ["type"] = "cabin",
-                ["coords"] = {["x"] = 5.95, ["y"] = 9.34, ["z"] = 1.0},
-                ["searched"] = false,
-                ["isBusy"] = false,
-                ["text"] = "Search Through The Wardrobe"
-            },
-            [3] = {
-                ["type"] = "kitchen",
-                ["coords"] = {["x"] = -1.03, ["y"] = 0.78, ["z"] = 1.0},
-                ["searched"] = false,
-                ["isBusy"] = false,
-                ["text"] = "Search Through Kitchen Drawers"
-            },
-            [4] = {
-                ["type"] = "chest",
-                ["coords"] = {["x"] = 6.904, ["y"] = 3.987, ["z"] = 1.0},
-                ["searched"] = false,
-                ["isBusy"] = false,
-                ["text"] = "Search Through Chest"
-            },
-            [5] = {
-                ["type"] = "cabin",
-                ["coords"] = {["x"] = 0.933, ["y"] = 1.254, ["z"] = 1.0},
-                ["searched"] = false,
-                ["isBusy"] = false,
-                ["text"] = "Search Through Drawers"
-            },
-            [6] = {
-                ["type"] = "cabin",
-                ["coords"] = {["x"] = 6.19, ["y"] = 3.35, ["z"] = 1.0},
-                ["searched"] = false,
-                ["isBusy"] = false,
-                ["text"] = "Search Through Nighstand Cabinet"
-            },
-            [7] = {
-                ["type"] = "kitchen",
-                ["coords"] = {["x"] = -2.20, ["y"] = -0.30, ["z"] = 1.0},
-                ["searched"] = false,
-                ["isBusy"] = false,
-                ["text"] = "Search Through Kitchen Drawers"
-            },
             [8] = {
-                ["type"] = "kitchen",
-                ["coords"] = {["x"] = -4.35, ["y"] = -0.64, ["z"] = 1.0},
+                ["type"] = "bedsidecabinet",
+                ["coords"] = {["x"] = -5.39, ["y"] = 1.66, ["z"] = 1.16},
                 ["searched"] = false,
                 ["isBusy"] = false,
-                ["text"] = "Search Through Shelves"
+                ["text"] = "Search Bedside Cabinet"
             },
             [9] = {
-                ["type"] = "livingroom",
-                ["coords"] = {["x"] = -6.90, ["y"] = 4.42, ["z"] = 1.0},
+                ["type"] = "chairs",
+                ["coords"] = {["x"] = -1.38, ["y"] = 3.03, ["z"] = 1.16},
                 ["searched"] = false,
                 ["isBusy"] = false,
-                ["text"] = "Search Through Shelves"
+                ["text"] = "Search Lounge chairs"
             },
             [10] = {
-                ["type"] = "livingroom",
-                ["coords"] = {["x"] = -6.98, ["y"] = 7.91, ["z"] = 1.0},
+                ["type"] = "chairs",
+                ["coords"] = {["x"] = 1.46, ["y"] = 3.06, ["z"] = 1.16},
                 ["searched"] = false,
                 ["isBusy"] = false,
-                ["text"] = "Search Through Shelves"
+                ["text"] = "Search Lounge chairs"
             },
             [11] = {
-                ["type"] = "cabin",
-                ["coords"] = {["x"] = 4.19, ["y"] = -5.14, ["z"] = 1.0},
-                ["searched"] = false,
-                ["isBusy"] = false,
-                ["text"] = "Search Through Side Table"
-            },
-            [12] = {
-                ["type"] = "livingroom",
-                ["coords"] = {["x"] = 0.25, ["y"] = 6.12, ["z"] = 1.0},
-                ["searched"] = false,
-                ["isBusy"] = false,
-                ["text"] = "Search Through Shelves"
-            },
-            [13] = {
-                ["type"] = "cabin",
-                ["coords"] = {["x"] = -4.44, ["y"] = 6.68, ["z"] = 1.0},
-                ["searched"] = false,
-                ["isBusy"] = false,
-                ["text"] = "Search Through Coffee Table"
-            },
-            [14] = {
-                ["type"] = "chest",
-                ["coords"] = {["x"] = 4.79, ["y"] = 5.41, ["z"] = 1.0},
+                ["type"] = "bed",
+                ["coords"] = {["x"] = -2.97, ["y"] = 0.14, ["z"] = 1.16},
                 ["searched"] = false,
                 ["isBusy"] = false,
                 ["text"] = "Search Under The Bed"
@@ -5968,99 +4835,78 @@ Config.Houses = {
         ["tier"] = 1,
         ["furniture"] = {
             [1] = {
-                ["type"] = "cabin",
-                ["coords"] = {["x"] = 4.15, ["y"] = 7.82, ["z"] = 1.0},
+                ["type"] = "cupboards",
+                ["coords"] = {["x"] = 5.72, ["y"] = 0.06, ["z"] = 1.16},
+                ["searched"] = false,
+                ["isBusy"] = false,
+                ["text"] = "Search Cupboards"
+            },
+            [2] = {
+                ["type"] = "cupboards",
+                ["coords"] = {["x"] = -4.27, ["y"] = 3.58, ["z"] = 1.16},
+                ["searched"] = false,
+                ["isBusy"] = false,
+                ["text"] = "Search Cupboards"
+            },
+            [3] = {
+                ["type"] = "wardrobes",
+                ["coords"] = {["x"] = 4.24, ["y"] = -3.62, ["z"] = 1.16},
+                ["searched"] = false,
+                ["isBusy"] = false,
+                ["text"] = "Search Wardrobe"
+            },
+            [4] = {
+                ["type"] = "wardrobes",
+                ["coords"] = {["x"] = 1.41, ["y"] = -3.67, ["z"] = 1.16},
+                ["searched"] = false,
+                ["isBusy"] = false,
+                ["text"] = "Search Wardrobe"
+            },
+            [5] = {
+                ["type"] = "wardrobes",
+                ["coords"] = {["x"] = -1.88, ["y"] = -3.71, ["z"] = 1.16},
+                ["searched"] = false,
+                ["isBusy"] = false,
+                ["text"] = "Search Wardrobe"
+            },
+            [6] = {
+                ["type"] = "wardrobes",
+                ["coords"] = {["x"] = -4.38, ["y"] = -3.62, ["z"] = 1.16},
+                ["searched"] = false,
+                ["isBusy"] = false,
+                ["text"] = "Search Wardrobe"
+            },
+            [7] = {
+                ["type"] = "bedsidecabinet",
+                ["coords"] = {["x"] = -5.53, ["y"] = -1.48, ["z"] = 1.16},
                 ["searched"] = false,
                 ["isBusy"] = false,
                 ["text"] = "Search Bedside Cabinet"
             },
-            [2] = {
-                ["type"] = "cabin",
-                ["coords"] = {["x"] = 5.95, ["y"] = 9.34, ["z"] = 1.0},
-                ["searched"] = false,
-                ["isBusy"] = false,
-                ["text"] = "Search Through The Wardrobe"
-            },
-            [3] = {
-                ["type"] = "kitchen",
-                ["coords"] = {["x"] = -1.03, ["y"] = 0.78, ["z"] = 1.0},
-                ["searched"] = false,
-                ["isBusy"] = false,
-                ["text"] = "Search Through Kitchen Drawers"
-            },
-            [4] = {
-                ["type"] = "chest",
-                ["coords"] = {["x"] = 6.904, ["y"] = 3.987, ["z"] = 1.0},
-                ["searched"] = false,
-                ["isBusy"] = false,
-                ["text"] = "Search Through Chest"
-            },
-            [5] = {
-                ["type"] = "cabin",
-                ["coords"] = {["x"] = 0.933, ["y"] = 1.254, ["z"] = 1.0},
-                ["searched"] = false,
-                ["isBusy"] = false,
-                ["text"] = "Search Through Drawers"
-            },
-            [6] = {
-                ["type"] = "cabin",
-                ["coords"] = {["x"] = 6.19, ["y"] = 3.35, ["z"] = 1.0},
-                ["searched"] = false,
-                ["isBusy"] = false,
-                ["text"] = "Search Through Nighstand Cabinet"
-            },
-            [7] = {
-                ["type"] = "kitchen",
-                ["coords"] = {["x"] = -2.20, ["y"] = -0.30, ["z"] = 1.0},
-                ["searched"] = false,
-                ["isBusy"] = false,
-                ["text"] = "Search Through Kitchen Drawers"
-            },
             [8] = {
-                ["type"] = "kitchen",
-                ["coords"] = {["x"] = -4.35, ["y"] = -0.64, ["z"] = 1.0},
+                ["type"] = "bedsidecabinet",
+                ["coords"] = {["x"] = -5.39, ["y"] = 1.66, ["z"] = 1.16},
                 ["searched"] = false,
                 ["isBusy"] = false,
-                ["text"] = "Search Through Shelves"
+                ["text"] = "Search Bedside Cabinet"
             },
             [9] = {
-                ["type"] = "livingroom",
-                ["coords"] = {["x"] = -6.90, ["y"] = 4.42, ["z"] = 1.0},
+                ["type"] = "chairs",
+                ["coords"] = {["x"] = -1.38, ["y"] = 3.03, ["z"] = 1.16},
                 ["searched"] = false,
                 ["isBusy"] = false,
-                ["text"] = "Search Through Shelves"
+                ["text"] = "Search Lounge chairs"
             },
             [10] = {
-                ["type"] = "livingroom",
-                ["coords"] = {["x"] = -6.98, ["y"] = 7.91, ["z"] = 1.0},
+                ["type"] = "chairs",
+                ["coords"] = {["x"] = 1.46, ["y"] = 3.06, ["z"] = 1.16},
                 ["searched"] = false,
                 ["isBusy"] = false,
-                ["text"] = "Search Through Shelves"
+                ["text"] = "Search Lounge chairs"
             },
             [11] = {
-                ["type"] = "cabin",
-                ["coords"] = {["x"] = 4.19, ["y"] = -5.14, ["z"] = 1.0},
-                ["searched"] = false,
-                ["isBusy"] = false,
-                ["text"] = "Search Through Side Table"
-            },
-            [12] = {
-                ["type"] = "livingroom",
-                ["coords"] = {["x"] = 0.25, ["y"] = 6.12, ["z"] = 1.0},
-                ["searched"] = false,
-                ["isBusy"] = false,
-                ["text"] = "Search Through Shelves"
-            },
-            [13] = {
-                ["type"] = "cabin",
-                ["coords"] = {["x"] = -4.44, ["y"] = 6.68, ["z"] = 1.0},
-                ["searched"] = false,
-                ["isBusy"] = false,
-                ["text"] = "Search Through Coffee Table"
-            },
-            [14] = {
-                ["type"] = "chest",
-                ["coords"] = {["x"] = 4.79, ["y"] = 5.41, ["z"] = 1.0},
+                ["type"] = "bed",
+                ["coords"] = {["x"] = -2.97, ["y"] = 0.14, ["z"] = 1.16},
                 ["searched"] = false,
                 ["isBusy"] = false,
                 ["text"] = "Search Under The Bed"
@@ -6078,99 +4924,78 @@ Config.Houses = {
         ["tier"] = 1,
         ["furniture"] = {
             [1] = {
-                ["type"] = "cabin",
-                ["coords"] = {["x"] = 4.15, ["y"] = 7.82, ["z"] = 1.0},
+                ["type"] = "cupboards",
+                ["coords"] = {["x"] = 5.72, ["y"] = 0.06, ["z"] = 1.16},
+                ["searched"] = false,
+                ["isBusy"] = false,
+                ["text"] = "Search Cupboards"
+            },
+            [2] = {
+                ["type"] = "cupboards",
+                ["coords"] = {["x"] = -4.27, ["y"] = 3.58, ["z"] = 1.16},
+                ["searched"] = false,
+                ["isBusy"] = false,
+                ["text"] = "Search Cupboards"
+            },
+            [3] = {
+                ["type"] = "wardrobes",
+                ["coords"] = {["x"] = 4.24, ["y"] = -3.62, ["z"] = 1.16},
+                ["searched"] = false,
+                ["isBusy"] = false,
+                ["text"] = "Search Wardrobe"
+            },
+            [4] = {
+                ["type"] = "wardrobes",
+                ["coords"] = {["x"] = 1.41, ["y"] = -3.67, ["z"] = 1.16},
+                ["searched"] = false,
+                ["isBusy"] = false,
+                ["text"] = "Search Wardrobe"
+            },
+            [5] = {
+                ["type"] = "wardrobes",
+                ["coords"] = {["x"] = -1.88, ["y"] = -3.71, ["z"] = 1.16},
+                ["searched"] = false,
+                ["isBusy"] = false,
+                ["text"] = "Search Wardrobe"
+            },
+            [6] = {
+                ["type"] = "wardrobes",
+                ["coords"] = {["x"] = -4.38, ["y"] = -3.62, ["z"] = 1.16},
+                ["searched"] = false,
+                ["isBusy"] = false,
+                ["text"] = "Search Wardrobe"
+            },
+            [7] = {
+                ["type"] = "bedsidecabinet",
+                ["coords"] = {["x"] = -5.53, ["y"] = -1.48, ["z"] = 1.16},
                 ["searched"] = false,
                 ["isBusy"] = false,
                 ["text"] = "Search Bedside Cabinet"
             },
-            [2] = {
-                ["type"] = "cabin",
-                ["coords"] = {["x"] = 5.95, ["y"] = 9.34, ["z"] = 1.0},
-                ["searched"] = false,
-                ["isBusy"] = false,
-                ["text"] = "Search Through The Wardrobe"
-            },
-            [3] = {
-                ["type"] = "kitchen",
-                ["coords"] = {["x"] = -1.03, ["y"] = 0.78, ["z"] = 1.0},
-                ["searched"] = false,
-                ["isBusy"] = false,
-                ["text"] = "Search Through Kitchen Drawers"
-            },
-            [4] = {
-                ["type"] = "chest",
-                ["coords"] = {["x"] = 6.904, ["y"] = 3.987, ["z"] = 1.0},
-                ["searched"] = false,
-                ["isBusy"] = false,
-                ["text"] = "Search Through Chest"
-            },
-            [5] = {
-                ["type"] = "cabin",
-                ["coords"] = {["x"] = 0.933, ["y"] = 1.254, ["z"] = 1.0},
-                ["searched"] = false,
-                ["isBusy"] = false,
-                ["text"] = "Search Through Drawers"
-            },
-            [6] = {
-                ["type"] = "cabin",
-                ["coords"] = {["x"] = 6.19, ["y"] = 3.35, ["z"] = 1.0},
-                ["searched"] = false,
-                ["isBusy"] = false,
-                ["text"] = "Search Through Nighstand Cabinet"
-            },
-            [7] = {
-                ["type"] = "kitchen",
-                ["coords"] = {["x"] = -2.20, ["y"] = -0.30, ["z"] = 1.0},
-                ["searched"] = false,
-                ["isBusy"] = false,
-                ["text"] = "Search Through Kitchen Drawers"
-            },
             [8] = {
-                ["type"] = "kitchen",
-                ["coords"] = {["x"] = -4.35, ["y"] = -0.64, ["z"] = 1.0},
+                ["type"] = "bedsidecabinet",
+                ["coords"] = {["x"] = -5.39, ["y"] = 1.66, ["z"] = 1.16},
                 ["searched"] = false,
                 ["isBusy"] = false,
-                ["text"] = "Search Through Shelves"
+                ["text"] = "Search Bedside Cabinet"
             },
             [9] = {
-                ["type"] = "livingroom",
-                ["coords"] = {["x"] = -6.90, ["y"] = 4.42, ["z"] = 1.0},
+                ["type"] = "chairs",
+                ["coords"] = {["x"] = -1.38, ["y"] = 3.03, ["z"] = 1.16},
                 ["searched"] = false,
                 ["isBusy"] = false,
-                ["text"] = "Search Through Shelves"
+                ["text"] = "Search Lounge chairs"
             },
             [10] = {
-                ["type"] = "livingroom",
-                ["coords"] = {["x"] = -6.98, ["y"] = 7.91, ["z"] = 1.0},
+                ["type"] = "chairs",
+                ["coords"] = {["x"] = 1.46, ["y"] = 3.06, ["z"] = 1.16},
                 ["searched"] = false,
                 ["isBusy"] = false,
-                ["text"] = "Search Through Shelves"
+                ["text"] = "Search Lounge chairs"
             },
             [11] = {
-                ["type"] = "cabin",
-                ["coords"] = {["x"] = 4.19, ["y"] = -5.14, ["z"] = 1.0},
-                ["searched"] = false,
-                ["isBusy"] = false,
-                ["text"] = "Search Through Side Table"
-            },
-            [12] = {
-                ["type"] = "livingroom",
-                ["coords"] = {["x"] = 0.25, ["y"] = 6.12, ["z"] = 1.0},
-                ["searched"] = false,
-                ["isBusy"] = false,
-                ["text"] = "Search Through Shelves"
-            },
-            [13] = {
-                ["type"] = "cabin",
-                ["coords"] = {["x"] = -4.44, ["y"] = 6.68, ["z"] = 1.0},
-                ["searched"] = false,
-                ["isBusy"] = false,
-                ["text"] = "Search Through Coffee Table"
-            },
-            [14] = {
-                ["type"] = "chest",
-                ["coords"] = {["x"] = 4.79, ["y"] = 5.41, ["z"] = 1.0},
+                ["type"] = "bed",
+                ["coords"] = {["x"] = -2.97, ["y"] = 0.14, ["z"] = 1.16},
                 ["searched"] = false,
                 ["isBusy"] = false,
                 ["text"] = "Search Under The Bed"
@@ -6188,99 +5013,78 @@ Config.Houses = {
         ["tier"] = 1,
         ["furniture"] = {
             [1] = {
-                ["type"] = "cabin",
-                ["coords"] = {["x"] = 4.15, ["y"] = 7.82, ["z"] = 1.0},
+                ["type"] = "cupboards",
+                ["coords"] = {["x"] = 5.72, ["y"] = 0.06, ["z"] = 1.16},
+                ["searched"] = false,
+                ["isBusy"] = false,
+                ["text"] = "Search Cupboards"
+            },
+            [2] = {
+                ["type"] = "cupboards",
+                ["coords"] = {["x"] = -4.27, ["y"] = 3.58, ["z"] = 1.16},
+                ["searched"] = false,
+                ["isBusy"] = false,
+                ["text"] = "Search Cupboards"
+            },
+            [3] = {
+                ["type"] = "wardrobes",
+                ["coords"] = {["x"] = 4.24, ["y"] = -3.62, ["z"] = 1.16},
+                ["searched"] = false,
+                ["isBusy"] = false,
+                ["text"] = "Search Wardrobe"
+            },
+            [4] = {
+                ["type"] = "wardrobes",
+                ["coords"] = {["x"] = 1.41, ["y"] = -3.67, ["z"] = 1.16},
+                ["searched"] = false,
+                ["isBusy"] = false,
+                ["text"] = "Search Wardrobe"
+            },
+            [5] = {
+                ["type"] = "wardrobes",
+                ["coords"] = {["x"] = -1.88, ["y"] = -3.71, ["z"] = 1.16},
+                ["searched"] = false,
+                ["isBusy"] = false,
+                ["text"] = "Search Wardrobe"
+            },
+            [6] = {
+                ["type"] = "wardrobes",
+                ["coords"] = {["x"] = -4.38, ["y"] = -3.62, ["z"] = 1.16},
+                ["searched"] = false,
+                ["isBusy"] = false,
+                ["text"] = "Search Wardrobe"
+            },
+            [7] = {
+                ["type"] = "bedsidecabinet",
+                ["coords"] = {["x"] = -5.53, ["y"] = -1.48, ["z"] = 1.16},
                 ["searched"] = false,
                 ["isBusy"] = false,
                 ["text"] = "Search Bedside Cabinet"
             },
-            [2] = {
-                ["type"] = "cabin",
-                ["coords"] = {["x"] = 5.95, ["y"] = 9.34, ["z"] = 1.0},
-                ["searched"] = false,
-                ["isBusy"] = false,
-                ["text"] = "Search Through The Wardrobe"
-            },
-            [3] = {
-                ["type"] = "kitchen",
-                ["coords"] = {["x"] = -1.03, ["y"] = 0.78, ["z"] = 1.0},
-                ["searched"] = false,
-                ["isBusy"] = false,
-                ["text"] = "Search Through Kitchen Drawers"
-            },
-            [4] = {
-                ["type"] = "chest",
-                ["coords"] = {["x"] = 6.904, ["y"] = 3.987, ["z"] = 1.0},
-                ["searched"] = false,
-                ["isBusy"] = false,
-                ["text"] = "Search Through Chest"
-            },
-            [5] = {
-                ["type"] = "cabin",
-                ["coords"] = {["x"] = 0.933, ["y"] = 1.254, ["z"] = 1.0},
-                ["searched"] = false,
-                ["isBusy"] = false,
-                ["text"] = "Search Through Drawers"
-            },
-            [6] = {
-                ["type"] = "cabin",
-                ["coords"] = {["x"] = 6.19, ["y"] = 3.35, ["z"] = 1.0},
-                ["searched"] = false,
-                ["isBusy"] = false,
-                ["text"] = "Search Through Nighstand Cabinet"
-            },
-            [7] = {
-                ["type"] = "kitchen",
-                ["coords"] = {["x"] = -2.20, ["y"] = -0.30, ["z"] = 1.0},
-                ["searched"] = false,
-                ["isBusy"] = false,
-                ["text"] = "Search Through Kitchen Drawers"
-            },
             [8] = {
-                ["type"] = "kitchen",
-                ["coords"] = {["x"] = -4.35, ["y"] = -0.64, ["z"] = 1.0},
+                ["type"] = "bedsidecabinet",
+                ["coords"] = {["x"] = -5.39, ["y"] = 1.66, ["z"] = 1.16},
                 ["searched"] = false,
                 ["isBusy"] = false,
-                ["text"] = "Search Through Shelves"
+                ["text"] = "Search Bedside Cabinet"
             },
             [9] = {
-                ["type"] = "livingroom",
-                ["coords"] = {["x"] = -6.90, ["y"] = 4.42, ["z"] = 1.0},
+                ["type"] = "chairs",
+                ["coords"] = {["x"] = -1.38, ["y"] = 3.03, ["z"] = 1.16},
                 ["searched"] = false,
                 ["isBusy"] = false,
-                ["text"] = "Search Through Shelves"
+                ["text"] = "Search Lounge chairs"
             },
             [10] = {
-                ["type"] = "livingroom",
-                ["coords"] = {["x"] = -6.98, ["y"] = 7.91, ["z"] = 1.0},
+                ["type"] = "chairs",
+                ["coords"] = {["x"] = 1.46, ["y"] = 3.06, ["z"] = 1.16},
                 ["searched"] = false,
                 ["isBusy"] = false,
-                ["text"] = "Search Through Shelves"
+                ["text"] = "Search Lounge chairs"
             },
             [11] = {
-                ["type"] = "cabin",
-                ["coords"] = {["x"] = 4.19, ["y"] = -5.14, ["z"] = 1.0},
-                ["searched"] = false,
-                ["isBusy"] = false,
-                ["text"] = "Search Through Side Table"
-            },
-            [12] = {
-                ["type"] = "livingroom",
-                ["coords"] = {["x"] = 0.25, ["y"] = 6.12, ["z"] = 1.0},
-                ["searched"] = false,
-                ["isBusy"] = false,
-                ["text"] = "Search Through Shelves"
-            },
-            [13] = {
-                ["type"] = "cabin",
-                ["coords"] = {["x"] = -4.44, ["y"] = 6.68, ["z"] = 1.0},
-                ["searched"] = false,
-                ["isBusy"] = false,
-                ["text"] = "Search Through Coffee Table"
-            },
-            [14] = {
-                ["type"] = "chest",
-                ["coords"] = {["x"] = 4.79, ["y"] = 5.41, ["z"] = 1.0},
+                ["type"] = "bed",
+                ["coords"] = {["x"] = -2.97, ["y"] = 0.14, ["z"] = 1.16},
                 ["searched"] = false,
                 ["isBusy"] = false,
                 ["text"] = "Search Under The Bed"
@@ -6298,99 +5102,78 @@ Config.Houses = {
         ["tier"] = 1,
         ["furniture"] = {
             [1] = {
-                ["type"] = "cabin",
-                ["coords"] = {["x"] = 4.15, ["y"] = 7.82, ["z"] = 1.0},
+                ["type"] = "cupboards",
+                ["coords"] = {["x"] = 5.72, ["y"] = 0.06, ["z"] = 1.16},
+                ["searched"] = false,
+                ["isBusy"] = false,
+                ["text"] = "Search Cupboards"
+            },
+            [2] = {
+                ["type"] = "cupboards",
+                ["coords"] = {["x"] = -4.27, ["y"] = 3.58, ["z"] = 1.16},
+                ["searched"] = false,
+                ["isBusy"] = false,
+                ["text"] = "Search Cupboards"
+            },
+            [3] = {
+                ["type"] = "wardrobes",
+                ["coords"] = {["x"] = 4.24, ["y"] = -3.62, ["z"] = 1.16},
+                ["searched"] = false,
+                ["isBusy"] = false,
+                ["text"] = "Search Wardrobe"
+            },
+            [4] = {
+                ["type"] = "wardrobes",
+                ["coords"] = {["x"] = 1.41, ["y"] = -3.67, ["z"] = 1.16},
+                ["searched"] = false,
+                ["isBusy"] = false,
+                ["text"] = "Search Wardrobe"
+            },
+            [5] = {
+                ["type"] = "wardrobes",
+                ["coords"] = {["x"] = -1.88, ["y"] = -3.71, ["z"] = 1.16},
+                ["searched"] = false,
+                ["isBusy"] = false,
+                ["text"] = "Search Wardrobe"
+            },
+            [6] = {
+                ["type"] = "wardrobes",
+                ["coords"] = {["x"] = -4.38, ["y"] = -3.62, ["z"] = 1.16},
+                ["searched"] = false,
+                ["isBusy"] = false,
+                ["text"] = "Search Wardrobe"
+            },
+            [7] = {
+                ["type"] = "bedsidecabinet",
+                ["coords"] = {["x"] = -5.53, ["y"] = -1.48, ["z"] = 1.16},
                 ["searched"] = false,
                 ["isBusy"] = false,
                 ["text"] = "Search Bedside Cabinet"
             },
-            [2] = {
-                ["type"] = "cabin",
-                ["coords"] = {["x"] = 5.95, ["y"] = 9.34, ["z"] = 1.0},
-                ["searched"] = false,
-                ["isBusy"] = false,
-                ["text"] = "Search Through The Wardrobe"
-            },
-            [3] = {
-                ["type"] = "kitchen",
-                ["coords"] = {["x"] = -1.03, ["y"] = 0.78, ["z"] = 1.0},
-                ["searched"] = false,
-                ["isBusy"] = false,
-                ["text"] = "Search Through Kitchen Drawers"
-            },
-            [4] = {
-                ["type"] = "chest",
-                ["coords"] = {["x"] = 6.904, ["y"] = 3.987, ["z"] = 1.0},
-                ["searched"] = false,
-                ["isBusy"] = false,
-                ["text"] = "Search Through Chest"
-            },
-            [5] = {
-                ["type"] = "cabin",
-                ["coords"] = {["x"] = 0.933, ["y"] = 1.254, ["z"] = 1.0},
-                ["searched"] = false,
-                ["isBusy"] = false,
-                ["text"] = "Search Through Drawers"
-            },
-            [6] = {
-                ["type"] = "cabin",
-                ["coords"] = {["x"] = 6.19, ["y"] = 3.35, ["z"] = 1.0},
-                ["searched"] = false,
-                ["isBusy"] = false,
-                ["text"] = "Search Through Nighstand Cabinet"
-            },
-            [7] = {
-                ["type"] = "kitchen",
-                ["coords"] = {["x"] = -2.20, ["y"] = -0.30, ["z"] = 1.0},
-                ["searched"] = false,
-                ["isBusy"] = false,
-                ["text"] = "Search Through Kitchen Drawers"
-            },
             [8] = {
-                ["type"] = "kitchen",
-                ["coords"] = {["x"] = -4.35, ["y"] = -0.64, ["z"] = 1.0},
+                ["type"] = "bedsidecabinet",
+                ["coords"] = {["x"] = -5.39, ["y"] = 1.66, ["z"] = 1.16},
                 ["searched"] = false,
                 ["isBusy"] = false,
-                ["text"] = "Search Through Shelves"
+                ["text"] = "Search Bedside Cabinet"
             },
             [9] = {
-                ["type"] = "livingroom",
-                ["coords"] = {["x"] = -6.90, ["y"] = 4.42, ["z"] = 1.0},
+                ["type"] = "chairs",
+                ["coords"] = {["x"] = -1.38, ["y"] = 3.03, ["z"] = 1.16},
                 ["searched"] = false,
                 ["isBusy"] = false,
-                ["text"] = "Search Through Shelves"
+                ["text"] = "Search Lounge chairs"
             },
             [10] = {
-                ["type"] = "livingroom",
-                ["coords"] = {["x"] = -6.98, ["y"] = 7.91, ["z"] = 1.0},
+                ["type"] = "chairs",
+                ["coords"] = {["x"] = 1.46, ["y"] = 3.06, ["z"] = 1.16},
                 ["searched"] = false,
                 ["isBusy"] = false,
-                ["text"] = "Search Through Shelves"
+                ["text"] = "Search Lounge chairs"
             },
             [11] = {
-                ["type"] = "cabin",
-                ["coords"] = {["x"] = 4.19, ["y"] = -5.14, ["z"] = 1.0},
-                ["searched"] = false,
-                ["isBusy"] = false,
-                ["text"] = "Search Through Side Table"
-            },
-            [12] = {
-                ["type"] = "livingroom",
-                ["coords"] = {["x"] = 0.25, ["y"] = 6.12, ["z"] = 1.0},
-                ["searched"] = false,
-                ["isBusy"] = false,
-                ["text"] = "Search Through Shelves"
-            },
-            [13] = {
-                ["type"] = "cabin",
-                ["coords"] = {["x"] = -4.44, ["y"] = 6.68, ["z"] = 1.0},
-                ["searched"] = false,
-                ["isBusy"] = false,
-                ["text"] = "Search Through Coffee Table"
-            },
-            [14] = {
-                ["type"] = "chest",
-                ["coords"] = {["x"] = 4.79, ["y"] = 5.41, ["z"] = 1.0},
+                ["type"] = "bed",
+                ["coords"] = {["x"] = -2.97, ["y"] = 0.14, ["z"] = 1.16},
                 ["searched"] = false,
                 ["isBusy"] = false,
                 ["text"] = "Search Under The Bed"
@@ -6408,99 +5191,78 @@ Config.Houses = {
         ["tier"] = 1,
         ["furniture"] = {
             [1] = {
-                ["type"] = "cabin",
-                ["coords"] = {["x"] = 4.15, ["y"] = 7.82, ["z"] = 1.0},
+                ["type"] = "cupboards",
+                ["coords"] = {["x"] = 5.72, ["y"] = 0.06, ["z"] = 1.16},
+                ["searched"] = false,
+                ["isBusy"] = false,
+                ["text"] = "Search Cupboards"
+            },
+            [2] = {
+                ["type"] = "cupboards",
+                ["coords"] = {["x"] = -4.27, ["y"] = 3.58, ["z"] = 1.16},
+                ["searched"] = false,
+                ["isBusy"] = false,
+                ["text"] = "Search Cupboards"
+            },
+            [3] = {
+                ["type"] = "wardrobes",
+                ["coords"] = {["x"] = 4.24, ["y"] = -3.62, ["z"] = 1.16},
+                ["searched"] = false,
+                ["isBusy"] = false,
+                ["text"] = "Search Wardrobe"
+            },
+            [4] = {
+                ["type"] = "wardrobes",
+                ["coords"] = {["x"] = 1.41, ["y"] = -3.67, ["z"] = 1.16},
+                ["searched"] = false,
+                ["isBusy"] = false,
+                ["text"] = "Search Wardrobe"
+            },
+            [5] = {
+                ["type"] = "wardrobes",
+                ["coords"] = {["x"] = -1.88, ["y"] = -3.71, ["z"] = 1.16},
+                ["searched"] = false,
+                ["isBusy"] = false,
+                ["text"] = "Search Wardrobe"
+            },
+            [6] = {
+                ["type"] = "wardrobes",
+                ["coords"] = {["x"] = -4.38, ["y"] = -3.62, ["z"] = 1.16},
+                ["searched"] = false,
+                ["isBusy"] = false,
+                ["text"] = "Search Wardrobe"
+            },
+            [7] = {
+                ["type"] = "bedsidecabinet",
+                ["coords"] = {["x"] = -5.53, ["y"] = -1.48, ["z"] = 1.16},
                 ["searched"] = false,
                 ["isBusy"] = false,
                 ["text"] = "Search Bedside Cabinet"
             },
-            [2] = {
-                ["type"] = "cabin",
-                ["coords"] = {["x"] = 5.95, ["y"] = 9.34, ["z"] = 1.0},
-                ["searched"] = false,
-                ["isBusy"] = false,
-                ["text"] = "Search Through The Wardrobe"
-            },
-            [3] = {
-                ["type"] = "kitchen",
-                ["coords"] = {["x"] = -1.03, ["y"] = 0.78, ["z"] = 1.0},
-                ["searched"] = false,
-                ["isBusy"] = false,
-                ["text"] = "Search Through Kitchen Drawers"
-            },
-            [4] = {
-                ["type"] = "chest",
-                ["coords"] = {["x"] = 6.904, ["y"] = 3.987, ["z"] = 1.0},
-                ["searched"] = false,
-                ["isBusy"] = false,
-                ["text"] = "Search Through Chest"
-            },
-            [5] = {
-                ["type"] = "cabin",
-                ["coords"] = {["x"] = 0.933, ["y"] = 1.254, ["z"] = 1.0},
-                ["searched"] = false,
-                ["isBusy"] = false,
-                ["text"] = "Search Through Drawers"
-            },
-            [6] = {
-                ["type"] = "cabin",
-                ["coords"] = {["x"] = 6.19, ["y"] = 3.35, ["z"] = 1.0},
-                ["searched"] = false,
-                ["isBusy"] = false,
-                ["text"] = "Search Through Nighstand Cabinet"
-            },
-            [7] = {
-                ["type"] = "kitchen",
-                ["coords"] = {["x"] = -2.20, ["y"] = -0.30, ["z"] = 1.0},
-                ["searched"] = false,
-                ["isBusy"] = false,
-                ["text"] = "Search Through Kitchen Drawers"
-            },
             [8] = {
-                ["type"] = "kitchen",
-                ["coords"] = {["x"] = -4.35, ["y"] = -0.64, ["z"] = 1.0},
+                ["type"] = "bedsidecabinet",
+                ["coords"] = {["x"] = -5.39, ["y"] = 1.66, ["z"] = 1.16},
                 ["searched"] = false,
                 ["isBusy"] = false,
-                ["text"] = "Search Through Shelves"
+                ["text"] = "Search Bedside Cabinet"
             },
             [9] = {
-                ["type"] = "livingroom",
-                ["coords"] = {["x"] = -6.90, ["y"] = 4.42, ["z"] = 1.0},
+                ["type"] = "chairs",
+                ["coords"] = {["x"] = -1.38, ["y"] = 3.03, ["z"] = 1.16},
                 ["searched"] = false,
                 ["isBusy"] = false,
-                ["text"] = "Search Through Shelves"
+                ["text"] = "Search Lounge chairs"
             },
             [10] = {
-                ["type"] = "livingroom",
-                ["coords"] = {["x"] = -6.98, ["y"] = 7.91, ["z"] = 1.0},
+                ["type"] = "chairs",
+                ["coords"] = {["x"] = 1.46, ["y"] = 3.06, ["z"] = 1.16},
                 ["searched"] = false,
                 ["isBusy"] = false,
-                ["text"] = "Search Through Shelves"
+                ["text"] = "Search Lounge chairs"
             },
             [11] = {
-                ["type"] = "cabin",
-                ["coords"] = {["x"] = 4.19, ["y"] = -5.14, ["z"] = 1.0},
-                ["searched"] = false,
-                ["isBusy"] = false,
-                ["text"] = "Search Through Side Table"
-            },
-            [12] = {
-                ["type"] = "livingroom",
-                ["coords"] = {["x"] = 0.25, ["y"] = 6.12, ["z"] = 1.0},
-                ["searched"] = false,
-                ["isBusy"] = false,
-                ["text"] = "Search Through Shelves"
-            },
-            [13] = {
-                ["type"] = "cabin",
-                ["coords"] = {["x"] = -4.44, ["y"] = 6.68, ["z"] = 1.0},
-                ["searched"] = false,
-                ["isBusy"] = false,
-                ["text"] = "Search Through Coffee Table"
-            },
-            [14] = {
-                ["type"] = "chest",
-                ["coords"] = {["x"] = 4.79, ["y"] = 5.41, ["z"] = 1.0},
+                ["type"] = "bed",
+                ["coords"] = {["x"] = -2.97, ["y"] = 0.14, ["z"] = 1.16},
                 ["searched"] = false,
                 ["isBusy"] = false,
                 ["text"] = "Search Under The Bed"
