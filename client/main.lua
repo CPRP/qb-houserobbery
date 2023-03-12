@@ -82,7 +82,7 @@ local function leaveRobberyHouse(house)
 end
 
 local function PoliceCall()
-    local chance = 50
+    local chance = 100
     if GetClockHours() >= 1 and GetClockHours() <= 6 then
         chance = 20
     end
